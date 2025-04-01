@@ -12,6 +12,27 @@
 |                |                     |
 |   **Level**    |          2          |
 
+## Combat Stats
+
+| Hit Points  |      |
+| ----------- | :--: |
+| **Current** |  20  |
+| **Temp**    |      |
+| **Max**     |  24  |
+
+| Hit Dice  |       |
+| --------- | :---: |
+| **Spent** |   2   |
+| **Max**   | 2d10  |
+
+| Misc                   |        |
+| ---------------------- | :----: |
+| **Armor**              |   16   |
+| **Initiative**         |   3    |
+| **Speed**              |  30ft  |
+| **Size**               | Medium |
+| **Passive Perception** |   12   |
+
 ## Ability Scores
 
 | Ability | Score | Modifier | Proficient? | Saving Throw |
@@ -71,27 +92,6 @@ If not proficient: just the ability modifier
 | Heavy Armor  |                 |      |
 | Shields      |                 |      |
 |              |                 |      |
-
-## Combat Stats
-
-| Hit Points  |      |
-| ----------- | :--: |
-| **Current** |  20  |
-| **Temp**    |      |
-| **Max**     |  24  |
-
-| Hit Dice  |       |
-| --------- | :---: |
-| **Spent** |   2   |
-| **Max**   | 2d10  |
-
-| Misc                   |        |
-| ---------------------- | :----: |
-| **Armor**              |   16   |
-| **Initiative**         |   3    |
-| **Speed**              |  30ft  |
-| **Size**               | Medium |
-| **Passive Perception** |   12   |
 
 ## Weapons & Damage Cantrips
 
