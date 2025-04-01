@@ -113,13 +113,18 @@ If not proficient: just the ability modifier
 | Relentless Endurance | 1 / Long Rest | 0HP->1HP        |            |
 |                      |               |                 |            |
 | Infernal Legacy      |               |                 |            |
-| Thaumaturgy          | 1 / Long Rest | Cantrip         | Since lvl1 |
-| Hellish Rebuke       | 1 / Long Rest | 2nd level spell |            |
-| Darkness             | 1 / Long Rest | 2nd level spell |            |
+| Thaumaturgy          | 1 / Long Rest | Cantrip         | Minor supernatural effects|
+| Hellish Rebuke       | 1 / Long Rest | 3rd lvl |         |
+| Darkness             | 1 / Long Rest | 2nd lvl |            |
 |                      |               |                 |            |
 | +2 STR, +1 CON       |               |                 |            |
 |                      |               |                 |            |
 
+```
+Hellish Rebuke: Reaction 2d10 fire damage | DEX saving throw for half dmg
+
+Darkness: 15ft Sphere of darkness
+```
 
 
 ## Equipment
