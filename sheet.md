@@ -20,10 +20,20 @@
 | **Temp**    |      |
 | **Max**     |  24  |
 
-| Hit Dice  |       |
+```
+new: HP = max(Hit Die) + CON
+lvl up: +HP = Hit die roll + CON
+```
+
+| Hit Dice  |  d10  |
 | --------- | :---: |
-| **Spent** |   2   |
-| **Max**   | 2d10  |
+| **Total** |   2   |
+| **Spent** |   0   |
+
+```
+Short rest: spend Hit Dice per choice 
+Long rest: regain half Hit Dice count, fully heal
+```
 
 | Misc                   |        |
 | ---------------------- | :----: |
@@ -95,11 +105,18 @@ If not proficient: just the ability modifier
 
 ## Weapons & Damage Cantrips
 
-| Name    | Attack Bonus | Damage/Type    | Notes |
-| ------- | :----------: | -------------- | ----- |
-| Longbow |      5       | 1d8+3 piercing |       |
-| Dagger  |      4       | 1d4+2 piercing |       |
+| Name    | Attack Bonus | Damage Bonus| Base Damage / Type    | Notes |
+| ------- | :----------: | :--------: | -------------- | ----- |
+| Longbow |      5  |  3   | 1d8 piercing |        |
+| Dagger  |      4  |  2   | 1d4 piercing |       |
 |         |              |                |       |
+
+```
+Attack Bonus = Ability Modifier + Proficiency Modifier + Other Modifiers
+
+Hit chance: 1d20 + Attack Bonus
+Damage: Base damage + Damage Bonus
+```
 
 ## Class Features & Traits
 
