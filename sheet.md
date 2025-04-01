@@ -105,17 +105,17 @@ If not proficient: just the ability modifier
 
 ## Weapons & Damage Cantrips
 
-| Name    | Attack Bonus | Damage Bonus| Base Damage | Notes |
-| ------- | :----------: | :--------: | -------------- | ----- |
-| Longbow |      5  |  3   | 1d8 piercing |        |
-| Dagger  |      4  |  2   | 1d4 piercing |       |
-|         |              |                |       |
+| Name    | ATK Bonus | Proficient? | Bonus DMG | Base DMG |
+| ------- | :----------: | :---: | :--------: | -------------- | ----- |
+| Longbow | +5 | X | +3 | 1d8 piercing |
+| Dagger  | +4 | X | +2 | 1d4 piercing |
+| | | | | |
 
 ```
 Attack Bonus = Ability Modifier + Proficiency Modifier + Other Modifiers
 
-Hit chance: 1d20 + Attack Bonus
-Damage: Base damage + Damage Bonus
+Hit chance = 1d20 + Attack Bonus
+Damage = Base DMG + Bonus DMG
 ```
 
 ## Class Features & Traits
