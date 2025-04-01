@@ -116,8 +116,7 @@ If not proficient: just the ability modifier
 
 | Infernal Legacy      |  Frequency    | Description     |
 | -------------------- | ------------- | --------------- |
-| Thaumaturgy          | cantrip       | 1st lvl
-|
+| Thaumaturgy          | cantrip       | 1st lvl |
 | Hellish Rebuke lvl1  | Reaction      | 3rd lvl |
 | Darkness lvl1        | 1 / Long Rest | 2nd lvl |
 | Darkness lvl2        | 1 / Long Rest | 5th lvl |
