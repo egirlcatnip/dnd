@@ -27,6 +27,12 @@
 Modifier = (Score - 10) / 2
 ```
 
+```
+If proficient: ability modifier + proficiency bonus
+
+If not proficient: just the ability modifier
+```
+
 |                    |   |
 | ------------------ | - |
 | Heroic Inspiration |   |
