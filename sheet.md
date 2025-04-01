@@ -107,15 +107,19 @@ If not proficient: just the ability modifier
 ## Species traits
 
 | Name                 |   Frequency   | Description     | 
-| -------------------- | ------------- | --------------- 
+| -------------------- | ------------- | --------------- |
 | Darkvision           |               | 60ft |
 | Hellish Resistance   |               | Fire resistance |
-| Relentless Endurance | 1 / Long Rest | 0HP->1HP        |            |
-|                      |               |                 |            |
-| Infernal Legacy      |               |                 |            |
+| Relentless Endurance | 1 / Long Rest | 0HP->1HP        
+|
+| | | |
+
+| Infernal Legacy      |  Frequency    | Description     |
+| -------------------- | ------------- | --------------- |
 | Thaumaturgy          | 1 / Long Rest | cantrip         |
-| Hellish Rebuke       | Reaction      | 3rd lvl |
-| Darkness             | 1 / Long Rest | 2nd lvl |
+| Hellish Rebuke lvl1  | Reaction      | 3rd lvl |
+| Darkness lvl1        | 1 / Long Rest | 2nd lvl |
+| Darkness lvl2        | 1 / Long Rest | 5th lvl |
 | | | |
 
 ```
