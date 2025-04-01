@@ -3,7 +3,7 @@
 <table>
   <tr>
     <th rowspan="6">
-      <img src="256x384.png" height="384" width="256" alt="Elyra" />
+      <img src="256x384.png" alt="Elyra" />
     </th>
     <th>Race</th>
     <td><code>Half-Orc (Orc-Tiefling)</code></td>
