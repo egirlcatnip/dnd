@@ -105,7 +105,7 @@ If not proficient: just the ability modifier
 
 ## Weapons & Damage Cantrips
 
-| Name    | Attack Bonus | Damage Bonus| Base Damage / Type    | Notes |
+| Name    | Attack Bonus | Damage Bonus| Base Damage | Notes |
 | ------- | :----------: | :--------: | -------------- | ----- |
 | Longbow |      5  |  3   | 1d8 piercing |        |
 | Dagger  |      4  |  2   | 1d4 piercing |       |
