@@ -1,28 +1,39 @@
-# Elyra (lvl2)
+# Elyra
 
 <table>
   <tr>
-    <th>
+    <th rowspan="6">
       <img src="256x384.png" height="384" width="256" alt="Elyra" />
     </th>
-    <th>
-      <table>
-        <tr><th>Race</th><td>Half-Orc (Orc-ling)</td></tr>
-        <tr><th>Background</th><td>Outlander</td></tr>
-        <tr><th>Class</th><td>Fighter</td></tr>
-        <tr><th>Subclass</th><td>Arcane Archer</td></tr>
-        <tr><th>Alignment</th><td>Chaotic Good</td></tr>
-      </table>
-    </th>
+    <th>Race</th>
+    <td><code>Half-Orc (Orc-Tiefling)</code></td>
+  </tr>
+  <tr>
+    <th>Background</th>
+    <td><code>Outlander</code></td>
+  </tr>
+  <tr>
+    <th>Class</th>
+    <td><code>Fighter</code></td>
+  </tr>
+  <tr>
+    <th>Subclass</th>
+    <td><code>Arcane Archer</code></td>
+  </tr>
+  <tr>
+    <th>Alignment</th>
+    <td><code>Chaotic Good</code></td>
+  </tr>
+  <tr>
+    <th>Level</th>
+    <td><code>2</code></td>
   </tr>
 </table>
 
 
-## Ability Scores
 
-| Proficiency Bonus |
-| :---------------: |
-|        `2`        |
+
+## Ability Scores
 
 | Ability | Score |  MOD  | Proficient? | Save Bonus |
 | :-----: | :---: | :---: | :---------: | :--------: |
@@ -33,15 +44,18 @@
 |  `WIS`  |  16   | `+3`  |             |  +3 (3+0)  |
 |  `CHA`  |  15   | `+2`  |             |  +2 (2+0)  |
 
+| Proficiency Bonus | Heroic Inspiration |
+| :---------------: | :----------------: |
+|        `2`        |        ` `         |
+
 ```
 MOD = (Score - 10) / 2
 
 Save Bonus = Ability MOD + Proficiency Bonus
 ```
 
-| Heroic Inspiration |
-| :----------------: |
-|        ` `         |
+
+```
 
 
 ## Combat Stats
