@@ -120,8 +120,8 @@ Damage = DMG Base + DMG Bonus
 | ------------ | :-------: | --------------------- | ------- |
 | Archery      |           | +2 Attack with ranged | Passive |
 | Second Wind  | 1 / Rest  | Heal 1d10 + lvl HP      | Bonus   |
-| Action surge | 1 / Rest  | 1 extra action        |         |
-|              |           |                       |         |
+| Action surge | 1 / Rest  | 1 extra action        | Feature |
+| | | | |
 
 ## Species traits
 
