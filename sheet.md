@@ -118,21 +118,21 @@ Damage = DMG Base + DMG Bonus
 
 | Name         | Frequency | Description           | Type    |
 | ------------ | :-------: | --------------------- | ------- |
-| Archery      | Passive   | +2 Attack with ranged | Style |
-| Second Wind  | 1 / Rest  | Heal 1d10 + lvl HP    | Bonus   |
+| Archery      | Passive   | +2 ATK with ranged | Style |
+| Second Wind  | 1 / Rest  | Self-Heal 1d10 + lvl HP    | Bonus   |
 | Action surge | 1 / Rest  | 1 extra action        | Feature |
 |              |           |                       |         |
 
 ## Species traits
 
-| Name                 | Frequency     | Description     |
-| -------------------- | ------------- | --------------- |
-| Darkvision           | Passive       | 60ft            |
-| Hellish Resistance   | Passive       | Fire resistance |
-| Relentless Endurance | 1 / Long Rest | 0HP->1HP        |
-|                      |               |                 |
+| Name                 | Frequency     |
+| -------------------- | ------------- |
+| Darkvision           | Passive       |
+| Hellish Resistance   | Passive       |
+| Relentless Endurance | 1 / Long Rest |
+|                      |               |
 
-| Infernal Legacy     | Frequency     | Description |
+| Infernal Legacy     | Frequency     | Unlock |
 | ------------------- | ------------- | ----------- |
 | Thaumaturgy         | Cantrip       | 1st lvl     |
 | Hellish Rebuke lvl1 | Reaction      | 3rd lvl     |
@@ -186,7 +186,7 @@ Darkness: 15ft Sphere of darkness, blinds in area
 ```
 Lean, agile build, surprisingly tall.
 Naturally brown, now white bleached hair, with roots starting to show through, falling down to her shoulders.
-  Always messy and getting in the way, but with refusal to keep them shorter.
+Always messy and getting in the way, but with refusal to keep them shorter.
 Her tusks escaping her closed mouth and shining every time she grins.
 Bright, lavender-gray eyes.
 Lengthy, gentle fingers with nails kept long and sharp.
