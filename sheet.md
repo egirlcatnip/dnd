@@ -2,15 +2,15 @@
 
 ## Character Information
 
-|                 |                     |
-| :-------------: | :-----------------: |
-|    **Race:**    | Half-Orc (Orc-ling) |
-|   **Class:**    |       Fighter       |
-|  **Subclass:**  |    Arcane Archer    |
-| **Background:** |      Outlander      |
-| **Alignment:**  |    Chaotic Good     |
-|                 |                     |
-|    **Level**    |          2          |
+|                |                     |
+| :------------: | :-----------------: |
+|    **Race**    | Half-Orc (Orc-ling) |
+|   **Class**    |       Fighter       |
+|  **Subclass**  |    Arcane Archer    |
+| **Background** |      Outlander      |
+| **Alignment**  |    Chaotic Good     |
+|                |                     |
+|   **Level**    |          2          |
 
 ## Ability Scores
 
@@ -22,6 +22,10 @@
 |   INT   |  10   |    0     |            |      +0      |
 |   WIS   |  16   |    3     |            |      +3      |
 |   CHA   |  15   |    2     |            |      +2      |
+
+```
+Modifier = (Score - 10) / 2
+```
 
 |                    |   |
 | ------------------ | - |
@@ -113,31 +117,29 @@ If not proficient: just the ability modifier
 | Hellish Rebuke       | 1 / Long Rest | 2nd level spell |            |
 | Darkness             | 1 / Long Rest | 2nd level spell |            |
 |                      |               |                 |            |
+| +2 STR, +2 CHA       |               |                 |            |
+|                      |               |                 |            |
+
+
 
 ## Equipment
 
-| Name           | Type   | Notes |
-| -------------- | ------ | ----- |
-| Longbow        | Weapon |       |
-| Dagger         | Weapon |       |
-|                |        |       |
-| Hooded Cloak   | Armor  |       |
-| Leather armor  | Armor  |       |
-|                |        |       |
-| Backpack       | Gear   |       |
-| Explorers Pack | Gear   |       |
-| 20 Arrows      | Ammo   |       |
-|                |        |       |
+|                | Notes |
+| -------------- | ----- |
+| Longbow        |       |
+| Dagger         |       |
+| Hooded Cloak   |       |     
+| Leather armor  |       |
+| Backpack       |       |
+| Explorers Pack |       |
+| 20 Arrows      |       |
+|                |       |
 
 ## Coins
 
-| Type     | Amount |
-| -------- | ------ |
-| Copper   | 5      |
-| Silver   |        |
-| Electrum |        |
-| Gold     | 2      |
-| Platinum |        |
+| Platinum | Gold | Copper |
+|:---------|:-----|:-------|
+| 0        | 2    | 5      |
 
 ## Spoken Languages
 
@@ -164,12 +166,14 @@ Pointy ears decorated with earrings.
 
 ### Backstory
 
+```
 Born to a mother she never knew and raised by a harsh orc father, she grew to
 resent his unyielding expectations. Among her peers, she hid her discomfort to
 protect both flesh and soul. Though both tiefling and orc, her tusks remained a
 stark reminder of what she wished to leave behind. Unable to fully escape her
 heritage, she fled home with a bow, a dagger, and a cloak, seeking freedom in
 Itharis.
+```
 
 ### Personality Traits
 
