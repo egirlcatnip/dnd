@@ -45,21 +45,21 @@ Long rest: regain half Hit Dice count, fully heal
 
 ## Ability Scores
 
-| Ability | Score | Modifier | Proficient? | Saving Throw Bonus |
-| :-----: | :---: | :------: | :--------: | :-----------: |
-|   STR   |  14   |    +2     |      X      |      +4 (2 + 2)     |
-|   DEX   |  17   |    +3     |             |      +3 (3 + 0)     |
-|   CON   |  14   |    +2     |      X      |      +4 (2 + 2)     |
-|   INT   |  10   |    +0     |             |      +0 (0 + 0)     |
-|   WIS   |  16   |    +3     |             |      +3 (3 + 0)     |
-|   CHA   |  15   |    +2     |             |      +2 (2 + 0)     |
-
 |                   |   |
 | ----------------- | - |
 | Proficiency Bonus | 2 |
 
+| Ability | Score | MOD  | Proficient? | Save Bonus |
+| :-----: | :---: | :--: | :-: | :--------: |
+| **STR** |   14  |  +2  |  X  | +4 (2 + 2) |
+| **DEX** |   17  |  +3  |     | +3 (3 + 0) |
+| **CON** |   14  |  +2  |  X  | +4 (2 + 2) |
+| **INT** |   10  |  +0  |     | +0 (0 + 0) |
+| **WIS** |   16  |  +3  |     | +3 (3 + 0) |
+| **CHA** |   15  |  +2  |     | +2 (2 + 0) |
+
 ```
-Modifier = (Score - 10) / 2
+MOD = (Score - 10) / 2
 ```
 
 ```
@@ -74,19 +74,19 @@ Saving throw Bonus = Ability Modifier + Proficiency Bonus
 Heroic Inspiration: Roll with advantage.
 ```
 
-## Proficiency & Skills
+## Skills
 
-| Skill            | Proficient? | Skill Modifier |
-| ---------------- | :---------: | :------: |
-| Acrobatics (Dex) |      X      |    +5    |
-| Stealth (Dex)    |      X      |    +5    |
-| Insight (Wis)    |      X      |    +5    |
-| Perception (Wis) |      X      |    +5    |
-| Survival (Wis)   |      X      |    +5    |
-|                  |             |          |
+| Skill            | Proficient? | MOD  |
+| ---------------- | :---------: | :--: |
+| Acrobatics (Dex) |      X      |  +5  |
+| Stealth (Dex)    |      X      |  +5  |
+| Insight (Wis)    |      X      |  +5  |
+| Perception (Wis) |      X      |  +5  |
+| Survival (Wis)   |      X      |  +5  |
+|                  |             |      |
 
 ```
-Skill Modifier = Ability Modifier + Proficiency Bonus 
+Skill MOD = Ability MOD + Proficiency Bonus 
 ```
 
 ## Equipment Proficiencies
@@ -108,7 +108,7 @@ Skill Modifier = Ability Modifier + Proficiency Bonus
 | | | | | |
 
 ```
-Attack Bonus = Ability Modifier + Proficiency Modifier + Other Modifiers
+Attack Bonus = Ability MOD + Proficiency Bonus + Other Modifiers
 
 Hit chance = 1d20 + ATK Bonus
 Damage = DMG Base + DMG Bonus
