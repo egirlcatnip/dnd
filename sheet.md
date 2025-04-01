@@ -118,7 +118,7 @@ Damage = DMG Base + DMG Bonus
 
 | Name         | Frequency | Description           | Type    |
 | ------------ | :-------: | --------------------- | ------- |
-| Archery      |           | +2 Attack with ranged | Passive |
+| Archery      | Passive   | +2 Attack with ranged | Style |
 | Second Wind  | 1 / Rest  | Heal 1d10 + lvl HP    | Bonus   |
 | Action surge | 1 / Rest  | 1 extra action        | Feature |
 |              |           |                       |         |
