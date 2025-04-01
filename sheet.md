@@ -106,21 +106,25 @@ If not proficient: just the ability modifier
 
 ## Species traits
 
-| Name                 |   Frequency   | Description     | Notes      |
-| -------------------- | :-----------: | --------------- | ---------- |
-| Darkvision           |               | 60ft Colorblind |            |
-| Hellish Resistance   |               | Fire resistance |            |
+| Name                 |   Frequency   | Description     | 
+| -------------------- | :-----------: | --------------- 
+| Darkvision           |               | 60ft Colorblind |
+| Hellish Resistance   |               | Fire resistance |
 | Relentless Endurance | 1 / Long Rest | 0HP->1HP        |            |
 |                      |               |                 |            |
 | Infernal Legacy      |               |                 |            |
-| Thaumaturgy          | 1 / Long Rest | Cantrip         | Minor supernatural effects|
-| Hellish Rebuke       | 1 / Long Rest | 3rd lvl |         |
-| Darkness             | 1 / Long Rest | 2nd lvl |            |
-|                      |               |                 |            |
-| +2 STR, +1 CON       |               |                 |            |
-|                      |               |                 |            |
+| Thaumaturgy          | 1 / Long Rest | Cantrip         |
+| Hellish Rebuke       | 1 / Long Rest | 3rd lvl |
+| Darkness             | 1 / Long Rest | 2nd lvl |
+|                      |               |                 |
+| +2 STR, +1 CON       |               |                 |
+|                      |               |                 |
 
 ```
+Darkvision: See in the dark (Colorblind)
+
+Thaumaturgy: Minor supernatural effects 
+
 Hellish Rebuke: Reaction 2d10 fire damage | DEX saving throw for half dmg
 
 Darkness: 15ft Sphere of darkness
