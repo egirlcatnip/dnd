@@ -45,14 +45,14 @@ Long rest: regain half Hit Dice count, fully heal
 
 ## Ability Scores
 
-| Ability | Score | Modifier | Proficient? | Saving Throw |
+| Ability | Score | Modifier | Proficient? | Saving Throw Bonus |
 | :-----: | :---: | :------: | :--------: | :-----------: |
-|   STR   |  14   |    2     |      X      |      +4      |
-|   DEX   |  17   |    3     |             |      +3      |
-|   CON   |  14   |    2     |      X      |      +4      |
-|   INT   |  10   |    0     |             |      +0      |
-|   WIS   |  16   |    3     |             |      +3      |
-|   CHA   |  15   |    2     |             |      +2      |
+|   STR   |  14   |    +2     |      X      |      +4 (2 + 2)     |
+|   DEX   |  17   |    +3     |             |      +3 (3 + 0)     |
+|   CON   |  14   |    +2     |      X      |      +4 (2 + 2)     |
+|   INT   |  10   |    +0     |             |      +0 (0 + 0)     |
+|   WIS   |  16   |    +3     |             |      +3 (3 + 0)     |
+|   CHA   |  15   |    +2     |             |      +2 (2 + 0)     |
 
 |                   |   |
 | ----------------- | - |
@@ -63,9 +63,7 @@ Modifier = (Score - 10) / 2
 ```
 
 ```
-If proficient: ability modifier + proficiency bonus
-
-If not proficient: just the ability modifier
+Saving throw Bonus = Ability Modifier + Proficiency Bonus 
 ```
 
 |                    |   |
@@ -78,7 +76,7 @@ Heroic Inspiration: Roll with advantage.
 
 ## Proficiency & Skills
 
-| Skill            | Proficient? | Modifier |
+| Skill            | Proficient? | Skill Modifier |
 | ---------------- | :---------: | :------: |
 | Acrobatics (Dex) |      X      |    +5    |
 | Stealth (Dex)    |      X      |    +5    |
@@ -88,9 +86,7 @@ Heroic Inspiration: Roll with advantage.
 |                  |             |          |
 
 ```
-If proficient: ability modifier + proficiency bonus
-
-If not proficient: just the ability modifier
+Skill Modifier = Ability Modifier + Proficiency Bonus 
 ```
 
 ## Equipment Proficiencies
@@ -105,17 +101,17 @@ If not proficient: just the ability modifier
 
 ## Weapons & Damage Cantrips
 
-| Name | ATK Bonus | Proficient? | Bonus DMG | Base DMG |
-| ------- | :----------: | :---: | :--------: | -------------- |
-| Longbow | +5 | X | +3 | 1d8 piercing |
-| Dagger  | +4 | X | +2 | 1d4 piercing |
+| Name | ATK Bonus| DMG Base | Proficient? | DMG Bonus |
+| ------- | :----: | ----- | :---: | :----: |
+| Longbow | +5 | 1d8 piercing | X | +3 | 
+| Dagger  | +4 | 1d4 piercing | X | +2 |
 | | | | | |
 
 ```
 Attack Bonus = Ability Modifier + Proficiency Modifier + Other Modifiers
 
-Hit chance = 1d20 + Attack Bonus
-Damage = Base DMG + Bonus DMG
+Hit chance = 1d20 + ATK Bonus
+Damage = DMG Base + DMG Bonus
 ```
 
 ## Class Features & Traits
