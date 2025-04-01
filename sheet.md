@@ -23,6 +23,10 @@
 |   WIS   |  16   |    3     |             |      +3      |
 |   CHA   |  15   |    2     |             |      +2      |
 
+|                   |   |
+| ----------------- | - |
+| Proficiency Bonus | 2 |
+
 ```
 Modifier = (Score - 10) / 2
 ```
@@ -52,10 +56,6 @@ Heroic Inspiration: Roll with advantage.
 | Survival (Wis)   |      X      |    +5    |
 |                  |             |          |
 
-|                   |   |
-| ----------------- | - |
-| Proficiency Bonus | 2 |
-
 ```
 If proficient: ability modifier + proficiency bonus
 
@@ -74,11 +74,11 @@ If not proficient: just the ability modifier
 
 ## Combat Stats
 
-| Hit Points  |     |
-| ----------- | :-: |
-| **Current** | 20  |
-| **Temp**    |     |
-| **Max**     | 24  |
+| Hit Points  |      |
+| ----------- | :--: |
+| **Current** |  20  |
+| **Temp**    |      |
+| **Max**     |  24  |
 
 | Hit Dice  |       |
 | --------- | :---: |
