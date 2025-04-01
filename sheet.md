@@ -105,8 +105,8 @@ If not proficient: just the ability modifier
 
 ## Weapons & Damage Cantrips
 
-| Name    | ATK Bonus | Proficient? | Bonus DMG | Base DMG |
-| ------- | :----------: | :---: | :--------: | -------------- | ----- |
+| Name | ATK Bonus | Proficient? | Bonus DMG | Base DMG |
+| ------- | :----------: | :---: | :--------: | -------------- |
 | Longbow | +5 | X | +3 | 1d8 piercing |
 | Dagger  | +4 | X | +2 | 1d4 piercing |
 | | | | | |
