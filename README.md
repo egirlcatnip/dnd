@@ -30,9 +30,6 @@
   </tr>
 </table>
 
-
-
-
 ## Ability Scores
 
 | Ability | Score |  MOD  | Proficient? | Save Bonus |
@@ -54,8 +51,6 @@ MOD = (Score - 10) / 2
 Save Bonus = Ability MOD + Proficiency Bonus
 ```
 
-
-
 ## Combat Stats
 
 ### HP
@@ -76,13 +71,11 @@ Save Bonus = Ability MOD + Proficiency Bonus
 | :---: | :---: | :----: | :--------: | :------: |
 | `16`  |  `3`  | `30ft` |    `12`    | `Medium` |
 
-
 ```
 Character creation:  HP = Hit Die max  + CON
 Upon level-up:      +HP = Hit Die roll + CON
 
-Max HP = Hit Die (max roll) + CON + Other Modifiers (e.g., racial bonuses, class features)
-
+Max HP = Hit Die (max roll) + CON + Other Modifiers
 ```
 
 ```
@@ -92,15 +85,26 @@ Long  rest: Heal fully. Regain half of Hit Dice.
 
 ## Skills
 
-| Skill            | Proficient? |  MOD  |
-| ---------------- | :---------: | :---: |
-| Acrobatics (Dex) |     `X`     | `+5`  |
-| Stealth (Dex)    |     `X`     | `+5`  |
-| Insight (Wis)    |     `X`     | `+5`  |
-| Perception (Wis) |     `X`     | `+5`  |
-| Survival (Wis)   |     `X`     | `+5`  |
-|                  |             |       |
-| ...              |             | `+0`  |
+| Skill           | Ability | Proficient? |  MOD  |
+| --------------- | :-----: | :---------: | :---: |
+| Acrobatics      |   DEX   |     `X`     | `+5`  |
+| Animal Handling |   WIS   |             | `+3`  |
+| Arcana          |   INT   |             | `+0`  |
+| Athletics       |   STR   |     `X`     | `+5`  |
+| Deception       |   CHA   |             | `+2`  |
+| History         |   INT   |             | `+0`  |
+| Insight         |   WIS   |     `X`     | `+5`  |
+| Intimidation    |   CHA   |             | `+2`  |
+| Investigation   |   INT   |             | `+0`  |
+| Medicine        |   WIS   |             | `+3`  |
+| Nature          |   INT   |             | `+0`  |
+| Perception      |   WIS   |     `X`     | `+5`  |
+| Performance     |   CHA   |             | `+2`  |
+| Persuasion      |   CHA   |             | `+2`  |
+| Religion        |   INT   |             | `+0`  |
+| Sleight of Hand |   DEX   |             | `+3`  |
+| Stealth         |   DEX   |     `X`     | `+5`  |
+| Survival        |   WIS   |     `X`     | `+5`  |
 
 ```
 Skill MOD = Ability MOD + Proficiency Bonus
@@ -141,41 +145,30 @@ ATK = 1d20 + ATK Bonus
 DMG = DMG Base + DMG Bonus
 ```
 
-## Class Features & Traits
+## Features & Traits
 
-| Name         | Frequency | Description           | Type    |
-| ------------ | :-------: | --------------------- | ------- |
-| Archery      |  Passive  | +2 ATK with ranged    | Style   |
-| Second Wind  | 1 / Rest  | Self-Heal 1d10+lvl HP | Bonus   |
-| Action surge | 1 / Rest  | Gain 1 extra action   | Feature |
-|              |           |                       |         |
+| Name                 | Frequency | Type    | Source     | Description                            |
+| -------------------- | :-------: | ------- | ---------- | -------------------------------------- |
+| Archery              |  Passive  | Feat    | Class      | +2 ATK with ranged                     |
+| Wanderer             |  Passive  | Feature | Background | Good memory of maps and surroundings   |
+|                      |           |         |            |                                        |
+| Infernal Legacy      |  Passive  | Feature | Species    | Thaumaturgy,  Hellish Rebuke, Darkness |
+| Darkvision           |  Passive  | Feature | Species    | See in the dark (Colorblind)           |
+| Hellish Resistance   |  Passive  | Feature | Species    | Fire damage immunity                   |
+| Relentless Endurance |  Passive  | Feature | Species    | Survive at 1HP when reduced to 0HP     |
+|                      |           |         |            |                                        |
+| Second Wind          | 1 / Rest  | Bonus   | Species    | Self-Heal 1d10+lvl HP                  |
+| Action surge         | 1 / Rest  | Feature | Species    | Gain 1 extra action                    |
+|                      |           |         |            |                                        |
 
-## Species traits
+### Spell details
 
-| Name                 |   Frequency   |
-| -------------------- | :-----------: |
-| Darkvision           |    Passive    |
-| Hellish Resistance   |    Passive    |
-| Relentless Endurance | 1 / Long Rest |
-|                      |               |
-
-| Infernal Legacy    | Unlock |  lvl  | Type  | Save  | Range |    Duration    |   Frequency   |  Usage   |
-| ------------------ | :----: | :---: | :---: | :---: | :---: | :------------: | :-----------: | :------: |
-| Thaumaturgy        |  `X`   |   ø   |   ø   |   ø   |   ø   | Up to 1 minute |       ø       | Cantrip  |
-| ~~Hellish Rebuke~~ |  lvl3  |   1   |  DEX  |  DEX  | 60ft  | Instantaneous  | 1 / Long Rest | Reaction |
-| ~~Darkness~~       |  lvl5  |   2   |  DEX  |  DEX  | 60ft  | Concentration  | 1 / Long Rest |  Action  |
-|                    |        |       |       |       |       |                |               |          |
-
-| Spell                | Description                               | Save     |
-| -------------------- | ----------------------------------------- | -------- |
-| Darkvision           | See in the dark (Colorblind)              |          |
-| Hellish Resistance   | Fire damage immunity                      |          |
-| Relentless Endurance | Upon being damaged to 0HP, survive at 1HP |          |
-|                      |                                           |          |
-| Thaumaturgy          | Minor supernatural effects                |          |
-| Hellish Rebuke       | `2d10 + 1d10/lvl` fire damage             | Half DMG |
-| Darkness             | 15ft Sphere of darkness, blinds in area   |          |
-
+| Spell          | Description                             | Save     |
+| -------------- | --------------------------------------- | -------- |
+| Thaumaturgy    | Minor supernatural effects              |          |
+| Hellish Rebuke | `2d10 + 1d10/lvl` fire damage           | Half DMG |
+| Darkness       | 15ft Sphere of darkness, blinds in area |          |
+|                |                                         |          |
 
 ## Equipment
 
@@ -189,8 +182,6 @@ DMG = DMG Base + DMG Bonus
 | Explorers' Pack |        |
 | 20 Arrows       |        |
 |                 |        |
-
-
 
 ## Coins
 
