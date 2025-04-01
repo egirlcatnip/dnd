@@ -14,24 +14,24 @@
 
 ## Combat Stats
 
-| Hit Points  |      |
-| ----------- | :--: |
-| **Current** |  20  |
-| **Temp**    |      |
-| **Max**     |  24  |
+| Hit Points  |     |
+| ----------- | :-: |
+| **Current** | 20  |
+| **Temp**    |     |
+| **Max**     | 24  |
 
 ```
 new: HP = max(Hit Die) + CON
 lvl up: +HP = Hit die roll + CON
 ```
 
-| Hit Dice  |  d10  |
-| --------- | :---: |
-| **Total** |   2   |
-| **Spent** |   0   |
+| Hit Dice  | d10 |
+| --------- | :-: |
+| **Total** |  2  |
+| **Spent** |  0  |
 
 ```
-Short rest: spend Hit Dice per choice 
+Short rest: spend Hit Dice per choice
 Long rest: regain half Hit Dice count, fully heal
 ```
 
@@ -49,21 +49,21 @@ Long rest: regain half Hit Dice count, fully heal
 | ----------------- | - |
 | Proficiency Bonus | 2 |
 
-| Ability | Score | MOD  | Proficient? | Save Bonus |
-| :-----: | :---: | :--: | :-: | :--------: |
-| **STR** |   14  |  +2  |  X  | +4 (2 + 2) |
-| **DEX** |   17  |  +3  |     | +3 (3 + 0) |
-| **CON** |   14  |  +2  |  X  | +4 (2 + 2) |
-| **INT** |   10  |  +0  |     | +0 (0 + 0) |
-| **WIS** |   16  |  +3  |     | +3 (3 + 0) |
-| **CHA** |   15  |  +2  |     | +2 (2 + 0) |
+| Ability | Score | MOD | Proficient? | Save Bonus |
+| :-----: | :---: | :-: | :---------: | :--------: |
+| **STR** |  14   | +2  |      X      | +4 (2 + 2) |
+| **DEX** |  17   | +3  |             | +3 (3 + 0) |
+| **CON** |  14   | +2  |      X      | +4 (2 + 2) |
+| **INT** |  10   | +0  |             | +0 (0 + 0) |
+| **WIS** |  16   | +3  |             | +3 (3 + 0) |
+| **CHA** |  15   | +2  |             | +2 (2 + 0) |
 
 ```
 MOD = (Score - 10) / 2
 ```
 
 ```
-Saving throw Bonus = Ability Modifier + Proficiency Bonus 
+Saving throw Bonus = Ability Modifier + Proficiency Bonus
 ```
 
 |                    |   |
@@ -76,22 +76,22 @@ Heroic Inspiration: Roll with advantage.
 
 ## Skills
 
-| Skill            | Proficient? | MOD  |
-| ---------------- | :---------: | :--: |
-| Acrobatics (Dex) |      X      |  +5  |
-| Stealth (Dex)    |      X      |  +5  |
-| Insight (Wis)    |      X      |  +5  |
-| Perception (Wis) |      X      |  +5  |
-| Survival (Wis)   |      X      |  +5  |
-|                  |             |      |
+| Skill            | Proficient? | MOD |
+| ---------------- | :---------: | :-: |
+| Acrobatics (Dex) |      X      | +5  |
+| Stealth (Dex)    |      X      | +5  |
+| Insight (Wis)    |      X      | +5  |
+| Perception (Wis) |      X      | +5  |
+| Survival (Wis)   |      X      | +5  |
+|                  |             |     |
 
 ```
-Skill MOD = Ability MOD + Proficiency Bonus 
+Skill MOD = Ability MOD + Proficiency Bonus
 ```
 
 ## Equipment Proficiencies
 
-| Armor        |     Weapon      | Tool |
+| Armor        | Weapon          | Tool |
 | ------------ | --------------- | ---- |
 | Light Armor  | Simple Weapons  | None |
 | Medium Armor | Martial Weapons |      |
@@ -101,11 +101,11 @@ Skill MOD = Ability MOD + Proficiency Bonus
 
 ## Weapons & Damage Cantrips
 
-| Name | ATK Bonus| DMG Base | Proficient? | DMG Bonus |
-| ------- | :----: | ----- | :---: | :----: |
-| Longbow | +5 | 1d8 piercing | X | +3 | 
-| Dagger  | +4 | 1d4 piercing | X | +2 |
-| | | | | |
+| Name    | ATK Bonus | DMG Base     | Proficient? | DMG Bonus |
+| ------- | :-------: | ------------ | :---------: | :-------: |
+| Longbow |    +5     | 1d8 piercing |      X      |    +3     |
+| Dagger  |    +4     | 1d4 piercing |      X      |    +2     |
+|         |           |              |             |           |
 
 ```
 Attack Bonus = Ability MOD + Proficiency Bonus + Other Modifiers
@@ -119,41 +119,40 @@ Damage = DMG Base + DMG Bonus
 | Name         | Frequency | Description           | Type    |
 | ------------ | :-------: | --------------------- | ------- |
 | Archery      |           | +2 Attack with ranged | Passive |
-| Second Wind  | 1 / Rest  | Heal 1d10 + lvl HP      | Bonus   |
+| Second Wind  | 1 / Rest  | Heal 1d10 + lvl HP    | Bonus   |
 | Action surge | 1 / Rest  | 1 extra action        | Feature |
-| | | | |
+|              |           |                       |         |
 
 ## Species traits
 
-| Name                 |   Frequency   | Description     | 
+| Name                 | Frequency     | Description     |
 | -------------------- | ------------- | --------------- |
-| Darkvision           | Passive       | 60ft |
+| Darkvision           | Passive       | 60ft            |
 | Hellish Resistance   | Passive       | Fire resistance |
 | Relentless Endurance | 1 / Long Rest | 0HP->1HP        |
-| | | |
+|                      |               |                 |
 
-| Infernal Legacy      |  Frequency    | Description     |
-| -------------------- | ------------- | --------------- |
-| Thaumaturgy          | Cantrip       | 1st lvl |
-| Hellish Rebuke lvl1  | Reaction      | 3rd lvl |
-| Darkness lvl1        | 1 / Long Rest | 2nd lvl |
-| Darkness lvl2        | 1 / Long Rest | 5th lvl |
-| | | |
+| Infernal Legacy     | Frequency     | Description |
+| ------------------- | ------------- | ----------- |
+| Thaumaturgy         | Cantrip       | 1st lvl     |
+| Hellish Rebuke lvl1 | Reaction      | 3rd lvl     |
+| Darkness lvl1       | 1 / Long Rest | 2nd lvl     |
+| Darkness lvl2       | 1 / Long Rest | 5th lvl     |
+|                     |               |             |
 
 ```
 Darkvision: See in the dark (Colorblind)
 
-Hellish Resistance: Fire damage immunity 
+Hellish Resistance: Fire damage immunity
 
 Relentless Endurance: Upon being damaged to 0HP and not lower, survive at 1HP
 
-Thaumaturgy: Minor supernatural effects 
+Thaumaturgy: Minor supernatural effects
 
 Hellish Rebuke: 2d10 fire damage | DEX saving throw for half dmg
 
 Darkness: 15ft Sphere of darkness, blinds in area
 ```
-
 
 ## Equipment
 
@@ -161,7 +160,7 @@ Darkness: 15ft Sphere of darkness, blinds in area
 | --------------- | ----- |
 | Longbow         |       |
 | Dagger          |       |
-| Hooded Cloak    |       |     
+| Hooded Cloak    |       |
 | Leather armor   |       |
 | Backpack        |       |
 | Explorers' Pack |       |
@@ -171,16 +170,16 @@ Darkness: 15ft Sphere of darkness, blinds in area
 ## Coins
 
 | Platinum | Gold | Copper |
-|----------|------|--------|
+| -------- | ---- | ------ |
 | 0        | 2    | 5      |
 
 ## Spoken Languages
 
 | Language | Proficient? |
 | -------- | :---------: |
-|  Common  |      X      |
-|  Orcish  |      X      |
-|  Asian   |      X      |
+| Common   |      X      |
+| Orcish   |      X      |
+| Asian    |      X      |
 
 ## Appearance
 
