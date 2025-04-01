@@ -1,63 +1,40 @@
 # Elyra
+![](256x384.png)
 
-<table>
-  <tr>
-    <th rowspan="6">
-      <img src="256x384.png" alt="Elyra" />
-    </th>
-    <th>Race</th>
-    <td><code>Half-Orc (Orc-Tiefling)</code></td>
-  </tr>
-  <tr>
-    <th>Background</th>
-    <td><code>Outlander</code></td>
-  </tr>
-  <tr>
-    <th>Class</th>
-    <td><code>Fighter</code></td>
-  </tr>
-  <tr>
-    <th>Subclass</th>
-    <td><code>Arcane Archer</code></td>
-  </tr>
-  <tr>
-    <th>Alignment</th>
-    <td><code>Chaotic Good</code></td>
-  </tr>
-  <tr>
-    <th>Level</th>
-    <td><code>2</code></td>
-  </tr>
-</table>
+| Race                      | Background  | Class     | Subclass            | Alignment      | Level |
+| ------------------------- | ----------- | --------- | ------------------- | -------------- | ----- |
+| `Half-Orc (Orc-Tiefling)` | `Outlander` | `Fighter` | ~~`Arcane Archer`~~ | `Chaotic Good` | `2`   |
+
+
+
 
 ## Ability Scores
 
-| Ability | Score |  MOD  | Proficient? | Save Bonus |
-| :-----: | :---: | :---: | :---------: | :--------: |
-|  `STR`  |  14   | `+2`  |     `X`     |  +4 (2+2)  |
-|  `DEX`  |  17   | `+3`  |             |  +3 (3+0)  |
-|  `CON`  |  14   | `+2`  |     `X`     |  +4 (2+2)  |
-|  `INT`  |  10   | `+0`  |             |  +0 (0+0)  |
-|  `WIS`  |  16   | `+3`  |             |  +3 (3+0)  |
-|  `CHA`  |  15   | `+2`  |             |  +2 (2+0)  |
+|                 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+| --------------- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Score**       |  14   |  17   |  14   |  10   |  16   |  15   |
+| **MOD**         | `+2`  | `+3`  | `+2`  | `+0`  | `+3`  | `+2`  |
+| **Proficient?** |   X   |       |   X   |       |       |       |
+| **Save Bonus**  |  +4   |  +3   |  +4   |  +0   |  +3   |  +2   |
+
 
 | Proficiency Bonus | Heroic Inspiration |
 | :---------------: | :----------------: |
 |        `2`        |        ` `         |
 
-```
-MOD = (Score - 10) / 2
+``MOD = (Score - 10) / 2``
 
-Save Bonus = Ability MOD + Proficiency Bonus
-```
+``Save Bonus = Ability MOD + Proficiency Bonus``
 
 ## Combat Stats
 
 ### HP
 
-| Current | Temp  |  Max  |
-| :-----: | :---: | :---: |
-|  `20`   |   0   |  20   |
+|  Max  | Current | Temp  |
+| :---: | :-----: | :---: |
+|  20   |  `20`   |   0   |
+
+``Upon level-up:      +HP = Hit Die roll + CON``
 
 ### HIT DICE
 
@@ -67,44 +44,43 @@ Save Bonus = Ability MOD + Proficiency Bonus
 
 ### Misc
 
-| Armor | Init  | Speed  | Perception |   Size   |
-| :---: | :---: | :----: | :--------: | :------: |
-| `16`  |  `3`  | `30ft` |    `12`    | `Medium` |
-
-```
-Character creation:  HP = Hit Die max  + CON
-Upon level-up:      +HP = Hit Die roll + CON
-
-Max HP = Hit Die (max roll) + CON + Other Modifiers
-```
+| Armor | Init  | Speed  | Passive Perception |   Size   |
+| :---: | :---: | :----: | :----------------: | :------: |
+| `16`  |  `3`  | `30ft` |        `12`        | `Medium` |
 
 ```
 Short rest: Heal with Hit Dice.
+
 Long  rest: Heal fully. Regain half of Hit Dice.
 ```
 
 ## Skills
 
-| Skill           | Ability | Proficient? |  MOD  |
-| --------------- | :-----: | :---------: | :---: |
-| Acrobatics      |   DEX   |     `X`     | `+5`  |
-| Animal Handling |   WIS   |             | `+3`  |
-| Arcana          |   INT   |             | `+0`  |
-| Athletics       |   STR   |     `X`     | `+5`  |
-| Deception       |   CHA   |             | `+2`  |
-| History         |   INT   |             | `+0`  |
-| Insight         |   WIS   |     `X`     | `+5`  |
-| Intimidation    |   CHA   |             | `+2`  |
-| Investigation   |   INT   |             | `+0`  |
-| Medicine        |   WIS   |             | `+3`  |
-| Nature          |   INT   |             | `+0`  |
-| Perception      |   WIS   |     `X`     | `+5`  |
-| Performance     |   CHA   |             | `+2`  |
-| Persuasion      |   CHA   |             | `+2`  |
-| Religion        |   INT   |             | `+0`  |
-| Sleight of Hand |   DEX   |             | `+3`  |
-| Stealth         |   DEX   |     `X`     | `+5`  |
-| Survival        |   WIS   |     `X`     | `+5`  |
+
+| Skill           | Proficient? |  MOD  | Ablility |
+| --------------- | :---------: | :---: | :------: |
+| Athletics       |     `X`     | `+5`  |   STR    |
+|                 |             |       |          |
+| Acrobatics      |     `X`     | `+5`  |   DEX    |
+| Sleight of Hand |             | `+3`  |   DEX    |
+| Stealth         |     `X`     | `+5`  |   DEX    |
+|                 |             |       |          |
+| Arcana          |             | `+0`  |   INT    |
+| History         |             | `+0`  |   INT    |
+| Investigation   |             | `+0`  |   INT    |
+| Nature          |             | `+0`  |   INT    |
+| Religion        |             | `+0`  |   INT    |
+|                 |             |       |          |
+| Animal Handling |             | `+3`  |   WIS    |
+| Insight         |     `X`     | `+5`  |   WIS    |
+| Medicine        |             | `+3`  |   WIS    |
+| Perception      |     `X`     | `+5`  |   WIS    |
+| Survival        |     `X`     | `+5`  |   WIS    |
+|                 |             |       |          |
+| Deception       |             | `+2`  |   CHA    |
+| Intimidation    |             | `+2`  |   CHA    |
+| Performance     |             | `+2`  |   CHA    |
+| Persuasion      |             | `+2`  |   CHA    |
 
 ```
 Skill MOD = Ability MOD + Proficiency Bonus
@@ -130,12 +106,25 @@ Skill MOD = Ability MOD + Proficiency Bonus
 
 ## Spells
 
-| Name               |  Unlock  |  lvl  | Type  | Save  | Range |    Duration    |   Frequency   |  Usage   |
-| ------------------ | :------: | :---: | :---: | :---: | :---: | :------------: | :-----------: | :------: |
-| `Thaumaturgy`      |   `X`    |   ø   |       |       |       | Up to 1 minute |       ø       | Cantrip  |
-| ~~Hellish Rebuke~~ | ~~lvl3~~ |   1   |  DEX  |  DEX  | 60ft  | Instantaneous  | 1 / Long Rest | Reaction |
-| ~~Darkness~~       | ~~lvl5~~ |   2   |  DEX  |  DEX  | 60ft  | Concentration  | 1 / Long Rest |  Action  |
-|                    |          |       |       |       |       |                |               |          |
+| Name               | Unlock lvl | Type  | Save  | Range |    Duration    |   Frequency   |  Usage   |
+| ------------------ | :--------: | :---: | :---: | :---: | :------------: | :-----------: | :------: |
+| `Second Wind`      |    `X`     |  DEX  |  DEX  | Self  | Instantaneous  | 2 / Long Rest | Reaction |
+| `Thaumaturgy`      |    `X`     |       |       |       | Up to 1 minute |               | Cantrip  |
+| ~~Hellish Rebuke~~ |   ~~3~~    |  DEX  |  DEX  | 60ft  | Instantaneous  | 1 / Long Rest | Reaction |
+| ~~Arcane Shot~~    |   ~~3~~    |       |       |       |                |               |          |
+| ~~Darkness~~       |   ~~5~~    |  DEX  |  DEX  | 60ft  | Concentration  | 1 / Long Rest |  Action  |
+|                    |            |       |       |       |                |               |          |
+
+| Arcane Shot Options | Unlocked |
+| ------------------- | :------: |
+| Banishing Arrow     |          |
+| Beguiling Arrow     |          |
+| Bursting Arrow      |          |
+| Enfeebling Arrow    |          |
+| Grasping Arrow      |          |
+| Piercing Arrow      |          |
+| Seeking Arrow       |          |
+| Shadow Arrow        |          |
 
 ```
 ATK Bonus = Ability MOD + Proficiency Bonus + Other Modifiers
@@ -145,30 +134,105 @@ ATK = 1d20 + ATK Bonus
 DMG = DMG Base + DMG Bonus
 ```
 
-## Features & Traits
+## Class
 
-| Name                 | Frequency | Type    | Source     | Description                            |
-| -------------------- | :-------: | ------- | ---------- | -------------------------------------- |
-| Archery              |  Passive  | Feat    | Class      | +2 ATK with ranged                     |
-| Wanderer             |  Passive  | Feature | Background | Good memory of maps and surroundings   |
-|                      |           |         |            |                                        |
-| Infernal Legacy      |  Passive  | Feature | Species    | Thaumaturgy,  Hellish Rebuke, Darkness |
-| Darkvision           |  Passive  | Feature | Species    | See in the dark (Colorblind)           |
-| Hellish Resistance   |  Passive  | Feature | Species    | Fire damage immunity                   |
-| Relentless Endurance |  Passive  | Feature | Species    | Survive at 1HP when reduced to 0HP     |
-|                      |           |         |            |                                        |
-| Second Wind          | 1 / Rest  | Bonus   | Species    | Self-Heal 1d10+lvl HP                  |
-| Action surge         | 1 / Rest  | Feature | Species    | Gain 1 extra action                    |
-|                      |           |         |            |                                        |
+| Name                          | Unlock lvl |    Frequency    | Choice  |
+| ----------------------------- | :--------: | :-------------: | :-----: |
+| Fighting Style                |    `X`     |     Passive     | Archery |
+| Second Wind                   |    `X`     |  2 / Long Rest  |         |
+| Weapon Mastery                |    `X`     |     Passive     |         |
+| Action Surge                  |    `X`     | 1 / Short Rest  |         |
+| Tactical Mind                 |    `X`     | 1 / Second Wind |         |
+|                               |            |                 |         |
+| ~~Arcane Shot~~               |   ~~3~~    |    2 / Rest     |         |
+| ~~Arcane Archer Lore~~        |   ~~3~~    |     Passive     |         |
+| ~~Ability Score Improvement~~ |   ~~4~~    |     Passive     |         |
+| ~~Extra Attack~~              |   ~~5~~    |     Passive     |         |
+| ~~Tactical Shift~~            |   ~~6~~    |     Passive     |         |
+| ~~Ability Score Improvement~~ |   ~~6~~    |     Passive     |         |
+| ~~Arcane Shot~~               |   ~~7~~    |    3 / Rest     |         |
+| ~~Ability Score Improvement~~ |   ~~8~~    |     Passive     |         |
+| ~~Indominable~~               |   ~~9~~    |  1 / Long Rest  |         |
+| ~~Tactical Master~~           |   ~~10~~   |     Passive     |         |
+| ~~Magic Arrow~~               |   ~~10~~   |     Passive     |         |
+| ~~Curving Shot~~              |   ~~10~~   |     Passive     |         |
+| ~~Additional Arcane Shot~~    |   ~~10~~   |     Passive     |         |
+| ~~Two Extra Attacks~~         |   ~~11~~   |     Passive     |         |
+| ~~Ability Score Improvement~~ |   ~~12~~   |     Passive     |         |
+| ~~Indominable~~               |   ~~13~~   |  2 / Long Rest  |         |
+| ~~Studied Attacks~~           |   ~~14~~   |     Passive     |         |
+| ~~Ability Score Improvement~~ |   ~~14~~   |     Passive     |         |
+| ~~Ever-Ready Shot~~           |   ~~15~~   |     Passive     |         |
+| ~~Additional Arcane Shot~~    |   ~~15~~   |     Passive     |         |
+| ~~Ability Score Improvement~~ |   ~~16~~   |     Passive     |         |
+| ~~Action Surge~~              |   ~~17~~   |     Passive     |         |
+| ~~Indominable~~               |   ~~17~~   |  3 / Long Rest  |         |
+| ~~Additional Arcane Shot~~    |   ~~18~~   |     Passive     |         |
+| ~~Epic Boon~~                 |   ~~20~~   |     Passive     |         |
+| ~~Three Extra Attacks~~       |   ~~20~~   |     Passive     |         |
 
-### Spell details
 
-| Spell          | Description                             | Save     |
-| -------------- | --------------------------------------- | -------- |
-| Thaumaturgy    | Minor supernatural effects              |          |
-| Hellish Rebuke | `2d10 + 1d10/lvl` fire damage           | Half DMG |
-| Darkness       | 15ft Sphere of darkness, blinds in area |          |
-|                |                                         |          |
+| Name                          | Description                                                                 |
+| ----------------------------- | --------------------------------------------------------------------------- |
+| Fighting Style                | Gain a Fighting Style feat of your choice. Replaceable at level-up.         |
+| Second Wind                   | Regain HP = 1d10 + Fighter level. 1 use per Short Rest.                     |
+| Weapon Mastery                | Use mastery properties of 3 weapons. Change 1 after a Long Rest.            |
+| Action Surge                  | Take one additional action (except Magic action).                           |
+| Tactical Mind                 | Add 1d10 to a failed ability check. If it still fails, not expended.        |
+| Fighter Subclass              | Choose a subclass. Grants features at specific levels.                      |
+| Arcane Archer Lore            | Gain proficiency in Arcana or Nature. Learn Prestidigitation or Druidcraft. |
+| Arcane Shot                   | Use magical effects with arrows. Learn 2 options.                           |
+| Ability Score Improvement     | Gain the Ability Score Improvement feat or another feat of choice.          |
+| Extra Attack                  | Attack twice instead of once when taking the Attack action.                 |
+| Tactical Shift                | Move up to half Speed without provoking Opportunity Attacks.                |
+| Ability Score Improvement     | Gain the Ability Score Improvement feat or another feat of choice.          |
+| Magic Arrow                   | Nonmagical arrows become magical for overcoming resistances.                |
+| Curving Shot                  | Reroll a missed attack roll with a magic arrow against a new target.        |
+| Additional Arcane Shot Option | Learn 1 additional Arcane Shot option.                                      |
+| Ability Score Improvement     | Gain the Ability Score Improvement feat or another feat of choice.          |
+| Indomitable                   | Reroll a failed saving throw with a bonus equal to Fighter level.           |
+| Tactical Master               | Replace a weapon's mastery property with Push, Sap, or Slow.                |
+| Additional Arcane Shot Option | Learn 1 additional Arcane Shot option.                                      |
+| Two Extra Attacks             | Attack three times instead of once when taking the Attack action.           |
+| Ability Score Improvement     | Gain the Ability Score Improvement feat or another feat of choice.          |
+| Indomitable                   | Reroll a failed saving throw with a bonus equal to Fighter level.           |
+| Studied Attacks               | Gain Advantage on your next attack roll against a creature you missed.      |
+| Ability Score Improvement     | Gain the Ability Score Improvement feat or another feat of choice.          |
+| Ever-Ready Shot               | Regain 1 use of Arcane Shot when rolling initiative with no uses left.      |
+| Additional Arcane Shot Option | Learn 1 additional Arcane Shot option.                                      |
+| Ability Score Improvement     | Gain the Ability Score Improvement feat or another feat of choice.          |
+| Action Surge                  | Use Action Surge twice per Short/Long Rest, but only once per turn.         |
+| Indomitable                   | Reroll a failed saving throw with a bonus equal to Fighter level.           |
+| Additional Arcane Shot Option | Learn 1 additional Arcane Shot option. Each option improves at level 18.    |
+| Epic Boon                     | Gain an Epic Boon feat or another feat of your choice.                      |
+| Three Extra Attacks           | Attack four times instead of once when taking the Attack action.            |
+
+## Species
+
+| Name                 |   Frequency   |
+| -------------------- | :-----------: |
+| Infernal Legacy      |    Passive    |
+| Darkvision           |    Passive    |
+| Hellish Resistance   |    Passive    |
+| Relentless Endurance | 1 / Long Rest |
+
+| Infernal Legacy    | Unlock | Type  | Save  |    Duration    |   Frequency   |  Usage   |
+| ------------------ | :----: | :---: | :---: | :------------: | :-----------: | :------: |
+| Thaumaturgy        |  `X`   |   ø   |   ø   | Up to 1 minute |       ø       | Cantrip  |
+| ~~Hellish Rebuke~~ |   3    |  DEX  |  DEX  | Instantaneous  | 1 / Long Rest | Reaction |
+| ~~Darkness~~       |   5    |  DEX  |  DEX  | Concentration  | 1 / Long Rest |  Action  |
+|                    |        |       |       |                |               |          |
+
+| Name                 | Description                               | Save     |
+| -------------------- | ----------------------------------------- | -------- |
+| Darkvision           | See in the dark (Colorblind)              |          |
+| Hellish Resistance   | Fire damage immunity                      |          |
+| Relentless Endurance | Upon being damaged to 0HP, survive at 1HP |          |
+|                      |                                           |          |
+| Thaumaturgy          | Minor supernatural effects                |          |
+| Hellish Rebuke       | `2d10 + 1d10/lvl` fire damage             | Half DMG |
+| Darkness             | 15ft Sphere of darkness, blinds in area   |          |
+
 
 ## Equipment
 
@@ -182,6 +246,8 @@ DMG = DMG Base + DMG Bonus
 | Explorers' Pack |        |
 | 20 Arrows       |        |
 |                 |        |
+
+
 
 ## Coins
 
