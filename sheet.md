@@ -14,14 +14,14 @@
 
 ## Ability Scores
 
-| Ability | Score | Modifier | Proficient | Saving Throw |
-| :-----: | :---: | :------: | :--------: | :----------: |
-|   STR   |  14   |    2     |     X      |      +4      |
-|   DEX   |  17   |    3     |            |      +3      |
-|   CON   |  14   |    2     |     X      |      +4      |
-|   INT   |  10   |    0     |            |      +0      |
-|   WIS   |  16   |    3     |            |      +3      |
-|   CHA   |  15   |    2     |            |      +2      |
+| Ability | Score | Modifier | Proficient? | Saving Throw |
+| :-----: | :---: | :------: | :--------: | :-----------: |
+|   STR   |  14   |    2     |      X      |      +4      |
+|   DEX   |  17   |    3     |             |      +3      |
+|   CON   |  14   |    2     |      X      |      +4      |
+|   INT   |  10   |    0     |             |      +0      |
+|   WIS   |  16   |    3     |             |      +3      |
+|   CHA   |  15   |    2     |             |      +2      |
 
 ```
 Modifier = (Score - 10) / 2
@@ -59,7 +59,7 @@ If not proficient: just the ability modifier
 ## Equipment Proficiencies
 
 | Armor        |     Weapon      | Tool |
-| ------------ | :-------------: | :--: |
+| ------------ | --------------- | ---- |
 | Light Armor  | Simple Weapons  | None |
 | Medium Armor | Martial Weapons |      |
 | Heavy Armor  |                 |      |
@@ -74,10 +74,10 @@ If not proficient: just the ability modifier
 | **Temp**    |     |
 | **Max**     | 24  |
 
-| Hit Dice  |      |
-| --------- | :--: |
-| **Spent** |  2   |
-| **Max**   | 2d10 |
+| Hit Dice  |       |
+| --------- | :---: |
+| **Spent** |   2   |
+| **Max**   | 2d10  |
 
 | Misc                   |        |
 | ---------------------- | :----: |
@@ -100,7 +100,7 @@ If not proficient: just the ability modifier
 | Name         | Frequency | Description           | Type    |
 | ------------ | :-------: | --------------------- | ------- |
 | Archery      |           | +2 Attack with ranged | Passive |
-| Second Wind  | 1 / Rest  | Heal 1d10+lvl HP      | Bonus   |
+| Second Wind  | 1 / Rest  | Heal 1d10 + lvl HP      | Bonus   |
 | Action surge | 1 / Rest  | 1 extra action        |         |
 |              |           |                       |         |
 
@@ -117,34 +117,34 @@ If not proficient: just the ability modifier
 | Hellish Rebuke       | 1 / Long Rest | 2nd level spell |            |
 | Darkness             | 1 / Long Rest | 2nd level spell |            |
 |                      |               |                 |            |
-| +2 STR, +2 CHA       |               |                 |            |
+| +2 STR, +1 CON       |               |                 |            |
 |                      |               |                 |            |
 
 
 
 ## Equipment
 
-|                | Notes |
-| -------------- | ----- |
-| Longbow        |       |
-| Dagger         |       |
-| Hooded Cloak   |       |     
-| Leather armor  |       |
-| Backpack       |       |
-| Explorers Pack |       |
-| 20 Arrows      |       |
-|                |       |
+| Name            | Notes |
+| --------------- | ----- |
+| Longbow         |       |
+| Dagger          |       |
+| Hooded Cloak    |       |     
+| Leather armor   |       |
+| Backpack        |       |
+| Explorers' Pack |       |
+| 20 Arrows       |       |
+|                 |       |
 
 ## Coins
 
 | Platinum | Gold | Copper |
-|:---------|:-----|:-------|
+|----------|------|--------|
 | 0        | 2    | 5      |
 
 ## Spoken Languages
 
 | Language | Proficient? |
-| :------: | :---------: |
+| -------- | :---------: |
 |  Common  |      X      |
 |  Orcish  |      X      |
 |  Asian   |      X      |
