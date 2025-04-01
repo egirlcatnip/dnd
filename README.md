@@ -1,89 +1,94 @@
-# Elyra
+# Elyra (lvl2)
 
-## Character Information
+<table>
+  <tr>
+    <th>
+      <img src="256x384.png" height="384" width="256" alt="Elyra" />
+    </th>
+    <th>
+      <table>
+        <tr><th>Race</th><td>Half-Orc (Orc-ling)</td></tr>
+        <tr><th>Background</th><td>Outlander</td></tr>
+        <tr><th>Class</th><td>Fighter</td></tr>
+        <tr><th>Subclass</th><td>Arcane Archer</td></tr>
+        <tr><th>Alignment</th><td>Chaotic Good</td></tr>
+      </table>
+    </th>
+  </tr>
+</table>
 
-|                |                     |
-| :------------: | :-----------------: |
-|    **Race**    | Half-Orc (Orc-ling) |
-|   **Class**    |       Fighter       |
-|  **Subclass**  |    Arcane Archer    |
-| **Background** |      Outlander      |
-| **Alignment**  |    Chaotic Good     |
-|                |                     |
-|   **Level**    |          2          |
-
-## Combat Stats
-
-| Hit Points  |     |
-| ----------- | :-: |
-| **Current** | 20  |
-| **Temp**    |     |
-| **Max**     | 24  |
-
-```
-new: HP = max(Hit Die) + CON
-lvl up: +HP = Hit die roll + CON
-```
-
-| Hit Dice  | d10 |
-| --------- | :-: |
-| **Total** |  2  |
-| **Spent** |  0  |
-
-```
-Short rest: spend Hit Dice per choice
-Long rest: regain half Hit Dice count, fully heal
-```
-
-| Misc                   |        |
-| ---------------------- | :----: |
-| **Armor**              |   16   |
-| **Initiative**         |   3    |
-| **Speed**              |  30ft  |
-| **Size**               | Medium |
-| **Passive Perception** |   12   |
 
 ## Ability Scores
 
-|                   |   |
-| ----------------- | - |
-| Proficiency Bonus | 2 |
+| Proficiency Bonus |
+| :---------------: |
+|        `2`        |
 
-| Ability | Score | MOD | Proficient? | Save Bonus |
-| :-----: | :---: | :-: | :---------: | :--------: |
-| **STR** |  14   | +2  |      X      | +4 (2 + 2) |
-| **DEX** |  17   | +3  |             | +3 (3 + 0) |
-| **CON** |  14   | +2  |      X      | +4 (2 + 2) |
-| **INT** |  10   | +0  |             | +0 (0 + 0) |
-| **WIS** |  16   | +3  |             | +3 (3 + 0) |
-| **CHA** |  15   | +2  |             | +2 (2 + 0) |
+| Ability | Score |  MOD  | Proficient? | Save Bonus |
+| :-----: | :---: | :---: | :---------: | :--------: |
+|  `STR`  |  14   | `+2`  |     `X`     |  +4 (2+2)  |
+|  `DEX`  |  17   | `+3`  |             |  +3 (3+0)  |
+|  `CON`  |  14   | `+2`  |     `X`     |  +4 (2+2)  |
+|  `INT`  |  10   | `+0`  |             |  +0 (0+0)  |
+|  `WIS`  |  16   | `+3`  |             |  +3 (3+0)  |
+|  `CHA`  |  15   | `+2`  |             |  +2 (2+0)  |
 
 ```
 MOD = (Score - 10) / 2
+
+Save Bonus = Ability MOD + Proficiency Bonus
+```
+
+| Heroic Inspiration |
+| :----------------: |
+|        ` `         |
+
+
+## Combat Stats
+
+### HP
+
+| Current | Temp  |  Max  |
+| :-----: | :---: | :---: |
+|  `20`   |   0   |  20   |
+
+### HIT DICE
+
+| Left  | Used  | Total |
+| :---: | :---: | :---: |
+|  `2`  |   0   | 2d10  |
+
+### Misc
+
+| Armor | Init  | Speed  | Perception |   Size   |
+| :---: | :---: | :----: | :--------: | :------: |
+| `16`  |  `3`  | `30ft` |    `12`    | `Medium` |
+
+
+```
+Character creation:  HP = Hit Die max  + CON
+Upon level-up:      +HP = Hit Die roll + CON
+
+Max HP = Hit Die (max roll) + CON + Other Modifiers (e.g., racial bonuses, class features)
+
 ```
 
 ```
-Saving throw Bonus = Ability Modifier + Proficiency Bonus
-```
-
-|                    |   |
-| ------------------ | - |
-| Heroic Inspiration |   |
-
-```
-Heroic Inspiration: Roll with advantage.
+Short rest: Heal with Hit Dice.
+Long  rest: Heal fully. Regain half of Hit Dice.
 ```
 
 ## Skills
 
-| Skill            | Proficient? | MOD |
-| ---------------- | :---------: | :-: |
-| Acrobatics (Dex) |      X      | +5  |
-| Stealth (Dex)    |      X      | +5  |
-| Insight (Wis)    |      X      | +5  |
-| Perception (Wis) |      X      | +5  |
-| Survival (Wis)   |      X      | +5  |
-|                  |             |     |
+| Skill            | Proficient? |  MOD  |
+| ---------------- | :---------: | :---: |
+| Acrobatics (Dex) |     `X`     | `+5`  |
+| Stealth (Dex)    |     `X`     | `+5`  |
+| Insight (Wis)    |     `X`     | `+5`  |
+| Perception (Wis) |     `X`     | `+5`  |
+| Survival (Wis)   |     `X`     | `+5`  |
+|                  |             |       |
+| ...              |             | `+0`  |
 
 ```
 Skill MOD = Ability MOD + Proficiency Bonus
@@ -99,79 +104,87 @@ Skill MOD = Ability MOD + Proficiency Bonus
 | Shields      |                 |      |
 |              |                 |      |
 
-## Weapons & Damage Cantrips
+## Weapons
 
-| Name    | ATK Bonus | DMG Base     | Proficient? | DMG Bonus |
-| ------- | :-------: | ------------ | :---------: | :-------: |
-| Longbow |    +5     | 1d8 piercing |      X      |    +3     |
-| Dagger  |    +4     | 1d4 piercing |      X      |    +2     |
-|         |           |              |             |           |
+| Name          | Proficient? | ATK Base | ATK Bonus  |   ATK    |   DMG Base   | DMG Bonus |   DMG   |
+| ------------- | :---------: | :------: | :--------: | :------: | :----------: | :-------: | :-----: |
+| Longbow (DEX) |     `X`     |   1d20   | +5 (3 + 2) | `1d20+5` | 1d8 piercing |    +3     | `1d8+3` |
+| Dagger  (STR) |     `X`     |   1d20   | +4 (2 + 2) | `1d20+4` | 1d4 piercing |    +2     | `1d4+2` |
+|               |             |          |            |          |              |           |         |
+
+## Spells
+
+| Name               |  Unlock  |  lvl  | Type  | Save  | Range |    Duration    |   Frequency   |  Usage   |
+| ------------------ | :------: | :---: | :---: | :---: | :---: | :------------: | :-----------: | :------: |
+| `Thaumaturgy`      |   `X`    |   ø   |       |       |       | Up to 1 minute |       ø       | Cantrip  |
+| ~~Hellish Rebuke~~ | ~~lvl3~~ |   1   |  DEX  |  DEX  | 60ft  | Instantaneous  | 1 / Long Rest | Reaction |
+| ~~Darkness~~       | ~~lvl5~~ |   2   |  DEX  |  DEX  | 60ft  | Concentration  | 1 / Long Rest |  Action  |
+|                    |          |       |       |       |       |                |               |          |
 
 ```
-Attack Bonus = Ability MOD + Proficiency Bonus + Other Modifiers
+ATK Bonus = Ability MOD + Proficiency Bonus + Other Modifiers
+DMG Bonus = Ability MOD + Other Modifiers
 
-Hit chance = 1d20 + ATK Bonus
-Damage = DMG Base + DMG Bonus
+ATK = 1d20 + ATK Bonus
+DMG = DMG Base + DMG Bonus
 ```
 
 ## Class Features & Traits
 
 | Name         | Frequency | Description           | Type    |
 | ------------ | :-------: | --------------------- | ------- |
-| Archery      | Passive   | +2 ATK with ranged | Style |
-| Second Wind  | 1 / Rest  | Self-Heal 1d10 + lvl HP    | Bonus   |
-| Action surge | 1 / Rest  | 1 extra action        | Feature |
+| Archery      |  Passive  | +2 ATK with ranged    | Style   |
+| Second Wind  | 1 / Rest  | Self-Heal 1d10+lvl HP | Bonus   |
+| Action surge | 1 / Rest  | Gain 1 extra action   | Feature |
 |              |           |                       |         |
 
 ## Species traits
 
-| Name                 | Frequency     |
-| -------------------- | ------------- |
-| Darkvision           | Passive       |
-| Hellish Resistance   | Passive       |
+| Name                 |   Frequency   |
+| -------------------- | :-----------: |
+| Darkvision           |    Passive    |
+| Hellish Resistance   |    Passive    |
 | Relentless Endurance | 1 / Long Rest |
 |                      |               |
 
-| Infernal Legacy     | Frequency     | Unlock |
-| ------------------- | ------------- | ----------- |
-| Thaumaturgy         | Cantrip       | 1st lvl     |
-| Hellish Rebuke lvl1 | Reaction      | 3rd lvl     |
-| Darkness lvl1       | 1 / Long Rest | 2nd lvl     |
-| Darkness lvl2       | 1 / Long Rest | 5th lvl     |
-|                     |               |             |
+| Infernal Legacy    | Unlock |  lvl  | Type  | Save  | Range |    Duration    |   Frequency   |  Usage   |
+| ------------------ | :----: | :---: | :---: | :---: | :---: | :------------: | :-----------: | :------: |
+| Thaumaturgy        |  `X`   |   ø   |   ø   |   ø   |   ø   | Up to 1 minute |       ø       | Cantrip  |
+| ~~Hellish Rebuke~~ |  lvl3  |   1   |  DEX  |  DEX  | 60ft  | Instantaneous  | 1 / Long Rest | Reaction |
+| ~~Darkness~~       |  lvl5  |   2   |  DEX  |  DEX  | 60ft  | Concentration  | 1 / Long Rest |  Action  |
+|                    |        |       |       |       |       |                |               |          |
 
-```
-Darkvision: See in the dark (Colorblind)
+| Spell                | Description                               | Save     |
+| -------------------- | ----------------------------------------- | -------- |
+| Darkvision           | See in the dark (Colorblind)              |          |
+| Hellish Resistance   | Fire damage immunity                      |          |
+| Relentless Endurance | Upon being damaged to 0HP, survive at 1HP |          |
+|                      |                                           |          |
+| Thaumaturgy          | Minor supernatural effects                |          |
+| Hellish Rebuke       | `2d10 + 1d10/lvl` fire damage             | Half DMG |
+| Darkness             | 15ft Sphere of darkness, blinds in area   |          |
 
-Hellish Resistance: Fire damage immunity
-
-Relentless Endurance: Upon being damaged to 0HP and not lower, survive at 1HP
-
-Thaumaturgy: Minor supernatural effects
-
-Hellish Rebuke: 2d10 fire damage | DEX saving throw for half dmg
-
-Darkness: 15ft Sphere of darkness, blinds in area
-```
 
 ## Equipment
 
-| Name            | Notes |
-| --------------- | ----- |
-| Longbow         |       |
-| Dagger          |       |
-| Hooded Cloak    |       |
-| Leather armor   |       |
-| Backpack        |       |
-| Explorers' Pack |       |
-| 20 Arrows       |       |
-|                 |       |
+| Name            | Notes  |
+| --------------- | :----: |
+| Longbow         |        |
+| Dagger          |        |
+| Hooded Cloak    | `Worn` |
+| Leather armor   | `Worn` |
+| Backpack        |        |
+| Explorers' Pack |        |
+| 20 Arrows       |        |
+|                 |        |
+
+
 
 ## Coins
 
-| Platinum | Gold | Copper |
-| -------- | ---- | ------ |
-| 0        | 2    | 5      |
+| Plat  | Gold  | Copper |
+| :---: | :---: | :----: |
+|   0   |   2   |   5    |
 
 ## Spoken Languages
 
@@ -179,6 +192,7 @@ Darkness: 15ft Sphere of darkness, blinds in area
 | -------- | :---------: |
 | Common   |      X      |
 | Orcish   |      X      |
+| Infernal |      X      |
 | Asian    |      X      |
 
 ## Appearance
@@ -230,12 +244,12 @@ topics.
 
 ## Notes
 
-```markdown
+```
 nothing yet
 ```
 
 ## Session Notes
 
-```markdown
+```
 nothing yet
 ```
