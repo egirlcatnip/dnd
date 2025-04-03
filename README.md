@@ -1,16 +1,16 @@
-*# Elyra
+# Elyra
 
 ![Character Portrait](256x384.png)
 
-| Attribute       |         Details         |
-| --------------- | :---------------------: |
-| **Race**        | Half-Orc (Orc-Tiefling) |
-| **Background**  |        Outlander        |
-| **Class**       |         Fighter         |
-| **Subclass**    |    ~~Arcane Archer~~    |
-| **Alignment**   |      Chaotic Good       |
-| **Level**       |            2            |
-| **Proficiency** |           +2            |
+| Attribute       |      Details      |
+| --------------- | :---------------: |
+| **Race**        |     Orc-ling      |
+| **Background**  |     Outlander     |
+| **Class**       |      Fighter      |
+| **Subclass**    | ~~Arcane Archer~~ |
+| **Alignment**   |   Chaotic Good    |
+| **Level**       |         2         |
+| **Proficiency** |        +2         |
 
 
 
@@ -58,10 +58,10 @@
 | **Initiative**         |  `+3`  |
 | **Speed**              | `30ft` |
 
-- `AC                 = 10 + DEX`
+- `AC = 10 + DEX`
 - `Passive Perception = 10 + Perception Modifier`
-- `Passive Insight    = 10 + Insight Modifier`
-- `Initiative         = 1d20 + DEX`
+- `Passive Insight = 10 + Insight Modifier`
+- `Initiative = 1d20 + DEX`
 
 
 
@@ -130,15 +130,16 @@
 
 ### Orc-ling (Infernal legacy) Features
 
-| Feature                  | Description                                                |
-| ------------------------ | ---------------------------------------------------------- |
-| **Ability Scores**       | Gain +2 to `STR` and +1 to `CON`                           |
-| **Skill Proficiencies**  | Proficient in `Intimidation`                               |
-| **Infernal Legacy**      | Gain `Thaumaturgy`, `Darkness` and `Hellish Rebuke`        |
-| **Language Proficiency** | Speak `Common`, `Infernal` and `Orcish`                    |
-| **Darkvision**           | See in the dark (Colorblind)                               |
-| **Hellish Resistance**   | Resistance to fire damage                                  |
-| **Relentless Endurance** | Survive with 1 HP upon dropping to 0 HP once per Long Rest |
+| Feature                  | Description                                                  |
+| ------------------------ | ------------------------------------------------------------ |
+| **Ability Scores**       | Gain +2 to `STR` and +1 to `CON`                             |
+| **Skill Proficiencies**  | Proficient in `Intimidation`                                 |
+| **Infernal Legacy**      | Gain `Thaumaturgy`, `Darkness` and `Hellish Rebuke`          |
+| **Language Proficiency** | Speak `Common`, `Infernal` and `Orcish`                      |
+| **Darkvision**           | See in the dark (Colorblind)                                 |
+| **Hellish Resistance**   | Resistance to fire damage                                    |
+| **Relentless Endurance** | Survive with 1 HP upon dropping to 0 HP once per Long Rest   |
+| **Savage Attacks**       | Upon critting with meelee, add 1 Damage roll dice to  Damage |
 
 
 
@@ -192,6 +193,7 @@
 
 ## Languages
 
+|          |
 | -------- |
 | Common   |
 | Infernal |
@@ -236,5 +238,11 @@ she fled home with only her longbow, dagger, and a hooded cloak in search of fre
 ## Session & Additional Notes
 
 - **Session Notes:** *None at this time.*
+```
+
+```
+
 - **General Notes:** *No additional notes yet.*
-*
+```
+
+```
