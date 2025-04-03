@@ -32,6 +32,7 @@
 ## Combat Statistics
 
 ### Hit Points
+
 | Current | Max | Temporary |
 | :-----: | --- | :-------: |
 |  `20`   | 20  |     0     |
@@ -40,6 +41,7 @@
 - Increase HP by rolling the Hit Die (d10) and adding your CON modifier.
 
 ### Hit Dice
+
 | Remaining | Used  | Total |
 | :-------: | :---: | :---: |
 |    `2`    |  `0`  | 2d10  |
@@ -47,6 +49,7 @@
 - `Total = 1d10 + 1d10/level`
 
 ### Other Stats
+
 | Statistic              | Value  |
 | ---------------------- | :----: |
 | **Armor Class (AC)**   | ` 14`  |
@@ -140,6 +143,7 @@
 
 
 ## Background (Outlander) Features
+
 | Feature                  | Description                                  |
 | ------------------------ | -------------------------------------------- |
 | **Skill Proficiencies**  | Proficient in `Athletics` and `Survival`     |
@@ -172,12 +176,14 @@
 ## Equipment & Inventory
 
 ### Gear
+
 - **Weapons:** Longbow, Dagger
 - **Armor:** Leather Armor (worn)
 - **Clothing:** Hooded Cloak (worn), Traveler’s Clothes (worn)
 - **Adventuring Gear:** Backpack, Explorer’s Pack, 20 Arrows
 
 ### Currency
+
 | Plat  | Gold  | Copper |
 | :---: | :---: | :----: |
 |   0   |   2   |   5    |
@@ -186,7 +192,6 @@
 
 ## Languages
 
-| Language |
 | -------- |
 | Common   |
 | Infernal |
@@ -213,12 +218,14 @@
 ## Personality
 
 ### Backstory
+
 Elyra was born of mixed heritage to a tiefling mother she never knew,
 and a strict orc father whose expectations she chafed against.
 Embracing her dual nature yet burdened by her heritage,
 she fled home with only her longbow, dagger, and a hooded cloak in search of freedom in Itharis.
 
 ### Traits & Ideals
+
 - **Personality Traits:** Friendly yet reserved about her personal life
 - **Ideals:** Freedom; she forges her own path, far removed from her father's oppressive expectations
 - **Bonds:** Her weapons symbolize her escape and the autonomy she cherishes
