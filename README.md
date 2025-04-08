@@ -78,7 +78,7 @@ _Level-Up:_
 | Religion         |     No      |   INT   | +0              |
 |                  |             |         |                 |
 | Animal Handling  |     No      |   WIS   | +3 (WIS)        |
-| Insight          |   **Yes**   |   WIS   | +5 (WIS + Prof) |
+| **Insight**          |   **Yes**   |   WIS   | +5 (WIS + Prof) |
 | Medicine         |     No      |   WIS   | +3 (WIS)        |
 | **Perception**   |   **Yes**   |   WIS   | +5 (WIS + Prof) |
 | **Survival**     |   **Yes**   |   WIS   | +5 (WIS + Prof) |
