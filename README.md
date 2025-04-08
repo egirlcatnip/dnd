@@ -168,11 +168,11 @@ _Level-Up:_
 
 ### Gear
 
-- **Weapons:** Longbow, Dagger
-- **Armor:** Leather Armor (worn)
-- **Clothing:** Hooded Cloak (worn), Traveler’s Clothes (worn)
-- **Adventuring Gear:** Backpack, Explorer’s Pack, 20 Arrows
-- **Misc:**
+- **Weapons:** `Longbow`, `Dagger`
+- **Armor:** `Leather Armor (worn)`
+- **Clothing:** `Hooded Cloak (worn)`, `Traveler’s Clothes (worn)`
+- **Adventuring Gear:** `Backpack`, `Explorer’s Pack`, `20 Arrows`
+- **Misc:** `Weird Shopkeeper's card (0/10)`
 
 ### Currency
 
