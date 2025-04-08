@@ -168,7 +168,7 @@ _Level-Up:_
 
 ### Gear
 
-- **Weapons:** `Longbow`, `Dagger`
+- **Weapons:** `Longbow`, `Dagger` `Longsword`
 - **Armor:** `Leather Armor (worn)`
 - **Clothing:** `Hooded Cloak (worn)`, `Traveler’s Clothes (worn)`
 - **Adventuring Gear:** `Backpack`, `Explorer’s Pack`, `20 Arrows`
