@@ -178,7 +178,7 @@ _Level-Up:_
 
 | Plat | Gold | Copper |
 | :--: | :--: | :----: |
-|  0   |  2   |   5    |
+|  0   |  2   |    3   |
 
 ## Languages
 
