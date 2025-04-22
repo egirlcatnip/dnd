@@ -34,7 +34,7 @@
 | :-----: | --- | :-------: |
 |  `20`   | 20  |     0     |
 
-_Level-Up:_
+*Level-Up:*
 
 - Increase HP by rolling the Hit Die (d10) and adding your CON modifier.
 
@@ -78,7 +78,7 @@ _Level-Up:_
 | Religion         |     No      |   INT   | +0              |
 |                  |             |         |                 |
 | Animal Handling  |     No      |   WIS   | +3 (WIS)        |
-| **Insight**          |   **Yes**   |   WIS   | +5 (WIS + Prof) |
+| **Insight**      |   **Yes**   |   WIS   | +5 (WIS + Prof) |
 | Medicine         |     No      |   WIS   | +3 (WIS)        |
 | **Perception**   |   **Yes**   |   WIS   | +5 (WIS + Prof) |
 | **Survival**     |   **Yes**   |   WIS   | +5 (WIS + Prof) |
@@ -97,13 +97,13 @@ _Level-Up:_
 
 - `Attack Roll = 1d20 + Ability Modifier + Proficiency Bonus`
 - `Damage Roll = Weapon's Damage Die + Ability Modifier`
-- _Note:_ Dagger can be thrown (range 20/60) or used in melee.
+- *Note:* Dagger can be thrown (range 20/60) or used in melee.
 
 ## Spells
 
 - **Thaumaturgy** (Infernal Legacy):
-  - _Usage:_ Cantrip
-  - _Description:_ Choose 1 of the following effects:
+  - *Usage:* Cantrip
+  - *Description:* Choose 1 of the following effects:
   -
     - `Create a harmless tremor in the ground`
   -
@@ -113,14 +113,14 @@ _Level-Up:_
   -
     - `Make your voice boom up to 3 times as loud`
   -
-    - `Cause an zinstantaneous sound (e.g., a rumble of thunder)`
-  - _Duration:_ Up to 1 minute
-  - _Type:_ `Action`
+    - `Cause an instantaneous sound (e.g., a rumble of thunder)`
+  - *Duration:* Up to 1 minute
+  - *Type:* `Action`
 
 - **Second Wind** (Fighter Feature):
-  - _Usage:_ 1 use per Short Rest
-  - _Description:_ `Regain 1d10 + Fighter level HP`
-  - _Type:_ `Bonus`
+  - *Usage:* 1 use per Short Rest
+  - *Description:* `Regain 1d10 + Fighter level HP`
+  - *Type:* `Bonus`
 
 ## Species Traits
 
@@ -189,7 +189,7 @@ _Level-Up:_
 | Orcish   |
 | Asian    |
 
-- _Asian is a homebrew language._
+- *Asian is a homebrew language.*
 
 ## Appearance
 
