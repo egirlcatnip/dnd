@@ -65,11 +65,11 @@
 
 | Skill            | Proficient? | Ability | Modifier        |
 | ---------------- | :---------: | :-----: | :-------------- |
-| **Athletics**    |   **Yes**   |   STR   | +5 (STR + Prof) |
+| **Athletics**    |   **Yes**   |   STR   | +5               |
 |                  |             |         |                 |
-| **Acrobatics**   |   **Yes**   |   DEX   | +5 (DEX + Prof) |
-| Sleight of Hand  |     No      |   DEX   | +3 (DEX)        |
-| Stealth          |     No      |   DEX   | +3 (DEX)        |
+| **Acrobatics**   |   **Yes**   |   DEX   | +5              |
+| Sleight of Hand  |     No      |   DEX   | +3              |
+| Stealth          |     No      |   DEX   | +3              |
 |                  |             |         |                 |
 | Arcana           |     No      |   INT   | +0              |
 | History          |     No      |   INT   | +0              |
@@ -77,24 +77,24 @@
 | Nature           |     No      |   INT   | +0              |
 | Religion         |     No      |   INT   | +0              |
 |                  |             |         |                 |
-| Animal Handling  |     No      |   WIS   | +3 (WIS)        |
-| **Insight**      |   **Yes**   |   WIS   | +5 (WIS + Prof) |
-| Medicine         |     No      |   WIS   | +3 (WIS)        |
-| **Perception**   |   **Yes**   |   WIS   | +5 (WIS + Prof) |
-| **Survival**     |   **Yes**   |   WIS   | +5 (WIS + Prof) |
+| Animal Handling  |     No      |   WIS   | +3              |
+| **Insight**      |   **Yes**   |   WIS   | +5              |
+| Medicine         |     No      |   WIS   | +3              |
+| **Perception**   |   **Yes**   |   WIS   | +5              |
+| **Survival**     |   **Yes**   |   WIS   | +5              |
 |                  |             |         |                 |
-| Deception        |     No      |   CHA   | +2 (CHA)        |
-| **Intimidation** |   **Yes**   |   CHA   | +4 (CHA + Prof) |
-| Performance      |     No      |   CHA   | +2 (CHA)        |
-| Persuasion       |     No      |   CHA   | +2 (CHA)        |
+| Deception        |     No      |   CHA   | +2              |
+| **Intimidation** |   **Yes**   |   CHA   | +4              |
+| Performance      |     No      |   CHA   | +2              |
+| Persuasion       |     No      |   CHA   | +2              |
 
 ## Weapons
 
 | Weapon      | Proficient? | Attack Roll           | Damage Roll              |
 | ----------- | :---------: | --------------------- | ------------------------ |
-| **Longbow** |     Yes     | 1d20 + 5 (DEX + Prof) | 1d8 piercing + 3 (+ DEX) |
-| **Dagger**  |     Yes     | 1d20 + 4 (STR + Prof) | 1d4 piercing + 2 (+ STR) |
-| **Longsword** |   Yes     | 1d20 + 5 (STR + Prof) | 1d8 piercing + 2 (+ STR) |
+| **Longsword** (STR) |     Yes     | 1d20 + 5 + 2 | 1d8 piercing + 2 |
+| **Dagger**    (STR) |     Yes     | 1d20 + 4 + 2 | 1d4 piercing + 2  |
+| **Longbow**   (DEX) |     Yes     | 1d20 + 5 + 2 | 1d8 piercing + 3 |
 
 - `Attack Roll = 1d20 + Ability Modifier + Proficiency Bonus`
 - `Damage Roll = Weapon's Damage Die + Ability Modifier`
