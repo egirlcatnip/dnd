@@ -86,11 +86,11 @@
 
 ## Weapons
 
-| Weapon              | Proficient? | Attack Roll  | Damage Roll    |
-| -------------------- | :---------: | ------------- | --------------- |
-| **Longsword** (STR) |     Yes     | 1d20 + 5 + 2 | 1d8 piercing + 2 |
-| **Dagger**    (STR) |     Yes     | 1d20 + 4 + 2 | 1d4 piercing + 2 |
-| **Longbow**   (DEX) |     Yes     | 1d20 + 5 + 2 | 1d8 piercing + 3 |
+| Weapon              | Proficient? | Attack Roll | Damage Roll     |
+| -------------------- | :---------: | ------------ | ---------------- |
+| **Longsword** (STR) |     Yes     | 1d20 +5 +2   | 1d8 piercing + 2 |
+| **Dagger**    (STR) |     Yes     | 1d20 +4 +2   | 1d4 piercing + 2 |
+| **Longbow**   (DEX) |     Yes     | 1d20 +5 +2   | 1d8 piercing + 3 |
 
 - `Attack Roll = 1d20 + Ability Modifier + Proficiency Bonus`
 - `Damage Roll = Weapon's Damage Die + Ability Modifier`
@@ -118,6 +118,11 @@
   - *Usage:* 1 use per Short Rest
   - *Description:* `Regain 1d10 + Fighter level HP`
   - *Type:* `Bonus`
+ 
+- *Action Surge** (Fighter Feature):
+  - *Usage:* 1 use per Short Rest
+  -  *Description:* `Gain an additional action this round`
+  -  *Type:* `Free`
 
 ## Species Traits
 
