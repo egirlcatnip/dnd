@@ -32,7 +32,7 @@
 
 | Current | Max | Temporary |
 | :-----: | --- | :-------: |
-|  `20`   | 20  |     0     |
+|  `17`   | 20  |     0     |
 
 *Level-Up:*
 
@@ -94,6 +94,7 @@
 | ----------- | :---------: | --------------------- | ------------------------ |
 | **Longbow** |     Yes     | 1d20 + 5 (DEX + Prof) | 1d8 piercing + 3 (+ DEX) |
 | **Dagger**  |     Yes     | 1d20 + 4 (STR + Prof) | 1d4 piercing + 2 (+ STR) |
+| **Longsword** |   Yes     | 1d20 + 5 (STR + Prof) | 1d8 piercing + 2 (+ STR) |
 
 - `Attack Roll = 1d20 + Ability Modifier + Proficiency Bonus`
 - `Damage Roll = Weapon's Damage Die + Ability Modifier`
