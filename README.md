@@ -221,3 +221,6 @@ dagger, and a hooded cloak in search of freedom in Itharis.
 - **Bonds:** Her weapons symbolize her escape and the autonomy she cherishes
 - **Flaws:** Struggles with accepting her orc heritage, sometimes leading to
   self-doubt; maintains a playful exterior while hiding vulnerability
+
+
+- `STN024` (Shadowwalker number in helm)
