@@ -49,7 +49,7 @@
 ### Other Stats
 
 | Statistic              | Value  |
-| ---------------------- | :----: |
+| ---------------------- | ------ |
 | **Armor Class (AC)**   |  `14`  |
 | **Passive Perception** |  `15`  |
 | **Passive Insight**    |  `15`  |
@@ -64,25 +64,21 @@
 ## Skills
 
 | Skill            | Proficient? | Ability | Modifier        |
-| ---------------- | :---------: | :-----: | :-------------- |
+| ---------------- | ----------- | -------- | --------------- |
 | **Athletics**    |   **Yes**   |   STR   | +5               |
-|                  |             |         |                 |
 | **Acrobatics**   |   **Yes**   |   DEX   | +5              |
 | Sleight of Hand  |     No      |   DEX   | +3              |
 | Stealth          |     No      |   DEX   | +3              |
-|                  |             |         |                 |
 | Arcana           |     No      |   INT   | +0              |
 | History          |     No      |   INT   | +0              |
 | Investigation    |     No      |   INT   | +0              |
 | Nature           |     No      |   INT   | +0              |
 | Religion         |     No      |   INT   | +0              |
-|                  |             |         |                 |
 | Animal Handling  |     No      |   WIS   | +3              |
 | **Insight**      |   **Yes**   |   WIS   | +5              |
 | Medicine         |     No      |   WIS   | +3              |
 | **Perception**   |   **Yes**   |   WIS   | +5              |
-| **Survival**     |   **Yes**   |   WIS   | +5              |
-|                  |             |         |                 |
+| **Survival**     |   **Yes**   |   WIS   | +5              |              
 | Deception        |     No      |   CHA   | +2              |
 | **Intimidation** |   **Yes**   |   CHA   | +4              |
 | Performance      |     No      |   CHA   | +2              |
@@ -90,10 +86,10 @@
 
 ## Weapons
 
-| Weapon      | Proficient? | Attack Roll           | Damage Roll              |
-| ----------- | :---------: | --------------------- | ------------------------ |
+| Weapon              | Proficient? | Attack Roll  | Damage Roll    |
+| -------------------- | :---------: | ------------- | --------------- |
 | **Longsword** (STR) |     Yes     | 1d20 + 5 + 2 | 1d8 piercing + 2 |
-| **Dagger**    (STR) |     Yes     | 1d20 + 4 + 2 | 1d4 piercing + 2  |
+| **Dagger**    (STR) |     Yes     | 1d20 + 4 + 2 | 1d4 piercing + 2 |
 | **Longbow**   (DEX) |     Yes     | 1d20 + 5 + 2 | 1d8 piercing + 3 |
 
 - `Attack Roll = 1d20 + Ability Modifier + Proficiency Bonus`
@@ -177,9 +173,9 @@
 
 ### Currency
 
-| Plat | Gold | Copper |
-| :--: | :--: | :----: |
-|  0   |  2   |    3   |
+| Plat  | Gold  | Copper |
+| :---: | :---: | :---: |
+|   0   |   2   |   3   |
 
 ## Languages
 
