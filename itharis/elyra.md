@@ -16,12 +16,12 @@
 
 | Ability | Score | Modifier | Proficient? | Save Bonus |
 | ------- | :---: | :------: | :---------: | :--------: |
-| **STR** |  14   |   `+2`   |   **Yes**   |  `+4`     |
-| **DEX** |  17   |   `+3`   |     No      |  `+3`     |
-| **CON** |  14   |   `+2`   |   **Yes**   |  `+4`     |
-| **INT** |  10   |   `+0`   |     No      |  `+0`     |
-| **WIS** |  16   |   `+3`   |     No      |  `+3`     |
-| **CHA** |  15   |   `+2`   |     No      |  `+2`     |
+| **STR** |  14   |   `+2`   |   **Yes**   |    `+4`    |
+| **DEX** |  17   |   `+3`   |     No      |    `+3`    |
+| **CON** |  14   |   `+2`   |   **Yes**   |    `+4`    |
+| **INT** |  10   |   `+0`   |     No      |    `+0`    |
+| **WIS** |  16   |   `+3`   |     No      |    `+3`    |
+| **CHA** |  15   |   `+2`   |     No      |    `+2`    |
 
 - `Modifier = (Score - 10) / 2`
 - `Save Bonus = Ability Modifier + Proficiency Bonus`
@@ -30,11 +30,11 @@
 
 ### Hit Points
 
-| Current |  Max   | Temporary |
-| :-----: | :----: | :--------: |
-|  `17`   |   20   |     0     |
+| Current | Max | Temporary |
+| :-----: | :-: | :-------: |
+|  `17`   | 20  |     0     |
 
-*Level-Up:*
+_Level-Up:_
 
 - Increase HP by rolling the Hit Die (d10) and adding your CON modifier.
 
@@ -48,55 +48,55 @@
 
 ### Other Stats
 
-| Statistic              | Value    |
-| ----------------------- | ----------|
-| **Armor Class (AC)**   | `14`      |
-| **Initiative**         | `1d20 +3` |
-| **Speed**              | `30ft`    |
+| Statistic            | Value     |
+| -------------------- | --------- |
+| **Armor Class (AC)** | `14`      |
+| **Initiative**       | `1d20 +3` |
+| **Speed**            | `30ft`    |
 
 - `AC = 10 + DEX + Defence (1)`
 - `Initiative = 1d20 + DEX`
 
 ## Skills
 
-| Skill            | Proficient? | Ability | Modifier       |
-| ---------------- | :---------: | :------: | :--------------: |
-| **Athletics**    |   **Yes**   |   STR   | `+5`             |
-| **Acrobatics**   |   **Yes**   |   DEX   | `+5`             |
-| Sleight of Hand  |     No      |   DEX   | `+3`             |
-| Stealth          |     No      |   DEX   | `+3`             |
-| Arcana           |     No      |   INT   | +0               |
-| History          |     No      |   INT   | +0               |
-| Investigation    |     No      |   INT   | +0               |
-| Nature           |     No      |   INT   | +0               |
-| Religion         |     No      |   INT   | +0               |
-| Animal Handling  |     No      |   WIS   | `+3`             |
-| **Insight**      |   **Yes**   |   WIS   | `+5`             |
-| Medicine         |     No      |   WIS   | `+3`             |
-| **Perception**   |   **Yes**   |   WIS   | `+5`             |
-| **Survival**     |   **Yes**   |   WIS   | `+5`             |              
-| Deception        |     No      |   CHA   | `+2`             |
-| **Intimidation** |   **Yes**   |   CHA   | `+4`             |
-| Performance      |     No      |   CHA   | `+2`             |
-| Persuasion       |     No      |   CHA   | `+2`             |
+| Skill            | Proficient? | Ability | Modifier |
+| ---------------- | :---------: | :-----: | :------: |
+| **Athletics**    |   **Yes**   |   STR   |   `+5`   |
+| **Acrobatics**   |   **Yes**   |   DEX   |   `+5`   |
+| Sleight of Hand  |     No      |   DEX   |   `+3`   |
+| Stealth          |     No      |   DEX   |   `+3`   |
+| Arcana           |     No      |   INT   |    +0    |
+| History          |     No      |   INT   |    +0    |
+| Investigation    |     No      |   INT   |    +0    |
+| Nature           |     No      |   INT   |    +0    |
+| Religion         |     No      |   INT   |    +0    |
+| Animal Handling  |     No      |   WIS   |   `+3`   |
+| **Insight**      |   **Yes**   |   WIS   |   `+5`   |
+| Medicine         |     No      |   WIS   |   `+3`   |
+| **Perception**   |   **Yes**   |   WIS   |   `+5`   |
+| **Survival**     |   **Yes**   |   WIS   |   `+5`   |
+| Deception        |     No      |   CHA   |   `+2`   |
+| **Intimidation** |   **Yes**   |   CHA   |   `+4`   |
+| Performance      |     No      |   CHA   |   `+2`   |
+| Persuasion       |     No      |   CHA   |   `+2`   |
 
 ## Weapons
 
-| Weapon             | Proficient? | Attack Roll | Damage Roll      |
-| -------------------- | :---------: | :----------: | :--------------: |
-| **Longsword** (STR) |  **Yes**    | 1d20 `+5` `+2`   | 1d8 piercing `+2` |
-| **Dagger**    (STR) |  **Yes**    | 1d20 `+4` `+2`   | 1d4 piercing `+2` |
-| **Longbow**   (DEX) |  **Yes**    | 1d20 `+5` `+2`   | 1d8 piercing `+3` |
+| Weapon              | Proficient? |  Attack Roll   |    Damage Roll    |
+| ------------------- | :---------: | :------------: | :---------------: |
+| **Longsword** (STR) |   **Yes**   | 1d20 `+5` `+2` | 1d8 piercing `+2` |
+| **Dagger** (STR)    |   **Yes**   | 1d20 `+4` `+2` | 1d4 piercing `+2` |
+| **Longbow** (DEX)   |   **Yes**   | 1d20 `+5` `+2` | 1d8 piercing `+3` |
 
 - `Attack Roll = 1d20 + Ability Modifier + Proficiency Bonus`
 - `Damage Roll = Weapon's Damage Die + Ability Modifier`
-- *Note:* Dagger can be thrown (range 20/60) or used in melee.
+- _Note:_ Dagger can be thrown (range 20/60) or used in melee.
 
 ## Spells
 
 - **Thaumaturgy** (Infernal Legacy):
-  - *Usage:* Cantrip
-  - *Description:* Choose 1 of the following effects:
+  - _Usage:_ Cantrip
+  - _Description:_ Choose 1 of the following effects:
   -
     - `Create a harmless tremor in the ground`
   -
@@ -107,18 +107,18 @@
     - `Make your voice boom up to 3 times as loud`
   -
     - `Cause an instantaneous sound (e.g., a rumble of thunder)`
-  - *Duration:* Up to 1 minute
-  - *Type:* `Action`
+  - _Duration:_ Up to 1 minute
+  - _Type:_ `Action`
 
 - **Second Wind** (Fighter Feature):
-  - *Usage:* 1 use per Short Rest
-  - *Description:* `Regain 1d10 + Fighter level HP`
-  - *Type:* `Bonus`
- 
+  - _Usage:_ 1 use per Short Rest
+  - _Description:_ `Regain 1d10 + Fighter level HP`
+  - _Type:_ `Bonus`
+
 - **Action Surge** (Fighter Feature):
-  - *Usage:* 1 use per Short Rest
-  -  *Description:* `Gain an additional action this round`
-  -  *Type:* `Free`
+  - _Usage:_ 1 use per Short Rest
+  - _Description:_ `Gain an additional action this round`
+  - _Type:_ `Free`
 
 ## Species Traits
 
@@ -174,9 +174,9 @@
 
 ### Currency
 
-| Plat  | Gold  | Copr |
-| :---: | :---: | :---: |
-|   0   |   2   |   3   |
+| Plat | Gold | Copr |
+| :--: | :--: | :--: |
+|  0   |  2   |  3   |
 
 ## Languages
 
@@ -187,7 +187,7 @@
 | Orcish   |
 | Asian    |
 
-- *Asian is a homebrew language.*
+- _Asian is a homebrew language._
 
 ## Appearance
 
@@ -218,7 +218,6 @@ dagger, and a hooded cloak in search of freedom in Itharis.
 - **Bonds:** Her weapons symbolize her escape and the autonomy she cherishes
 - **Flaws:** Struggles with accepting her orc heritage, sometimes leading to
   self-doubt; maintains a playful exterior while hiding vulnerability
-
 
 # Session Notes
 
