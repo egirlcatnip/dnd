@@ -1,7 +1,7 @@
 # [Elyra - Itharis](./Itharis/elyra.md)
 
-![img](./Mögelriket/elyra_256x384.png)
+![img](./Itharis/elyra_256x384.png)
 
-# [Elyra - Mögelriket](./Mögelriket/eykel.md)
+# [Lue Lue - Mögelriket](./Mögelriket/eykel.md)
 
-![img](./Mögelriket/eykel_256x384.png)
+![img](./Mögelriket/lue_256x384.png)
