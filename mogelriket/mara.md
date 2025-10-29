@@ -1,10 +1,10 @@
-# Mara 
+# Mara
 
-![Character Portrait](template_256x384.png)
+![Character Portrait](mara_256x384.png)
 
 | Attribute       |   Details    |
 | --------------- | :----------: |
-| **Race**        |   Tiefling   |
+| **Race**        |    Human     |
 | **Background**  |    Hermit    |
 | **Class**       |     Bard     |
 | **Subclass**    | ~~Unknown~~  |
@@ -14,14 +14,14 @@
 
 ## Ability Scores
 
-| Ability | Score  | Modifier | Proficient? |  Save Bonus  |
-| ------- | :----: | :------: | :---------: | :----------: |
-| **STR** |   6    |   `-2`   |     No      |     `-2`     |
-| **DEX** |   15   |   `+2`   |  **Yes**    | 2 + 2 = `+4`  |
-| **CON** |   14   |   `+2`   |     No      |     `+2`     |
-| **INT** |   11   |    +0    |     No      |     +0     |
-| **WIS** |   16   |   `+3`   |     No      |     `+3`     |
-| **CHA** |  `18`  |   `+4`   |  **Yes**    | 4 + 2 = `+6` |
+| Ability | Score | Modifier | Proficient? | Modifier |  Save Bonus  |
+| ------- | :---: | :------: | :---------: | :------: | :----------: |
+| **STR** |   7   |   `-2`   |             |          |     `-2`     |
+| **DEX** |  16   |   `+3`   |   **Yes**   |   `+2`   | 2 + 2 = `+4` |
+| **CON** |  15   |   `+2`   |             |          |     `+2`     |
+| **INT** |  12   |   `+1`   |             |          |      +0      |
+| **WIS** |  17   |   `+3`   |             |   `+2`   |     `+3`     |
+| **CHA** | `19`  |   `+4`   |   **Yes**   |   `+2`   | 4 + 2 = `+6` |
 
 - `Modifier = (Score - 10) / 2`
 - `Save Bonus = Ability Modifier + Proficiency Bonus`
@@ -30,115 +30,171 @@
 
 ### Hit Points
 
-|  Current  |  Max   | Temporary |
-| :-------: | :----: | :-------: |
-|   `10`    |   10   |     0     |
+| Remaining | Temporary | Total |
+| :-------: | :-------: | :---: |
+|   `10`    |           |  10   |
 
-_Level-Up:_
-
-- Increase HP by Hit Die (d8) + **CON** modifier.
+- `Total HP = Hit Die + CON modifier`
 
 ### Hit Dice
 
-| Remaining |  Used  | Total |
-| :-------: | :----: | :---: |
-|    `1`    |   0    |  1d8  |
+| Remaining | Total |
+| :-------: | :---: |
+|    `1`    |  1d8  |
 
 - `Total = 1d8 + 1d8/level`
 
 ### Other Stats
 
-| Statistic            | Value  | Modifier |
-| -------------------- | :----: | :------: |
-| **Armor Class (AC)** |  `14`  |    +0    |
-| **Initiative**       | `1d20` |   `+2`   |
-| **Speed**            | `30ft` |    +0    |
+| Stat                 | Modifier | Value  |
+| -------------------- | :------: | :----: |
+| **Armor Class (AC)** |   `+3`   |  `13`  |
+| **Initiative**       |   `+2`   |  `+2`  |
+| **Speed**            |          | `30ft` |
 
-- `AC = 10 + DEX + Defence (1)`
-- `Initiative = 1d20 + DEX`
+- `Armor Class = 10 + DEX + Defence (0)`
+- `Initiative = 1d20 + DEX + Modifiers (0)`
+- `Speed = Base Speed + Modifiers (0)`
 
 ## Skills
 
-| Skill           | Ability | Modifier    | Proficient? | Save bonus | 
-| --------------- | :-----: | :---------: | :---------: |:---------: | 
-| Athletics       |   STR   |    `-2`     |     No      |    `-2`    | 
-| Acrobatics      |   DEX   |    `+2`     |     No      |    `+2`    | 
-| Sleight of Hand |   DEX   |    `+2`     |     No      |    `+2`    | 
-| Stealth         |   DEX   |    `+2`     |     No      |    `+2`    | 
-| Arcana          |   INT   |    `+2`     |     No      |    `+2`    | 
-| History         |   INT   |    `+2`     |     No      |    `+2`    | 
-| Investigation   |   INT   |    `+2`     |     No      |    `+2`    | 
-| Nature          |   INT   |    `+2`     |     No      |    `+2`    | 
-| Religion        |   INT   |    `+2`     |     No      |    `+2`    | 
-| Animal Handling |   WIS   |    `+3`     |     No      |    `+3`    | 
-| Insight         |   WIS   |    `+3`     |   **Yes**   | 3+2 = `5`  | 
-| Medicine        |   WIS   |    `+3`     |     No      |    `+3`    | 
-| Perception      |   WIS   |    `+3`     |     No      |    `+3`    | 
-| Survival        |   WIS   |     +0      |     No      |    +0      | 
-| Deception       |   CHA   |     +0      |     No      |    +0      | 
-| Intimidation    |   CHA   |     +0      |     No      |    +0      | 
-| Performance     |   CHA   |    `+2`     |   **Yes**   |  4+2 = `6` | 
-| Persuasion      |   CHA   |    `+2`     |   **Yes**   |  4+2 = `6` | 
+| Skill           | Ability | Modifier | Proficient? | Modifier | Save bonus |
+| --------------- | :-----: | :------: | :---------: | :------: | :--------: |
+| Athletics       |   STR   |   `-2`   |             |          |    `-2`    |
+| Acrobatics      |   DEX   |   `+3`   |             |          |    `+3`    |
+| Sleight of Hand |   DEX   |   `+3`   |             |          |    `+3`    |
+| Stealth         |   DEX   |   `+3`   |             |          |    `+3`    |
+| Arcana          |   INT   |   `+1`   |             |          |    `+1`    |
+| History         |   INT   |   `+1`   |             |          |    `+1`    |
+| Investigation   |   INT   |   `+1`   |             |          |    `+1`    |
+| Nature          |   INT   |   `+1`   |             |          |    `+1`    |
+| **Religion**    |   INT   |   `+1`   |   **Yes**   |   `+2`   | 1+2 = `3`  |
+| Animal Handling |   WIS   |   `+3`   |             |          |    `+3`    |
+| **Insight**     |   WIS   |   `+3`   |   **Yes**   |   `+2`   | 3+2 = `5`  |
+| **Medicine**    |   WIS   |   `+3`   |   **Yes**   |   `+2`   | 3+2 = `5`  |
+| Perception      |   WIS   |   `+3`   |             |          |    `+3`    |
+| Survival        |   WIS   |          |             |          |            |
+| Deception       |   CHA   |          |             |          |            |
+| Intimidation    |   CHA   |          |             |          |            |
+| **Performance** |   CHA   |   `+2`   |   **Yes**   |   `+2`   | 4+2 = `6`  |
+| **Persuasion**  |   CHA   |   `+2`   |   **Yes**   |   `+2`   | 4+2 = `6`  |
 
 ## Weapons
 
-| Weapon                   | Proficient? |  Attack Roll   |     Damage Roll      |
-| ------------------------ | :---------: | :------------: | :------------------: |
-| **Incense burner** (DEX) |     No      |    1d20 `+3`   | 1d4 `+3` bludgeoning |
+| Weapon       | Proficient? | Modifier | Ability | Modifier | Attack Roll | Damage Roll |
+| ------------ | :---------: | :------: | :-----: | :------: | :---------: | :---------: |
+| **Thurible** |     No      |          |   DEX   |   `+3`   | 1d20 + `+3` |  1d4 `+3`   |
+|              |             |          |         |          |             |             |
 
-- `Attack Roll = 1d20 + Ability Modifier + Proficiency Bonus`
+- `Attack Roll = 1d20 + Proficiency Bonus + Ability Modifier`
 - `Damage Roll = Weapon's Damage Die + Ability Modifier`
-- _Note:_ Dagger can be thrown (range 20/60) or used in melee.
+-
+  - _Note:_ Dagger can be thrown (range 20/60) or used in melee.
 
 ## Spells
 
-- **Thaumaturgy** (Infernal Legacy):
+| Attribute                |      Value       |
+| ------------------------ | :--------------: |
+| **Spellcasting Ability** |    `+4` (CHA)    |
+| **Spell Save**           | 8 + 2 + 3 = `14` |
+| **Spell Attack Bonus**   |   4 + 2 = `+6`   |
+| **Spell Slots**          |  2 (1st level)   |
+
+- `Spell Save = 8 + Proficiency Bonus + Ability Modifier`
+- `Spell Attack Bonus = Proficiency Bonus + Ability Modifier`
+
+- **Bardic Inspiration - Thurible Smoke (_Bard_)**
+  - _Usage:_ Class feature
+  - _Description:_:
+  -
+    - `You release a cloud of smoke from your thurible, affecting creatures of your choice within range.`
+    - `Each target must make a CON saving throw minus your Spellcasting Ability.`
+    - `On success, the target gains 1d6 Inspiration and is protected of half of the following damage while the effect lasts.`
+    - `On fail, the target suffers a bad trip — they do not gain Inspiration, have disadvantage on WIS saving throws, and their movement speed is halved for the duration.`
+  - _Duration:_ 10 minutes or until rest
+  - _Type:_ `Bonus Action`
+
+### Cantrips
+
+- **Minor Illusion (Bard)**:
   - _Usage:_ Cantrip
-  - _Description:_ Choose 1 of the following effects:
+  - _Description:_:
   -
-    - `Create a harmless tremor in the ground`
-  -
-    - `Change the color of your eyes`
-  -
-    - `Cause flames to flicker, brighten, or dim`
-  -
-    - `Make your voice boom up to 3 times as loud`
-  -
-    - `Cause an instantaneous sound (e.g., a rumble of thunder)`
-  - _Duration:_ Up to 1 minute
+    - `Create a sound or image of an object within range`
+  - _Duration:_ Instantaneous
   - _Type:_ `Action`
 
-- **Spell 1** (Source):
-  - _Usage:_ Cantrip | Spell slot
-  - _Description:_ Description
-  - _Duration:_ Up to this long
-  - _Type:_ `Action` | `Bonus` | `Free`
+- **Mending (Bard)**
+  - _Usage:_ Cantrip
+  - _Description:_:
+  -
+    - `Repair a single break or tear in an object`
+    - `Object can be no larger than 1 cubic foot`
+  - _Duration:_ Instantaneous
+  - _Type:_ `Action`
+
+### 1st Level Spells
+
+- **Healing word** (Bard):
+  - _Usage:_ Spell slot
+  - _Description:_:
+  -
+    - `Heal target 1d4 + 4 (CHA)`
+  - _Duration:_ Instantaneous
+  - _Type:_ `Bonus`
+
+- **Cure wounds** (Bard):
+  - _Usage:_ Spell slot
+  - _Description:_:
+  -
+    - `Heal touched creature 1d8 + 4 (CHA)`
+  - _Duration:_ Instantaneous
+  - _Type:_ `Bonus`
+
+- **Sleep** (Bard):
+  - _Usage:_ Spell slot
+  - _Description:_:
+  -
+    - `5d8 hit points of creatures fall unconscious`
+  - _Duration:_ 1 minute
+  - _Type:_ `Action`
+
+- **Disonant Whispers** (Bard):
+  - _Usage:_ Spell slot
+  - _Description:_:
+  -
+    - `WIS save or take 3d6 psychic damage`
+    - `On fail, target must flee as a reaction`
+    - `On success, target only takes half damage`
+
+  - _Duration:_ Instantaneous
+  - _Type:_ `Action`
 
 ## Species Traits
 
-### Racial (Tiefling - Infernal legacy) Features
+### Racial (Human) Features
 
-| Feature                  | Description                                                |
-| ------------------------ | ---------------------------------------------------------- |
-| **Infernal Legacy**      | Gain `Thaumaturgy`, `Darkness` and `Hellish Rebuke`        |
-| **Language Proficiency** | Speak `Common` and `Infernal`                              |
-| **Darkvision**           | See in the dark (Colorblind)                               |
-| **Hellish Resistance**   | Resistance to fire damage                                  |
+| Feature                  | Description                   |
+| ------------------------ | ----------------------------- |
+| **Ability modifiers**    | All ability scores `+1`       |
+| **Language Proficiency** | Speak `Common` and `Halfling` |
 
 ## Background (Hermit) Features
 
-| Feature                  | Description                             |
-| ------------------------ | --------------------------------------- |
-| **Skill Proficiencies**  | Proficient in `Medicine` and `Religion` |
-| **Tool Proficiencies**   | Usage of `Herbalism kit`           |
-| **Language Proficiency** | Reads `Celestial` |
+| Feature               | Description               |
+| --------------------- | ------------------------- |
+| **Skill Proficiency** | `Medicine` and `Religion` |
+| **Tool Proficiency**  | `Herbalism kit`           |
 
 ## Class (Bard) Features
 
-| Feature                   | Description                                          |
-| ------------------------- | ---------------------------------------------------- |
-| **Ability Proficiencies** | Proficient in `DEX` and `CHA` saving throws          |
-| **Skill Proficiency**     | Proficient in `Insight`, `Performance`, `Persuasion` |
+| Feature                 | Description                               |
+| ----------------------- | ----------------------------------------- |
+| **Ability Proficiency** | `DEX` and `CHA`                           |
+| **Skill Proficiency**   | `Insight`, `Performance` and `Persuasion` |
+| **Armor Proficiency**   | `Light`                                   |
+| **Weapon Proficiency**  | `Simple` weapons                          |
+| **Cantrips**            | `Minor Illusion`, `Mending`               |
 
 ## Equipment Proficiencies
 
@@ -150,9 +206,9 @@ _Level-Up:_
 
 ### Gear
 
-- **Weapons:** `Incense burner`
+- **Weapons:** `Thurible`
 - **Armor:** `None`
-- **Clothing:** `Traveler’s Clothes (worn)`
+- **Clothing:** `Moravian-style kroj (worn)`
 - **Adventuring Gear:** `Backpack`
 - **Misc:** `Nothing`
 
@@ -160,35 +216,42 @@ _Level-Up:_
 
 | Plat | Gold | Copr |
 | :--: | :--: | :--: |
-|  0   |  9   |  0   |
+|  0   |  9   |  2   |
 
 ## Languages
 
-|          |
+| Language |
 | -------- |
 | Common   |
-| Infernal |
+| Halfling |
 
 ## Appearance
 
-- **Build:** Physical characteristics
-- **Hair:** Long, dark brick-ish buy curly
-- **Distinctive Features:** 
--
-  - features
-- **Attire:** Typically seen clothed in warm coat and carrying a scabaging belt
-
-## Personality
+- **Build:** Slight, somewhat undernourished
+- **Skin:** Olive-tinted, smoke-stained
+- **Hair:** Deep dark brown, often disheveled
+- **Eyes:** Small, brown
+- **Manner:** Slow, deliberate, faint aroma of ash and herbs
+- **Distinctive Features:** Smoke-stained skin and hair, ever-present smell of
+  incense
+- **Attire:** Well-worn Moravian kroj
 
 ### Backstory
 
-### Traits & Ideals
+```
+Mara once belonged deeply to the Church, but her whole world collapsed when it
+was faith itself that betrayed her. Shortly after finding her husband, he was
+wrongfully hunted down and condemned to death for heresy by formal decree. It
+was an unbearably traumatic chapter of her past life. Her friends abandoned her,
+the Church cast her out, and everything she knew fell apart. Left alone, shunned
+by those she once saw as companions, she turned to the only thing that, sadly,
+helped her forget — the azure vapors now soaked not only into her
+once-respectable attire, but into her dark olive skin and tangled hair. Her
+steps are no longer proud as they once were, yet in her heart still burns a
+flame for Uyrik and a quiet conviction that the Mother has never truly left her
+side.
+```
 
-- **Personality Traits:**
-- **Ideals:**
-- **Bonds:**
-- **Flaws:**
-
-# Session Notes
+## Session Notes
 
 - _none yet_
