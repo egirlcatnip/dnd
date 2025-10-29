@@ -14,14 +14,14 @@
 
 ## Ability Scores
 
-| Ability | Score | Modifier | Proficient? | Modifier |  Save Bonus  |
-| ------- | :---: | :------: | :---------: | :------: | :----------: |
-| **STR** |   7   |   `-2`   |             |          |     `-2`     |
-| **DEX** |  16   |   `+3`   |   **Yes**   |   `+2`   | 2 + 2 = `+4` |
-| **CON** |  15   |   `+2`   |             |          |     `+2`     |
-| **INT** |  12   |   `+1`   |             |          |      +0      |
-| **WIS** |  17   |   `+3`   |             |   `+2`   |     `+3`     |
-| **CHA** | `19`  |   `+4`   |   **Yes**   |   `+2`   | 4 + 2 = `+6` |
+| Ability | Score | Modifier | Proficient? |  Save Bonus  |
+| ------- | :---: | :------: | :---------: | :----------: |
+| **STR** |   7   |   `-2`   |             |     `-2`     |
+| **DEX** |  16   |   `+3`   |    `+2`     | 3 + 2 = `+5` |
+| **CON** |  15   |   `+2`   |             |     `+2`     |
+| **INT** |  11   |    +0    |             |      +0      |
+| **WIS** |  17   |   `+3`   |    `+2`     |     `+5`     |
+| **CHA** | `18`  |   `+4`   |    `+2`     | 4 + 2 = `+6` |
 
 - `Modifier = (Score - 10) / 2`
 - `Save Bonus = Ability Modifier + Proficiency Bonus`
@@ -46,62 +46,62 @@
 
 ### Other Stats
 
-| Stat                 | Modifier | Value  |
-| -------------------- | :------: | :----: |
-| **Armor Class (AC)** |   `+3`   |  `13`  |
-| **Initiative**       |   `+2`   |  `+2`  |
-| **Speed**            |          | `30ft` |
+| Stat                   | Modifier | Value  |
+| ---------------------- | :------: | :----: |
+| **Armor Class (AC)**   |   `+3`   |  `13`  |
+| **Initiative**         |   `+2`   |  `+2`  |
+| **Speed**              |          | `30ft` |
+| **Passive Perception** |   `+3`   |  `12`  |
 
 - `Armor Class = 10 + DEX + Defence (0)`
 - `Initiative = 1d20 + DEX + Modifiers (0)`
 - `Speed = Base Speed + Modifiers (0)`
+- `Passive Perception = 10 + WIS + Modifiers (0)`
 
 ## Skills
 
-| Skill           | Ability | Modifier | Proficient? | Modifier | Save bonus |
-| --------------- | :-----: | :------: | :---------: | :------: | :--------: |
-| Athletics       |   STR   |   `-2`   |             |          |    `-2`    |
-| Acrobatics      |   DEX   |   `+3`   |             |          |    `+3`    |
-| Sleight of Hand |   DEX   |   `+3`   |             |          |    `+3`    |
-| Stealth         |   DEX   |   `+3`   |             |          |    `+3`    |
-| Arcana          |   INT   |   `+1`   |             |          |    `+1`    |
-| History         |   INT   |   `+1`   |             |          |    `+1`    |
-| Investigation   |   INT   |   `+1`   |             |          |    `+1`    |
-| Nature          |   INT   |   `+1`   |             |          |    `+1`    |
-| **Religion**    |   INT   |   `+1`   |   **Yes**   |   `+2`   | 1+2 = `3`  |
-| Animal Handling |   WIS   |   `+3`   |             |          |    `+3`    |
-| **Insight**     |   WIS   |   `+3`   |   **Yes**   |   `+2`   | 3+2 = `5`  |
-| **Medicine**    |   WIS   |   `+3`   |   **Yes**   |   `+2`   | 3+2 = `5`  |
-| Perception      |   WIS   |   `+3`   |             |          |    `+3`    |
-| Survival        |   WIS   |          |             |          |            |
-| Deception       |   CHA   |          |             |          |            |
-| Intimidation    |   CHA   |          |             |          |            |
-| **Performance** |   CHA   |   `+2`   |   **Yes**   |   `+2`   | 4+2 = `6`  |
-| **Persuasion**  |   CHA   |   `+2`   |   **Yes**   |   `+2`   | 4+2 = `6`  |
+| Skill           | Ability  | Proficient? | Save bonus |
+| --------------- | :------- | :---------: | :--------: |
+| Athletics       | STR `-2` |             |    `-2`    |
+| Acrobatics      | DEX `+3` |             |    `+3`    |
+| Sleight of Hand | DEX `+3` |             |    `+3`    |
+| Stealth         | DEX `+3` |             |    `+3`    |
+| Arcana          | INT `+1` |             |    `+1`    |
+| History         | INT `+1` |             |    `+1`    |
+| Investigation   | INT `+1` |             |    `+1`    |
+| Nature          | INT `+1` |             |    `+1`    |
+| **Religion**    | INT `+1` |    `+2`     |    `+3`    |
+| Animal Handling | WIS `+3` |             |    `+3`    |
+| **Insight**     | WIS `+3` |    `+2`     |    `+5`    |
+| **Medicine**    | WIS `+3` |    `+2`     |    `+5`    |
+| Perception      | WIS `+3` |             |    `+3`    |
+| Survival        | WIS `+0` |             |     +0     |
+| Deception       | CHA `+0` |             |     +0     |
+| Intimidation    | CHA `+0` |             |     +0     |
+| **Performance** | CHA `+2` |    `+2`     |    `+6`    |
+| **Persuasion**  | CHA `+2` |    `+2`     |    `+6`    |
 
 ## Weapons
 
-| Weapon       | Proficient? | Modifier | Ability | Modifier | Attack Roll |       Damage Roll       |
-| ------------ | :---------: | :------: | :-----: | :------: | :---------: | :---------------------: |
-| **Thurible** |     No      |          |   DEX   |   `+3`   | 1d20 + `+3` |  1d4 `+3`   Bludgeoning |
-|  **Rapier**  |     Yes     |   `+2`   |   DEX   |   `+3`   | 1d20 + `+5` |  1d8 `+3`   Finesse     |
+| Weapon       | Proficient? |  Modifier  | Attack      | Damage               |
+| ------------ | :---------: | :--------: | :---------- | :------------------- |
+| **Thurible** |    `+2`     | `+3` (CHA) | 1d20 + `+5` | 1d4 `+3` Bludgeoning |
+| **Rapier**   |    `+2`     | `+3` (CHA) | 1d20 + `+5` | 1d8 `+3` Piercing    |
 
-- `Attack Roll = 1d20 + Proficiency Bonus + Ability Modifier`
-- `Damage Roll = Weapon's Damage Die + Ability Modifier`
--
-  - _Note:_ Dagger can be thrown (range 20/60) or used in melee.
+- `Attack = 1d20 + Proficiency + Ability Modifier`
+- `Damage = Weapon Damage Dice + Ability Modifier`
 
 ## Spells
 
-| Attribute                |      Value       |
-| ------------------------ | :--------------: |
-| **Spellcasting Ability** |    `+4` (CHA)    |
-| **Spell Save**           | 8 + 2 + 3 = `14` |
-| **Spell Attack Bonus**   |   4 + 2 = `+6`   |
-| **Spell Slots**          |  2 (1st level)   |
+| Attribute              |      Value       |
+| ---------------------- | :--------------: |
+| **Casting Ability**    |    `+4` (CHA)    |
+| **Spell Save**         | 8 + 2 + 3 = `14` |
+| **Spell Attack Bonus** |   4 + 2 = `+6`   |
+| **Spell Slots**        |  2 (1st level)   |
 
-- `Spell Save = 8 + Proficiency Bonus + Ability Modifier`
-- `Spell Attack Bonus = Proficiency Bonus + Ability Modifier`
+- `Spell Save = 8 + Proficiency + Ability Modifier`
+- `Spell Attack Bonus = Proficiency + Ability Modifier`
 
 - **Bardic Inspiration - Thurible Smoke (_Bard_)**
   - _Usage:_ Class feature
