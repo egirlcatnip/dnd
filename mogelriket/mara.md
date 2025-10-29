@@ -81,10 +81,10 @@
 
 ## Weapons
 
-| Weapon       | Proficient? | Modifier | Ability | Modifier | Attack Roll | Damage Roll |
-| ------------ | :---------: | :------: | :-----: | :------: | :---------: | :---------: |
-| **Thurible** |     No      |          |   DEX   |   `+3`   | 1d20 + `+3` |  1d4 `+3`   |
-|              |             |          |         |          |             |             |
+| Weapon       | Proficient? | Modifier | Ability | Modifier | Attack Roll |       Damage Roll       |
+| ------------ | :---------: | :------: | :-----: | :------: | :---------: | :---------------------: |
+| **Thurible** |     No      |          |   DEX   |   `+3`   | 1d20 + `+3` |  1d4 `+3`   Bludgeoning |
+|  **Rapier**  |     Yes     |   `+2`   |   DEX   |   `+3`   | 1d20 + `+5` |  1d8 `+3`   Finesse     |
 
 - `Attack Roll = 1d20 + Proficiency Bonus + Ability Modifier`
 - `Damage Roll = Weapon's Damage Die + Ability Modifier`
