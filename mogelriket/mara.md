@@ -14,14 +14,14 @@
 
 ## Ability Scores
 
-| Ability | Score | Modifier | Proficient? |  Save Bonus  |
-| ------- | :---: | :------: | :---------: | :----------: |
-| **STR** |   7   |   `-2`   |             |     `-2`     |
-| **DEX** |  16   |   `+3`   |    `+2`     | 3 + 2 = `+5` |
-| **CON** |  15   |   `+2`   |             |     `+2`     |
-| **INT** |  11   |    +0    |             |      +0      |
-| **WIS** |  17   |   `+3`   |    `+2`     |     `+5`     |
-| **CHA** | `18`  |   `+4`   |    `+2`     | 4 + 2 = `+6` |
+| Ability | Score | Modifier | Proficient? |  Bonus  |
+| ------- | :---: | :------: | :---------: | :-----: |
+| **STR** |   7   |   `-2`   |             |  `-2`   |
+| **DEX** |  16   |   `+3`   |    `+2`     |  `+5`   |
+| **CON** |  15   |   `+2`   |             |  `+2`   |
+| **INT** |  11   |    `0`   |             |  `+0`   |
+| **WIS** |  17   |   `+3`   |             |  `+3`   |
+| **CHA** | `18`  |   `+4`   |    `+2`     |  `+6`   |
 
 - `Modifier = (Score - 10) / 2`
 - `Save Bonus = Ability Modifier + Proficiency Bonus`
@@ -30,19 +30,19 @@
 
 ### Hit Points
 
-| Remaining | Temporary | Total |
+| Remaining | Temporary |  Max  |
 | :-------: | :-------: | :---: |
 |   `10`    |           |  10   |
 
-- `Total HP = Hit Die + CON modifier`
+- `Max = Hit Dice + CON modifier`
 
 ### Hit Dice
 
-| Remaining | Total |
+| Remaining |  Max  |
 | :-------: | :---: |
 |    `1`    |  1d8  |
 
-- `Total = 1d8 + 1d8/level`
+- `Max = 1d8 + 1d8/level`
 
 ### Other Stats
 
@@ -50,7 +50,7 @@
 | ---------------------- | :------: | :----: |
 | **Armor Class (AC)**   |   `+3`   |  `13`  |
 | **Initiative**         |   `+2`   |  `+2`  |
-| **Speed**              |          | `30ft` |
+| **Speed**              |    `0`   | `30ft` |
 | **Passive Perception** |   `+3`   |  `12`  |
 
 - `Armor Class = 10 + DEX + Defence (0)`
@@ -60,26 +60,26 @@
 
 ## Skills
 
-| Skill           | Ability  | Proficient? | Save bonus |
-| --------------- | :------- | :---------: | :--------: |
-| Athletics       | STR `-2` |             |    `-2`    |
-| Acrobatics      | DEX `+3` |             |    `+3`    |
-| Sleight of Hand | DEX `+3` |             |    `+3`    |
-| Stealth         | DEX `+3` |             |    `+3`    |
-| Arcana          | INT `+1` |             |    `+1`    |
-| History         | INT `+1` |             |    `+1`    |
-| Investigation   | INT `+1` |             |    `+1`    |
-| Nature          | INT `+1` |             |    `+1`    |
-| **Religion**    | INT `+1` |    `+2`     |    `+3`    |
-| Animal Handling | WIS `+3` |             |    `+3`    |
-| **Insight**     | WIS `+3` |    `+2`     |    `+5`    |
-| **Medicine**    | WIS `+3` |    `+2`     |    `+5`    |
-| Perception      | WIS `+3` |             |    `+3`    |
-| Survival        | WIS `+0` |             |     +0     |
-| Deception       | CHA `+0` |             |     +0     |
-| Intimidation    | CHA `+0` |             |     +0     |
-| **Performance** | CHA `+2` |    `+2`     |    `+6`    |
-| **Persuasion**  | CHA `+2` |    `+2`     |    `+6`    |
+| Skill           |  Ability |  Modifier  | Proficient? |  Bonus  |
+| --------------- | :------: | :--------  | :---------: | :-----: |
+| Athletics       |   STR    |    `-2`    |             |  `-2`   |
+| Acrobatics      |   DEX    |    `+3`    |             |  `+3`   |
+| Sleight of Hand |   DEX    |    `+3`    |             |  `+3`   |
+| Stealth         |   DEX    |    `+3`    |             |  `+3`   |
+| Arcana          |   INT    |     `0`    |             |  `+0`   |
+| Investigation   |   INT    |     `0`    |             |  `+0`   |
+| History         |   INT    |     `0`    |             |  `+0`   |
+| Nature          |   INT    |     `0`    |             |  `+0`   |
+| **Religion**    |   INT    |     `0`    |    `+2`     |  `+2`   |
+| Animal Handling |   WIS    |    `+3`    |             |  `+3`   |
+| **Insight**     |   WIS    |    `+3`    |    `+2`     |  `+5`   |
+| **Medicine**    |   WIS    |    `+3`    |    `+2`     |  `+5`   |
+| Perception      |   WIS    |    `+3`    |             |  `+3`   |
+| Survival        |   WIS    |    `+3`    |             |  `+3`   |
+| Deception       |   CHA    |    `+4`    |             |  `+4`   |
+| Intimidation    |   CHA    |    `+4`    |             |  `+4`   |
+| **Performance** |   CHA    |    `+4`    |    `+2`     |  `+6`   |
+| **Persuasion**  |   CHA    |    `+4`    |    `+2`     |  `+6`   |
 
 ## Weapons
 
@@ -96,8 +96,8 @@
 | Attribute              |      Value       |
 | ---------------------- | :--------------: |
 | **Casting Ability**    |    `+4` (CHA)    |
-| **Spell Save**         | 8 + 2 + 3 = `14` |
-| **Spell Attack Bonus** |   4 + 2 = `+6`   |
+| **Spell Save**         |      `14`        |
+| **Spell Attack Bonus** |      `+6`        |
 | **Spell Slots**        |  2 (1st level)   |
 
 - `Spell Save = 8 + Proficiency + Ability Modifier`
@@ -107,10 +107,11 @@
   - _Usage:_ Class feature
   - _Description:_:
   -
-    - `You release a cloud of smoke from your thurible, affecting creatures of your choice within range.`
+    - `Release a cloud of smoke from your thurible.`
     - `Each target must make a CON saving throw minus your Spellcasting Ability.`
-    - `On success, the target gains 1d6 Inspiration and is protected of half of the following damage while the effect lasts.`
-    - `On fail, the target suffers a bad trip — they do not gain Inspiration, have disadvantage on WIS saving throws, and their movement speed is halved for the duration.`
+  -
+    - `On success, the target gains 1d6 Inspiration and is protected of half of the following damage.`
+    - `On fail, the target has disadvantage on WIS saving throws and has their movement speed halved.`
   - _Duration:_ 10 minutes or until rest
   - _Type:_ `Bonus Action`
 
@@ -120,7 +121,7 @@
   - _Usage:_ Cantrip
   - _Description:_:
   -
-    - `Create a sound or image of an object within range`
+    - `Create a sound or image of an object.`
   - _Duration:_ Instantaneous
   - _Type:_ `Action`
 
@@ -129,7 +130,6 @@
   - _Description:_:
   -
     - `Repair a single break or tear in an object`
-    - `Object can be no larger than 1 cubic foot`
   - _Duration:_ Instantaneous
   - _Type:_ `Action`
 
@@ -147,7 +147,7 @@
   - _Usage:_ Spell slot
   - _Description:_:
   -
-    - `Heal touched creature 1d8 + 4 (CHA)`
+    - `Heal touched target 1d8 + 4 (CHA)`
   - _Duration:_ Instantaneous
   - _Type:_ `Bonus`
 
@@ -170,7 +170,7 @@
   - _Duration:_ Instantaneous
   - _Type:_ `Action`
 
-## Species Traits
+## Traits
 
 ### Racial (Human) Features
 
