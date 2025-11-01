@@ -14,7 +14,7 @@
 | **CHA** |  18   |    +4    |  +2   | `+6`  |
 
 <details>
-<summary>Calculations</summary
+<summary>Calculations</summary>
 
 > `Modifier = (Score - 10) / 2`
 
@@ -49,35 +49,35 @@
 
 | Skill           | Ability | Modifier | Prof? | Bonus |
 | --------------- | :-----: | :------- | :---: | :---: |
-| Athletics       |   STR   | `-2`     |       | `-2`  |
+| Athletics       |   STR   | -2       |       | `-2`  |
 |                 |         |          |       |       |
-| Acrobatics      |   DEX   | `+3`     |       | `+3`  |
-| Sleight of Hand |   DEX   | `+3`     |       | `+3`  |
-| Stealth         |   DEX   | `+3`     |       | `+3`  |
+| Acrobatics      |   DEX   | +3       |       | `+3`  |
+| Sleight of Hand |   DEX   | +3       |       | `+3`  |
+| Stealth         |   DEX   | +3       |       | `+3`  |
 |                 |         |          |       |       |
-| Arcana          |   INT   | `0`      |       | `+0`  |
-| Investigation   |   INT   | `0`      |       | `+0`  |
-| History         |   INT   | `0`      |       | `+0`  |
-| Nature          |   INT   | `0`      |       | `+0`  |
-| **Religion**    |   INT   | `0`      | `+2`  | `+2`  |
+| Arcana          |   INT   | 0        |       | `+0`  |
+| Investigation   |   INT   | 0        |       | `+0`  |
+| History         |   INT   | 0        |       | `+0`  |
+| Nature          |   INT   | 0        |       | `+0`  |
+| **Religion**    |   INT   | 0        |  +2   | `+2`  |
 |                 |         |          |       |       |
-| Animal Handling |   WIS   | `+3`     |       | `+3`  |
-| **Insight**     |   WIS   | `+3`     | `+2`  | `+5`  |
-| **Medicine**    |   WIS   | `+3`     | `+2`  | `+5`  |
-| Perception      |   WIS   | `+3`     |       | `+3`  |
-| Survival        |   WIS   | `+3`     |       | `+3`  |
+| Animal Handling |   WIS   | +3       |       | `+3`  |
+| **Insight**     |   WIS   | +3       |  +2   | `+5`  |
+| **Medicine**    |   WIS   | +3       |  +2   | `+5`  |
+| Perception      |   WIS   | +3       |       | `+3`  |
+| Survival        |   WIS   | +3       |       | `+3`  |
 |                 |         |          |       |       |
-| Deception       |   CHA   | `+4`     |       | `+4`  |
-| Intimidation    |   CHA   | `+4`     |       | `+4`  |
-| **Performance** |   CHA   | `+4`     | `+2`  | `+6`  |
-| **Persuasion**  |   CHA   | `+4`     | `+2`  | `+6`  |
+| Deception       |   CHA   | +4       |       | `+4`  |
+| Intimidation    |   CHA   | +4       |       | `+4`  |
+| **Performance** |   CHA   | +4       |  +2   | `+6`  |
+| **Persuasion**  |   CHA   | +4       |  +2   | `+6`  |
 
 ## Weapons
 
-| Weapon       | Prof? |  Modifier  | Attack      | Damage               |
-| ------------ | :---: | :--------: | :---------- | :------------------- |
-| **Thurible** | `+2`  | `+3` (CHA) | 1d20 + `+5` | 1d4 `+3` Bludgeoning |
-| **Rapier**   | `+2`  | `+3` (CHA) | 1d20 + `+5` | 1d8 `+3` Piercing    |
+| Weapon       | Prof? | Modifier | Attack      | Damage               |
+| ------------ | :---: | :------: | :---------- | :------------------- |
+| **Thurible** |  +2   | +3 (CHA) | 1d20 + `+5` | 1d4 `+3` Bludgeoning |
+| **Rapier**   |  +2   | +3 (CHA) | 1d20 + `+5` | 1d8 `+3` Piercing    |
 
 <details>
 <summary>Calculations</summary>
@@ -101,65 +101,71 @@
 <summary>Calculations</summary>
 
 > `Spell Save = 8 + Proficiency + Ability Modifier`
-
 > `Spell Attack Bonus = Proficiency + Ability Modifier`
 
 </details>
 
 ### Features
 
-| ------------------------------------- | ------------------------------------- |
-| ------------------------------------- | ------------------------------------- |
-| **Bardic Inspiration**                | `Bonus` - 10 minutes                  |
-| Description:                          | Inspire through smoke                 |
-| `Success`                             | 1d6 Inspiration die                   |
-|                                       | Half following damage taken           |
-|                                       |                                       |
-| `Fail`                                | Inspiration die not granted           |
-|                                       | Disadvantage on `WIS`                 |
+|                        |                             |
+| ---------------------- | --------------------------- |
+| **Bardic Inspiration** | `Bonus` - 10 minutes        |
+| Description:           | Inspire through smoke       |
+|                        |                             |
+| `Success`              | 1d6 Inspiration die         |
+|                        | Half following damage taken |
+|                        |                             |
+| `Fail`                 | Inspiration die not granted |
+|                        | Disadvantage on `WIS`       |
 
 ### Cantrips
 
-| ------------------------------------- | ------------------------------------- |
-| ------------------------------------- | ------------------------------------- |
-| **Minor Illusion**                    | `Action` - Instant                    |
-| Description:                          | Create a sound or image               |
-|                                       | Dissmissed upon interaction           |
+|              |                    |
+| ------------ | ------------------ |
+| **Mending**  | `Action` - Instant |
+|              |                    |
+| Description: | Repair an object   |
+|              | Tear or break      |
 
-| ------------------------------------- | ------------------------------------- |
-| ------------------------------------- | ------------------------------------- |
-| **Mending**                           | `Action` - Instant                    |
-| Description:                          | Repair an object                      |
-|                                       | Tear or break                         |
+|                    |                             |
+| ------------------ | --------------------------- |
+| **Minor Illusion** | `Action` - Instant          |
+| Description:       | Create a sound or image     |
+|                    | Dissmissed upon interaction |
 
 ### 1st Level
 
-| ------------------------------------- | ------------------------------------- |
-| ------------------------------------- | ------------------------------------- |
-| **Healing word**                      | `Bonus` - Instant                     |
-| Description:                          | Heal target `1d4 + 4` (CHA)           |
-|                                       | Must be within hearing distance       |
+|                  |                                 |
+| ---------------- | ------------------------------- |
+| **Healing word** | `Bonus` - Instant               |
+| Description:     | Heal target `1d4 + 4` (CHA)     |
+|                  | Must be within hearing distance |
+|                  |                                 |
 
-| ------------------------------------- | ------------------------------------- |
-| ------------------------------------- | ------------------------------------- |
-| **Cure wounds**                       | `Bonus` - Instant                     |
-| Description:                          | Heal target `1d8 + 4` (CHA)           |
-|                                       | Must be touched                       |
+|                 |                             |
+| --------------- | --------------------------- |
+| **Cure wounds** | `Bonus` - Instant           |
+| Description:    | Heal target `1d8 + 4` (CHA) |
+|                 | Must be touched             |
+|                 |                             |
 
-| ------------------------------------- | ------------------------------------- |
-| ------------------------------------- | ------------------------------------- |
-| **Sleep**                             | `Action` - 1 minute                   |
-| Description:                          | Put `6d8` creatures to sleep          |
-|                                       |                                       |
-| `Success`                             |                                       |
-| `Fail`                                |                                       |
+|              |                              |
+| ------------ | ---------------------------- |
+| **Sleep**    | `Action` - 1 minute          |
+| Description: | Put `6d8` creatures to sleep |
+|              |                              |
+| `Success`    |                              |
+| `Fail`       |                              |
+|              |                              |
 
-| ------------------------------------- | ------------------------------------- |
-| ------------------------------------- | ------------------------------------- |
-| **Disonant Whispers**                 | `Action` - Instant                    |
-| Description:                          | Whisper to creature.                  |
-| `Success`                             | 1/2 3d6 psychic damage                |
-| `Fail`                                | 3d6 psychic damage and flee           |
+|                       |                             |
+| --------------------- | --------------------------- |
+| **Disonant Whispers** | `Action` - Instant          |
+|                       |                             |
+| Description:          | Whisper to creature.        |
+| `Success`             | 1/2 3d6 psychic damage      |
+| `Fail`                | 3d6 psychic damage and flee |
+|                       |                             |
 
 ## Equipment & Inventory
 
@@ -228,13 +234,13 @@
 
 ### Backstory
 
-```
+```markdown
 Mara once belonged deeply to the Church, but her whole world collapsed when it
-was faith itself that betrayed her. Shortly after marrying her husband Uyrik, he was
-wrongfully hunted down and condemned to death for heresy. It was an unbearably
-traumatic chapter of her past life. Her friends abandoned her,
-the Church cast her out, and everything she knew fell apart. Left alone, shunned
-by those she once saw as companions, she turned to the only thing that, sadly,
+was faith itself that betrayed her. Shortly after marrying her husband Uyrik, he
+was wrongfully hunted down and condemned to death for heresy. It was an
+unbearably traumatic chapter of her past life. Her friends abandoned her, the
+Church cast her out, and everything she knew fell apart. Left alone, shunned by
+those she once saw as companions, she turned to the only thing that, sadly,
 helped her forget — the azure vapors now soaked not only into her
 once-respectable attire, but into her dark olive skin and tangled hair. Her
 steps are no longer proud as they once were, yet in her heart still burns a
