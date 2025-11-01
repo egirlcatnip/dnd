@@ -1,7 +1,5 @@
 # Elyra
 
-![Character Portrait](elyra_256x384.png)
-
 | Attribute       |      Details      |
 | --------------- | :---------------: |
 | **Race**        |     Orc-ling      |
