@@ -26,7 +26,7 @@
 
 |   HP    |    HD     |  AC  | Init | Speed  | Perception |
 | :-----: | :-------: | :--: | :--: | :----: | :--------: |
-| `9`/10 | `1d8`/1d8 | `13` | `+3` | `30ft` |    `12`    |
+| `10`/10 | `0d8`/1d8 | `13` | `+3` | `30ft` |    `12`    |
 
 <details>
 <summary>Calculations</summary>
