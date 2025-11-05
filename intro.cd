@@ -1,6 +1,6 @@
-# calc-down
+# calcdown
 
-calc-down is a simple markup language for writing documents with embedded calculations.
+calcdown is a simple markup language for writing documents with embedded calculations.
 
 ## Expressions
 
@@ -8,7 +8,8 @@ An expression may be a variable {x=10}, a value {7} or a calculation {2 * 2}.
 
 Variable definitions are also expressions:
 
-{y = x + 5}
+
+{x = 10}
 
 > The value of x is {x} == 10.
 
@@ -26,14 +27,14 @@ Variables may be overwritten:
 
 ### Functions
 
-Functions do not modify variables nor arguments.
+Functions do not modify arguments.
 Functions do not capture variables.
 
 {y = 5}
 
 {inc(x) = x + 1 }
 
-> The value of the inc(x) when x = 0 is {inc(y)} == 1.
+> The value of inc(x) when x = 0 is {inc(y)} == 1.
 
 > The value of y is still {y} == 0.
 
@@ -53,7 +54,7 @@ Functions may modify variables using `&`:
 
 Closures do not modify arguments, but they do capture variables.
 
-{a=4}
+{a = 4}
 
 {inc = | | a + 1}
 
@@ -97,10 +98,10 @@ Closures may modify also modify arguments with `&`:
 
 - Numbers: {num = 42} is a number. {num = 3.14} is also a number.
 -
-  - Numbers are arbitrary precision.
+  - Numbers have arbitrary precision.
 
 - Strings: {str = "Hello, World!"} is a string.
-  - Strings may be formatted using `{}`: {name = "Alice"} → {"Hello, {name}!"}
+  - Strings may be formatted using `{}`: {name = "Alice"}, {"Hello, {name}!"}
 
 - Booleans: {bool = true} and {bool = false} are booleans.
 
@@ -113,7 +114,7 @@ Closures may modify also modify arguments with `&`:
 
 {condition = true}
 
-> Value of condition when condition is true is {condition ? "true" : "false"} == "true".
+> Value of condition when condition is true is {condition ? "true" "false"} == "true".
 
 ## Comments
 
@@ -133,23 +134,16 @@ Basic math:
   - `sin(x)`, `cos(x)`, `tan(x)`, `asin(x)`, `acos(x)`, `atan(x)`
 
 - Number operations
-  - `expt(x, power)`, `log(base,x)`, `abs(x)`, `sqrt(x)`, `round(x)`, `floor(x)`, `ceil(x)`
+  - `expt(x, power)`, `log(base, x)`, `abs(x)`, `sqrt(x)`, `round(x)`, `floor(x)`, `ceil(x)`
 
 - Random numbers:
-  - `rand(max)`, `rand_range(min..max)`, `rand_range(min..=max)`
-  - `randf(max)`, `randf_range(min..max)`, `randf_range(min..=max)`
+  - `rand(max)`, `rand(min..max)`, `rand(min..=max)`
+  - `randf(max)`, `randf(min..max)`, `randf(min..=max)`
   - `srand(seed)`
 
 - Constants:
   - `pi`, `e`
 
-- List functions:
-  - `mean(list)`, `median(list)`, `avg(list)`
-  - `min(list)`, `max(list)`, `sum(list)`
-  - `len(list)`, `push(list, value)`, `pop(list)`, `insert(list, index, value)`, `remove(list, index)`
-  - `sort(list)`, `rev(list)`, `slice(list, start..end)`, `slice(list, start..end)`, `split(list, index)`
 
-- String functions:
-  - `len(string)`, `cat(string1, string2)`, `sub(string, start, length)`, `repl(string, old, new)`, `split(string, delimiter)`
 
 
