@@ -26,7 +26,7 @@
 
 |   HP    |    HD     |  AC  | Init | Speed  | Perception |
 | :-----: | :-------: | :--: | :--: | :----: | :--------: |
-| `10`/10 | `1d8`/1d8 | `13` | `+2` | `30ft` |    `12`    |
+| `10`/10 | `1d8`/1d8 | `13` | `+3` | `30ft` |    `12`    |
 
 <details>
 <summary>Calculations</summary>
@@ -37,7 +37,7 @@
 
 > `AC = 10  +  2 (DEX) + 0 (armor)`
 
-> `Init = 1d20 + 2 (DEX)`
+> `Init = 1d20 + 3 (DEX)`
 
 > `Speed = Base + 0`
 
@@ -74,10 +74,10 @@
 
 ## Weapons
 
-| Weapon       | Prof? | Modifier | Attack      | Damage               |
-| ------------ | :---: | :------: | :---------- | :------------------- |
-| **Thurible** |  +2   | +3 (CHA) | 1d20 + `+5` | 1d4 `+3` Bludgeoning |
-| **Rapier**   |  +2   | +3 (CHA) | 1d20 + `+5` | 1d8 `+3` Piercing    |
+| Weapon       | Prof? | Modifier | Attack    | Damage               |
+| ------------ | :---: | :------: | :-------- | :------------------- |
+| **Thurible** |  +2   | +3 (CHA) | `1d20 +5` | `1d4 +3` Bludgeoning |
+| **Rapier**   |  +2   | +3 (CHA) | `1d20 +5` | `1d8 +3` Piercing    |
 
 <details>
 <summary>Calculations</summary>
@@ -105,7 +105,7 @@
 
 </details>
 
-### Features
+### Class Feature
 
 |                        |                             |
 | ---------------------- | --------------------------- |
@@ -120,52 +120,39 @@
 
 ### Cantrips
 
-|              |                    |
-| ------------ | ------------------ |
 | **Mending**  | `Action` - Instant |
-|              |                    |
+| ------------ | ------------------ |
 | Description: | Repair an object   |
 |              | Tear or break      |
 
-|                    |                             |
-| ------------------ | --------------------------- |
 | **Minor Illusion** | `Action` - Instant          |
+| ------------------ | --------------------------- |
 | Description:       | Create a sound or image     |
 |                    | Dissmissed upon interaction |
 
 ### 1st Level
 
-|                  |                                 |
-| ---------------- | ------------------------------- |
 | **Healing word** | `Bonus` - Instant               |
+| ---------------- | ------------------------------- |
 | Description:     | Heal target `1d4 + 4` (CHA)     |
 |                  | Must be within hearing distance |
-|                  |                                 |
 
-|                 |                             |
-| --------------- | --------------------------- |
 | **Cure wounds** | `Bonus` - Instant           |
+| --------------- | --------------------------- |
 | Description:    | Heal target `1d8 + 4` (CHA) |
 |                 | Must be touched             |
-|                 |                             |
 
-|              |                              |
-| ------------ | ---------------------------- |
 | **Sleep**    | `Action` - 1 minute          |
+| ------------ | ---------------------------- |
 | Description: | Put `6d8` creatures to sleep |
-|              |                              |
-| `Success`    |                              |
-| `Fail`       |                              |
-|              |                              |
 
-|                       |                             |
-| --------------------- | --------------------------- |
 | **Disonant Whispers** | `Action` - Instant          |
+| --------------------- | --------------------------- |
 |                       |                             |
 | Description:          | Whisper to creature.        |
 | `Success`             | 1/2 3d6 psychic damage      |
-| `Fail`                | 3d6 psychic damage and flee |
 |                       |                             |
+| `Fail`                | 3d6 psychic damage and flee |
 
 ## Equipment & Inventory
 
@@ -205,20 +192,21 @@
 
 ## Class (Bard) Features
 
-| Feature                 | Description                               |
-| ----------------------- | ----------------------------------------- |
-| **Ability Proficiency** | `CHA` and `DEX`                           |
-| **Skill Proficiency**   | `Insight`, `Performance` and `Persuasion` |
-| **Armor Proficiency**   | `Light` armor                             |
-| **Weapon Proficiency**  | `Simple` weapons                          |
-| Level 1                 |                                           |
-| **Cantrips**            | `Minor Illusion`, `Mending`               |
-|                         |                                           |
-| Level 2                 |                                           |
-|                         |                                           |
-| Level 3                 |                                           |
-|                         |                                           |
-| ...                     |                                           |
+| Feature                 | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| **Ability Proficiency** | `CHA` and `DEX`                                              |
+| **Skill Proficiency**   | `Insight`, `Performance` and `Persuasion`                    |
+| **Armor Proficiency**   | `Light` armor                                                |
+| **Weapon Proficiency**  | `Simple` weapons                                             |
+|                         |                                                              |
+| **Level 1**             |                                                              |
+| Cantrips                | `Minor Illusion`, `Mending`                                  |
+| Spells                  | `Healing Word`, `Cure Wounds`, `Dissonant Whispers`, `Sleep` |
+|                         |                                                              |
+| **Level 2**             |                                                              |
+|                         |                                                              |
+| **Level 3**             |                                                              |
+|                         |                                                              |
 
 </details>
 
@@ -234,7 +222,7 @@
 
 ### Backstory
 
-```markdown
+```txt
 Mara once belonged deeply to the Church, but her whole world collapsed when it
 was faith itself that betrayed her. Shortly after marrying her husband Uyrik, he
 was wrongfully hunted down and condemned to death for heresy. It was an
