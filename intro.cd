@@ -8,7 +8,6 @@ An expression may be a variable {x=10}, a value {7} or a calculation {2 * 2}.
 
 Variable definitions are also expressions:
 
-
 {x = 10}
 
 > The value of x is {x} == 10.
