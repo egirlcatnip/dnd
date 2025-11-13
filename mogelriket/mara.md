@@ -2,7 +2,7 @@
 
 |           |       |      |       |
 | --------- | ----- | ---- | ----- |
-| `Level 1` | Human | Bard | 9g 2c |
+| `Level 2` | Human | Bard | 9g 2c |
 
 | Ability | Score | Modifier | Prof? | Bonus |
 | :-----: | :---: | :------: | :---: | :---: |
@@ -26,7 +26,7 @@
 
 |   HP    |    HD     |  AC  | Init | Speed  | Perception |
 | :-----: | :-------: | :--: | :--: | :----: | :--------: |
-| `10`/10 | `0d8`/1d8 | `13` | `+3` | `30ft` |    `12`    |
+| `10`/13 | `0d8`/2d8 | `13` | `+3` | `30ft` |    `12`    |
 
 <details>
 <summary>Calculations</summary>
@@ -35,7 +35,7 @@
 
 > `HD = 1d8 + 1d8 (level)`
 
-> `AC = 10  +  2 (DEX) + 0 (armor)`
+> `AC = 10  +  3 (DEX) + 0 (armor)`
 
 > `Init = 1d20 + 3 (DEX)`
 
@@ -95,7 +95,7 @@
 | **Casting Ability**    |  `+4` (CHA)   |
 | **Spell Save**         |     `14`      |
 | **Spell Attack Bonus** |     `+6`      |
-| **Spell Slots**        | 2 (1st level) |
+| **Spell Slots**        | `3`,`0`       |
 
 <details>
 <summary>Calculations</summary>
@@ -117,6 +117,12 @@
 |                        |                             |
 | `Fail`                 | Inspiration die not granted |
 |                        | Disadvantage on `WIS`       |
+
+| **Magical Inspiration** |                             |
+| ----------------------- | --------------------------- |
+| Description             | Add active inspiration die  |       
+|                         | to damage or heal roll      |                    |
+|                         | Die is lost on use          |
 
 ### Cantrips
 
@@ -153,6 +159,12 @@
 | `Success`             | 1/2 3d6 psychic damage      |
 |                       |                             |
 | `Fail`                | 3d6 psychic damage and flee |
+
+| **Heroic Inspiration** | `Action` - Instant             |
+| ---------------------- | ------------------------------ |
+| Description            | Imbue target with bravery      |
+|                        | Immunity to fear               |
+|                        | Target gains 1d4 (CHA) temp HP |                        |
 
 ## Equipment & Inventory
 
@@ -204,6 +216,7 @@
 | Spells                  | `Healing Word`, `Cure Wounds`, `Dissonant Whispers`, `Sleep` |
 |                         |                                                              |
 | **Level 2**             |                                                              |
+| Features                | `Jack of all trades`, `Magical Inspiration`, `Song of Rest`  |
 |                         |                                                              |
 | **Level 3**             |                                                              |
 |                         |                                                              |

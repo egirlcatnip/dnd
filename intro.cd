@@ -1,20 +1,18 @@
-# calcdown
+# nomark
 
-calcdown is a simple markup language for writing documents with embedded calculations.
+nomark0 is a simple markup language for writing documents with embedded calculations.
 
 ## Expressions
 
-An expression may be a variable {x=10}, a value {7} or a calculation {2 * 2}.
-
-Variable definitions are also expressions:
-
-{x = 10}
+An expression may be a value {7}, a variable {var = 10} or a calculation {2 * 2}.
 
 > The value of x is {x} == 10.
 
-> The value of y is {y= x + 5} == 15.
+> The value of y is {y = x + 5} == 15.
 
-> The value of x is now {y} == 15.
+> The value of y is now {y} == 15.
+
+> The value of x is still {x} == 10.
 
 Variables may be overwritten:
 
@@ -22,40 +20,26 @@ Variables may be overwritten:
 
 > The value of x is now {x} == 20.
 
-## Statements
+## Functions
 
-### Functions
+Functions are pure - they don't have any side effects
 
-Functions do not modify arguments.
-Functions do not capture variables.
-
-{y = 5}
+{a = 0}
 
 {inc(x) = x + 1 }
 
-> The value of inc(x) when x = 0 is {inc(y)} == 1.
+> The value of inc(a) when a = 0 is {inc(a)} == 1.
 
-> The value of y is still {y} == 0.
+> The value of a is still {a} == 0.
 
-Functions may modify variables using `&`:
+## Closures
 
-{count = 0}
-
-{inc_mut(x) = &count + x }
-
-> The value of count is {count} == 0.
-
-> The value of count is now {inc_mut(1)} == 1.
-
-> The value of count is {count} == 1.
-
-### Closures
-
-Closures do not modify arguments, but they do capture variables.
+Closures capture variables. They may optionally mutate captured variables.
+Closures are like functions without need for explicit arguments.
 
 {a = 4}
 
-{inc = | | a + 1}
+{inc() = |a| a + 1}
 
 > The value of a is {a} == 4.
 
@@ -65,84 +49,153 @@ Closures do not modify arguments, but they do capture variables.
 
 Closures may modify captured variables using `&`:
 
-{counter = 0}
+{a = 0}
 
-{inc = | | &counter + 1 }
+{inc() = |&a| a + 1 }
 
-> The value of counter is {counter} == 0.
+> The value of a is {a} == 0.
 
-> The value of counter is now {inc()} == 1.
+> The value of a is {inc()} == 1.
 
-> The value of counter is {counter} == 1.
-
+> The value of a is now {a} == 1.
 
 Closures may also take arguments:
 
 {a = 1}
-{add = |x| a + x }
 
-> The value of add(3) is {add(3)} == 4.
+{inc(x) = |a| a + x }
 
-Closures may modify also modify arguments with `&`:
+> The value of inc(3) is {inc(3)} == 4.
 
-{a = 1}
-{add_mut = |x| &a + x }
-
-> The value of add_mut(3) is {add_mut(3)} == 4.
-
-> The value of a is now {a} == 4.
-
+> The value of a is still {a} == 1.
 
 ## Types:
 
-- Numbers: {num = 42} is a number. {num = 3.14} is also a number.
+- Numbers: {num = 42}, {num = 3.14}.
 -
   - Numbers have arbitrary precision.
 
-- Strings: {str = "Hello, World!"} is a string.
+- Strings: {str = "Hello, World!"}.
+-
   - Strings may be formatted using `{}`: {name = "Alice"}, {"Hello, {name}!"}
 
-- Booleans: {bool = true} and {bool = false} are booleans.
-
-- Ranges: {range = 1..5} is a range from 1 to 5.
-  - Ranges may be inclusive `{1..=5}` or exclusive `{1..5}`.
-
-## Control flow
-
-### ? operator
-
-{condition = true}
-
-> Value of condition when condition is true is {condition ? "true" "false"} == "true".
-
-## Comments
-
-// This is a single-line comment
-
-/*
-This is a multi-line comment
-*/
-
-## Standard Library
-
-Basic math:
-- `+`, `-`, `*`, `/`, `//`
-
-- Trigonometric functions:
+- Booleans: {bool = true} and {bool = false}.
 -
-  - `sin(x)`, `cos(x)`, `tan(x)`, `asin(x)`, `acos(x)`, `atan(x)`
+  - Numbers other than 0 are also treated like true
 
-- Number operations
-  - `expt(x, power)`, `log(base, x)`, `abs(x)`, `sqrt(x)`, `round(x)`, `floor(x)`, `ceil(x)`
+- Lists: {list = [1, 2.5, pi]}
+-
+  - Lists may be indexed for single value with {list[4]} or for a slice with a range {list[0..2]}
 
-- Random numbers:
-  - `rand(max)`, `rand(min..max)`, `rand(min..=max)`
-  - `randf(max)`, `randf(min..max)`, `randf(min..=max)`
-  - `srand(seed)`
+- Ranges: {range = 1..5}, {range = 0..=9}.
+  - Ranges may be inclusive `{1..=5}` or exclusive `{1..5}`.
+  - Ranges may also be {..5}, {5..}, {..=5}, {..}
+   
+## Tables
 
-- Constants:
-  - `pi`, `e`
+Classic markdown tables
 
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Item 1   | Item 2   | Item 3   |
 
+Tables without headings
 
+| Item 1   | Item 2   | Item 3   |
+| Item 4   | Item 5   | Item 6   |
+
+Extended tables
+
+|        | Column 1 | Column 2 |
+|--------|----------|----------|
+| Row 1  | Item 1   |          |
+|--------|----------| Item 3   |
+| Row 2  | Item 2   |          |
+|--------|---------------------|
+| Row 3  |       Item 4        |
+|--------|---------------------|
+| Row 4  | Item 5   | Item 6   |
+|--------|---------------------|
+|        |                     |
+| Row 5  |       Item 7        |
+|        |                     |
+|--------|---------------------|
+
+> Leave the first heading empty to create a spreadsheet-like table
+
+> Tables now allow cells to span multiple rows or columns.
+
+> Tables now also support in-line images as well! 
+
+| Mara | Human | level 2 bard |
+| ---- | ----- | ------------ |
+|                             |
+|       [./images/mara]       |
+|                             |
+| --------------------------- |
+
+              |
+              v
+
+| Mara | Human | level 2 bard |
+| ---- | ----- | ------------ |
+|                             |
+|          =-=PTY^==-)\       |
+|         /(--&/}  \&_\\      |
+|         { //        |       |
+|        (-/   ^   ^  /       |
+|         |/|         |       |
+|         /(|   -_-  |        |
+|        /)- \ ____ /         |
+|        /            \       |
+|       /               \     |
+| --------------------------- |  
+
+## Other syntax
+
+**bold**
+
+*italic*
+
+***bold italic***
+
+__underline__
+
+==highlight==   
+
+--strike-through--
+
+||spoiler||
+
+`monospace`
+
+[link], [link](show as)
+[image](title), [image]
+[file], [file](show as)
+
+color codes:
+#FF3264, 
+rgb(256, 34, 52),
+rgba(12,12,12,255),
+oklab()... and others
+
+subscript H_2_O -> H₂O
+superscript E = mc^2^ -> E = mc²
+
+- list
+-. numbered list 1. 2. ... 
+-) letter list a) b) c) ...
+
+[], - [ ], - [x] checkboxes
+
+// line comment
+// // nested line comment
+/* section comment */ 
+/* nested     /* section */     comment */
+
+```language path/filename
+code/monospacr block
+```
+
+> quote
 
