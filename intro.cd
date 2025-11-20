@@ -1,8 +1,12 @@
+#!/usr/bin/env nomark
+
 # nomark
 
-nomark0 is a simple markup language for writing documents with embedded calculations.
+nomark is a simple markup language for writing documents with embedded calculations.
 
-## Expressions
+## A dynamic markup language
+
+### Expressions
 
 An expression may be a value {7}, a variable {var = 10} or a calculation {2 * 2}.
 
@@ -16,58 +20,84 @@ An expression may be a value {7}, a variable {var = 10} or a calculation {2 * 2}
 
 Variables may be overwritten:
 
+variable to mutate
+ v
 {x = x + 10}
+     ^
+ variable from scope
 
 > The value of x is now {x} == 20.
 
-## Functions
+#### Multiple expressions
 
-Functions are pure - they don't have any side effects
+Chain multiple expressions via `;`
+
+> Value of {x=1; x+10} == 11.
+> Value of x is {x} == 1
+> Value of {} and {10;} == ∅ or ""
+
+### Statements - Functions
+
+Functions do not capture variables. They may optionally mutate their arguments.
 
 {a = 0}
-
-{inc(x) = x + 1 }
+{inc(x): x + 1 }
 
 > The value of inc(a) when a = 0 is {inc(a)} == 1.
-
 > The value of a is still {a} == 0.
 
-## Closures
+#### mutating arguments
+
+{b = 0}
+
+{inc(x): x = x + 1 }
+
+> The value of inc(b) when b = 0 is {inc(b)} == 1.
+> The value of b is now {b} == 1.
+
+### Statements - Closures
 
 Closures capture variables. They may optionally mutate captured variables.
 Closures are like functions without need for explicit arguments.
 
 {a = 4}
 
-{inc() = |a| a + 1}
+{inc(): |a| + 1}
 
 > The value of a is {a} == 4.
-
 > The value of inc() is {inc()} == 5.
-
 > The value of a is still {a} == 4.
 
-Closures may modify captured variables using `&`:
+#### mutating captured variables
 
-{a = 0}
+{b = 0}
 
-{inc() = |&a| a + 1 }
+{inc(): b = |b| + 1 }
 
-> The value of a is {a} == 0.
+> The value of inc() when b is 0 is {inc()} == 1.
+> The value of b is now {b} == 1.
 
-> The value of a is {inc()} == 1.
+#### mutating arguments 
 
-> The value of a is now {a} == 1.
+{a = 3}
+{b = 0}
 
-Closures may also take arguments:
+    
+    variable to mutate
+         v
+{inc(x): x = |b| + 2 * x }
+              ^        ^
+              |     argument
+              |
+        captured variable   
 
-{a = 1}
+> The value of inc(a) is {inc(a)} == 0.
+> The value of a is now {a} == 6
+> The value is b is still {b} == 0.
 
-{inc(x) = |a| a + x }
-
-> The value of inc(3) is {inc(3)} == 4.
-
-> The value of a is still {a} == 1.
+> The value of inc(a) is now {inc(a)} == 12.
+> The value of a is now {a} == 12.
+> The value of b is still {b} == 0.
 
 ## Types:
 
@@ -101,6 +131,7 @@ Classic markdown tables
 
 Tables without headings
 
+|----------|----------|----------|
 | Item 1   | Item 2   | Item 3   |
 | Item 4   | Item 5   | Item 6   |
 
@@ -121,81 +152,82 @@ Extended tables
 |        |                     |
 |--------|---------------------|
 
-> Leave the first heading empty to create a spreadsheet-like table
-
-> Tables now allow cells to span multiple rows or columns.
-
-> Tables now also support in-line images as well! 
-
-| Mara | Human | level 2 bard |
-| ---- | ----- | ------------ |
-|                             |
-|       [./images/mara]       |
-|                             |
-| --------------------------- |
-
-              |
-              v
-
-| Mara | Human | level 2 bard |
-| ---- | ----- | ------------ |
-|                             |
-|          =-=PTY^==-)\       |
-|         /(--&/}  \&_\\      |
-|         { //        |       |
-|        (-/   ^   ^  /       |
-|         |/|         |       |
-|         /(|   -_-  |        |
-|        /)- \ ____ /         |
-|        /            \       |
-|       /               \     |
-| --------------------------- |  
+> Leave the first cell empty to create a spreadsheet-like table
+> Tables allow cells to span multiple rows or columns if explicit.
 
 ## Other syntax
 
-**bold**
+### Heading
 
-*italic*
+**Bold** -> 𝗕𝗼𝗹𝗱
 
-***bold italic***
+*Italic* -> 𝘐𝘵𝘢𝘭𝘪𝘤
 
-__underline__
+__underline__ -> u̲n̲d̲e̲r̲l̲i̲n̲e̲
 
-==highlight==   
+--strike-through-- -> s̶t̶r̶i̶k̶e̶-t̶h̶r̶o̶u̶g̶h̶
 
---strike-through--
+||spoiler|| ███████ -> spoiler (on click)
 
-||spoiler||
++ various combinations
 
-`monospace`
+`code/monospace` -> 𝚌𝚘𝚍𝚎/𝚖𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎
 
-[link], [link](show as)
-[image](title), [image]
-[file], [file](show as)
+```optional-language optional-path-filename
 
-color codes:
-#FF3264, 
-rgb(256, 34, 52),
-rgba(12,12,12,255),
-oklab()... and others
+𝚌𝚘𝚍𝚎/𝚖𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎
++++ addition
+--- removal
 
-subscript H_2_O -> H₂O
-superscript E = mc^2^ -> E = mc²
+```
 
-- list
+color codes render inline
+#FFFFFFFF & #FFF ■
+rgb(), rgba(), hsl(), oklab() ■ ... 
+
+subscript   H_2_O & H_2O -> H₂O 
+superscript x^2^  & x^2  -> x²
+
+{{ -> literal `{`
+}} -> literal `}`
+
+escaping: 
+\*\*literal\*\* `**literal**`
+
+$$ escape special symbols on line
+
+$$$
+escape special symbols in block
+$$$
+
+-  unordered list
+- - second level of the list
 -. numbered list 1. 2. ... 
 -) letter list a) b) c) ...
 
-[], - [ ], - [x] checkboxes
+- [x] checked checkbox 
+- [ ] unchecked checkbox 
 
 // line comment
-// // nested line comment
-/* section comment */ 
-/* nested     /* section */     comment */
 
-```language path/filename
-code/monospacr block
-```
+// nested // line // comment
 
-> quote
+/* block comment */ 
+
+/* nested
+ *
+ *  /* block  
+ *       
+ *      /* comment */
+ *    
+ *   */
+ */
+
+[link](title)   & [link]
+![file](title)  & ![file]
+
+file may be:
+- audio
+- video
+- image
 
