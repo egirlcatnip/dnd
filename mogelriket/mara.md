@@ -1,8 +1,8 @@
 # Mara
 
-|           |       |      |       |
-| --------- | ----- | ---- | ----- |
-| `Level 2` | Human | Bard | 9g 2c |
+|           |       |                                    |       |
+| --------- | ----- | ---------------------------------- | ----- |
+| `Level 2` | Human | Bard - ~~College of Drug Dealing~~ | 9g 2c |
 
 | Ability | Score | Modifier | Prof? | Bonus |
 | :-----: | :---: | :------: | :---: | :---: |
@@ -26,7 +26,7 @@
 
 |   HP    |    HD     |  AC  | Init | Speed  | Perception |
 | :-----: | :-------: | :--: | :--: | :----: | :--------: |
-| `10`/13 | `0d8`/2d8 | `13` | `+3` | `30ft` |    `12`    |
+| `10`/13 | `2d8`/2d8 | `13` | `+3` | `30ft` |    `12`    |
 
 <details>
 <summary>Calculations</summary>
@@ -49,28 +49,28 @@
 
 | Skill           | Ability | Modifier | Prof? | Bonus |
 | --------------- | :-----: | :------: | :---: | :---: |
-| Athletics       |   STR   | -2       |       | `-2`  |
+| Athletics       |   STR   |    -2    |       | `-2`  |
 |                 |         |          |       |       |
-| Acrobatics      |   DEX   | +3       |       | `+3`  |
-| Sleight of Hand |   DEX   | +3       |       | `+3`  |
-| Stealth         |   DEX   | +3       |       | `+3`  |
+| Acrobatics      |   DEX   |    +3    |       | `+3`  |
+| Sleight of Hand |   DEX   |    +3    |       | `+3`  |
+| Stealth         |   DEX   |    +3    |       | `+3`  |
 |                 |         |          |       |       |
-| Arcana          |   INT   | 0        |       | `+0`  |
-| Investigation   |   INT   | 0        |       | `+0`  |
-| History         |   INT   | 0        |       | `+0`  |
-| Nature          |   INT   | 0        |       | `+0`  |
-| **Religion**    |   INT   | 0        |  +2   | `+2`  |
+| Arcana          |   INT   |    0     |       | `+0`  |
+| Investigation   |   INT   |    0     |       | `+0`  |
+| History         |   INT   |    0     |       | `+0`  |
+| Nature          |   INT   |    0     |       | `+0`  |
+| **Religion**    |   INT   |    0     |  +2   | `+2`  |
 |                 |         |          |       |       |
-| Animal Handling |   WIS   | +3       |       | `+3`  |
-| **Insight**     |   WIS   | +3       |  +2   | `+5`  |
-| **Medicine**    |   WIS   | +3       |  +2   | `+5`  |
-| Perception      |   WIS   | +3       |       | `+3`  |
-| Survival        |   WIS   | +3       |       | `+3`  |
+| Animal Handling |   WIS   |    +3    |       | `+3`  |
+| **Insight**     |   WIS   |    +3    |  +2   | `+5`  |
+| **Medicine**    |   WIS   |    +3    |  +2   | `+5`  |
+| Perception      |   WIS   |    +3    |       | `+3`  |
+| Survival        |   WIS   |    +3    |       | `+3`  |
 |                 |         |          |       |       |
-| Deception       |   CHA   | +4       |       | `+4`  |
-| Intimidation    |   CHA   | +4       |       | `+4`  |
-| **Performance** |   CHA   | +4       |  +2   | `+6`  |
-| **Persuasion**  |   CHA   | +4       |  +2   | `+6`  |
+| Deception       |   CHA   |    +4    |       | `+4`  |
+| Intimidation    |   CHA   |    +4    |       | `+4`  |
+| **Performance** |   CHA   |    +4    |  +2   | `+6`  |
+| **Persuasion**  |   CHA   |    +4    |  +2   | `+6`  |
 
 ## Weapons
 
@@ -90,12 +90,11 @@
 
 ## Spells
 
-| Attribute              |     Value     |
-| ---------------------- | :-----------: |
-| **Casting Ability**    |  `+4` (CHA)   |
-| **Spell Save**         |     `14`      |
-| **Spell Attack Bonus** |     `+6`      |
-| **Spell Slots**        | `3`,`0`       |
+| Attribute              |   Value    |   |  Casting   |  Spell   |  Slots   |
+| ---------------------- | :--------: | - | :--------: | :------: | :------: |
+| **Casting Ability**    | `+4` (CHA) |   | `2/3` lvl1 | `-` lvl2 | `-` lvl3 |
+| **Spell Save**         |    `14`    |   |  `-` lvl4  | `-` lvl5 | `-` lvl6 |
+| **Spell Attack Bonus** |    `+6`    |   |  `-` lvl7  | `-` lvl8 | `-` lvl9 |
 
 <details>
 <summary>Calculations</summary>
@@ -107,33 +106,47 @@
 
 ### Class Feature
 
-|                        |                             |
-| ---------------------- | --------------------------- |
-| **Bardic Inspiration** | `Bonus` - 10 minutes        |
-| Description:           | Inspire through smoke       |
-|                        |                             |
-| `Success`              | 1d6 Inspiration die         |
-|                        | Half following damage taken |
-|                        |                             |
-| `Fail`                 | Inspiration die not granted |
-|                        | Disadvantage on `WIS`       |
+| **Bardic Inspiration** | `Bonus` - 10 minutes             |
+| ---------------------- | -------------------------------- |
+| Description:           | Inspire through smoke.           |
+|                        | Target gains 1d6 Inspiration die |
+|                        |                                  |
+| _Azure Haze_           |                                  |
+| `Success`              | Halve next damage taken          |
+|                        |                                  |
+| `Fail`                 | Inspiration die not granted      |
+|                        | Disadvantage on `WIS`            |
+|                        |                                  |
+|                        |                                  |
 
-| **Magical Inspiration** |                             |
-| ----------------------- | --------------------------- |
-| Description             | Add active inspiration die  |       
-|                         | to damage or heal roll      |                    |
-|                         | Die is lost on use          |
+| **Magical Inspiration** | `Feat` - Instant           |
+| ----------------------- | -------------------------- |
+| Description             | Add active inspiration die |
+|                         | to damage or heal roll     |
+|                         | Die is lost on use         |
+
+| **Jack of all trades** | `Feat` - Instant        |
+| ---------------------- | ----------------------- |
+| Description            | Add `+1` to any ability |
+|                        | check not already prof  |
+
+| **Song of Rest** | `Feat` - During short rest |
+| ---------------- | -------------------------- |
+| Description      | Heal extra `1d6` HP by     |
+|                  | spending Hit Dice          |
+|                  | Applies to whole party     |
 
 ### Cantrips
 
-| **Mending**  | `Action` - Instant |
-| ------------ | ------------------ |
-| Description: | Repair an object   |
-|              | Tear or break      |
+| **Mending**  | `Action` - Instant              |
+| ------------ | ------------------------------- |
+| Description: | Repair a small object           |
+|              | Must be a small tear or a break |
 
 | **Minor Illusion** | `Action` - Instant          |
 | ------------------ | --------------------------- |
 | Description:       | Create a sound or image     |
+|                    |                             |
 |                    | Dissmissed upon interaction |
 
 ### 1st Level
@@ -148,23 +161,25 @@
 | Description:    | Heal target `1d8 + 4` (CHA) |
 |                 | Must be touched             |
 
-| **Sleep**    | `Action` - 1 minute          |
-| ------------ | ---------------------------- |
-| Description: | Put `6d8` creatures to sleep |
+| **Sleep**    | `Action` - 1 minute              |
+| ------------ | -------------------------------- |
+| Description: | Put `6d8` creatures to sleep     |
+|              | Prioritizes lowest -> highest HP |
+|              | May be interrupted               |
 
-| **Disonant Whispers** | `Action` - Instant          |
-| --------------------- | --------------------------- |
-|                       |                             |
-| Description:          | Whisper to creature.        |
-| `Success`             | 1/2 3d6 psychic damage      |
-|                       |                             |
-| `Fail`                | 3d6 psychic damage and flee |
+| **Disonant Whispers** | `Action` - Instant            |
+| --------------------- | ----------------------------- |
+| Description:          | Whisper to creature           |
+|                       |                               |
+| `Success`             | `1/2 3d6` psychic damage      |
+|                       |                               |
+| `Fail`                | `3d6` psychic damage and flee |
 
-| **Heroic Inspiration** | `Action` - Instant             |
-| ---------------------- | ------------------------------ |
-| Description            | Imbue target with bravery      |
-|                        | Immunity to fear               |
-|                        | Target gains 1d4 (CHA) temp HP |                        |
+| **Heroic Inspiration** | `Action` - Instant            |
+| ---------------------- | ----------------------------- |
+| Description            | Imbue target with bravery     |
+|                        | Target gains immunity to fear |
+|                        | and 1d4 (CHA) temp HP         |
 
 ## Equipment & Inventory
 
@@ -213,10 +228,11 @@
 |                         |                                                              |
 | **Level 1**             |                                                              |
 | Cantrips                | `Minor Illusion`, `Mending`                                  |
-| Spells                  | `Healing Word`, `Cure Wounds`, `Dissonant Whispers`, `Sleep` |
+| Spells (+3)             | `Healing Word`, `Cure Wounds`, `Dissonant Whispers`, `Sleep` |
 |                         |                                                              |
 | **Level 2**             |                                                              |
 | Features                | `Jack of all trades`, `Magical Inspiration`, `Song of Rest`  |
+| Spells (+1)             | `Heroism`                                                    |
 |                         |                                                              |
 | **Level 3**             |                                                              |
 |                         |                                                              |
