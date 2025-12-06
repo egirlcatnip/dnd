@@ -1,7 +1,7 @@
 # nomark
 
 nomark is a simple markup language for writing documents with embedded calculations.
-nomark is not suitable for type-setting, its goal is to be very human readable unrenrerd. 
+nomark is not suitable for type-setting, its goal is to be very human readable unrenrerd.
 
 ## You already know it
 
@@ -10,13 +10,13 @@ nomark is heavily inspired by markdown.
 **Bold** -> 𝗕𝗼𝗹𝗱
 *Italic* -> 𝘐𝘵𝘢𝘭𝘪𝘤
 __underline__ -> u̲n̲d̲e̲r̲l̲i̲n̲e̲
-~~strike-through~~ -> s̶t̶r̶i̶k̶e̶-t̶h̶r̶o̶u̶g̶h̶
+~~strike-through~~ -> ̶s̶t̶r̶i̶k̶e̶-̶t̶h̶r̶o̶u̶g̶h
 ||spoiler|| -> ███████ -> spoiler
-  
+
 `code/monospace` -> 𝚌𝚘𝚍𝚎/𝚖𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎
 [[Shift]] + [[A]] -> [⇧ Shift] + [A]
 
-subscript    H_[2]O & H_2O -> H₂O 
+subscript    H_[2]O & H_2O -> H₂O
 superscript  x^[2]  & x^2  -> x²
 
 ## Tables!! We love columns and rows~
@@ -40,7 +40,7 @@ superscript  x^[2]  & x^2  -> x²
 | Row 4  |  Item 5  |  Item 6  |
 |--------|---------------------|
 |        |                     |  |
-| Row 5  |       Item 7        |  |--> multiple lines & columns 
+| Row 5  |       Item 7        |  |--> multiple lines & columns
 |        |                     |  |
 |--------|---------------------|
 
@@ -74,7 +74,7 @@ purple is my favorite color
 ### Inline colors
 
 #FFFFFFFF & #FFF ■
-rgb(), rgba(), hsl(), oklab() ■ ... 
+rgb(), rgba(), hsl(), oklab() ■ ...
 
 ### Character escaping
 
@@ -91,24 +91,24 @@ $$$
 
 -  unordered list
 - - second level of the list
--. numbered list 1. 2. 3. ... 
+-. numbered list 1. 2. 3. ...
 -) lettered list a) b) c) ...
 
-- [x] checked checkbox 
-- [ ] unchecked checkbox 
+- [x] checked checkbox
+- [ ] unchecked checkbox
 
 // line comment
 
 // nested // line // comment
 
-/* block comment */ 
+/* block comment */
 
 /* nested
  *
- *  /* block  
- *       
+ *  /* block
+ *
  *      /* comment */
- *    
+ *
  *   */
  */
 
@@ -196,19 +196,19 @@ Closures are like functions without need for explicit arguments.
 > The value of inc() when b is 0 is {inc()} == 1.
 > The value of b is now {b} == 1.
 
-#### mutating arguments 
+#### mutating arguments
 
 {a = 3}
 {b = 0}
 
-    
+
     variable to mutate
          v
 {inc(x): x = |b| + 2 * x }
               ^        ^
               |     argument
               |
-        captured variable   
+        captured variable
 
 > The value of inc(a) is {inc(a)} == 0.
 > The value of a is now {a} == 6
@@ -239,4 +239,3 @@ Closures are like functions without need for explicit arguments.
 - Ranges: {range = 1..5}, {range = 0..=9}.
   - Ranges may be inclusive `{1..=5}` or exclusive `{1..5}`.
   - Ranges may also be {..5}, {5..}, {..=5}, {..}
-   
