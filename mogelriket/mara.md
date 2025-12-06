@@ -104,11 +104,11 @@
 
 </details>
 
-### Class Feature
+### Class Features
 
 | **Bardic Inspiration** | `Bonus` - 10 minutes             |
 | ---------------------- | -------------------------------- |
-| Description:           | Inspire through smoke.           |
+| Description:           | Inspire through smoke            |
 |                        | Target gains 1d6 Inspiration die |
 |                        |                                  |
 | _Azure Haze_           |                                  |
