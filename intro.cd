@@ -1,8 +1,127 @@
-#!/usr/bin/env nomark
-
 # nomark
 
 nomark is a simple markup language for writing documents with embedded calculations.
+nomark is not suitable for type-setting, its goal is to be very human readable unrenrerd. 
+
+## You already know it
+
+nomark is heavily inspired by markdown.
+
+**Bold** -> 𝗕𝗼𝗹𝗱
+*Italic* -> 𝘐𝘵𝘢𝘭𝘪𝘤
+__underline__ -> u̲n̲d̲e̲r̲l̲i̲n̲e̲
+~~strike-through~~ -> s̶t̶r̶i̶k̶e̶-t̶h̶r̶o̶u̶g̶h̶
+||spoiler|| -> ███████ -> spoiler
+  
+`code/monospace` -> 𝚌𝚘𝚍𝚎/𝚖𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎
+[[Shift]] + [[A]] -> [⇧ Shift] + [A]
+
+subscript    H_[2]O & H_2O -> H₂O 
+superscript  x^[2]  & x^2  -> x²
+
+## Tables!! We love columns and rows~
+
+### Classic
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Item 1   | Item 2   | Item 3   |
+
+### Extended tables
+
+|        | Column 1 | Column 2 |
+|--------|----------|----------|
+| Row 1  |  Item 1  |          |  |
+|--------|----------|  Item 3  |  |--> multiple rows
+| Row 2  |  Item 2  |          |  |
+|--------|--------------------:|
+| Row 3  |              Item 4 |  |--> multiple columns
+|--------|---------------------|
+| Row 4  |  Item 5  |  Item 6  |
+|--------|---------------------|
+|        |                     |  |
+| Row 5  |       Item 7        |  |--> multiple lines & columns 
+|        |                     |  |
+|--------|---------------------|
+
+
+Leave the first cell empty to create a spreadsheet-like table
+Tables allow cells to span multiple rows or columns if explicit.
+Use `:--`, `--:` and `---` to specify horizontal alignment.
+
+## Blocks
+
+### A monospace/code block
+
+```rust hello/SRC/main.rs
+
+𝚏𝚗 𝚖𝚊𝚒𝚗() {
+--- 𝚙𝚛𝚒𝚗𝚝𝚕𝚗!("𝙷𝚎𝚕𝚕𝚘, {}", 𝚠𝚘𝚛𝚕𝚍)
++++ 𝚙𝚛𝚒𝚗𝚝𝚕𝚗!("𝙷𝚎𝚕𝚕𝚘, {}", "𝚠𝚘𝚛𝚕𝚍.");
+}
+
+```
+
+### A details block
+
+<< Click here to expand
+hidden details:
+purple is my favorite color
+>>
+
+## Other features
+
+### Inline colors
+
+#FFFFFFFF & #FFF ■
+rgb(), rgba(), hsl(), oklab() ■ ... 
+
+### Character escaping
+
+{{ & \{ -> {
+}} & \} -> }
+
+\*\*literal\*\* -> **literal**
+
+$$ escape special symbols on line
+
+$$$
+escape special symbols in block
+$$$
+
+-  unordered list
+- - second level of the list
+-. numbered list 1. 2. 3. ... 
+-) lettered list a) b) c) ...
+
+- [x] checked checkbox 
+- [ ] unchecked checkbox 
+
+// line comment
+
+// nested // line // comment
+
+/* block comment */ 
+
+/* nested
+ *
+ *  /* block  
+ *       
+ *      /* comment */
+ *    
+ *   */
+ */
+
+[link](title)   & [link]
+![file](title)  & ![file]
+
+file may be:
+- audio
+- video
+- image
+
+section split
+---
 
 ## A dynamic markup language
 
@@ -121,113 +240,3 @@ Closures are like functions without need for explicit arguments.
   - Ranges may be inclusive `{1..=5}` or exclusive `{1..5}`.
   - Ranges may also be {..5}, {5..}, {..=5}, {..}
    
-## Tables
-
-Classic markdown tables
-
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Item 1   | Item 2   | Item 3   |
-
-Tables without headings
-
-|----------|----------|----------|
-| Item 1   | Item 2   | Item 3   |
-| Item 4   | Item 5   | Item 6   |
-
-Extended tables
-
-|        | Column 1 | Column 2 |
-|--------|----------|----------|
-| Row 1  | Item 1   |          |
-|--------|----------| Item 3   |
-| Row 2  | Item 2   |          |
-|--------|---------------------|
-| Row 3  |       Item 4        |
-|--------|---------------------|
-| Row 4  | Item 5   | Item 6   |
-|--------|---------------------|
-|        |                     |
-| Row 5  |       Item 7        |
-|        |                     |
-|--------|---------------------|
-
-> Leave the first cell empty to create a spreadsheet-like table
-> Tables allow cells to span multiple rows or columns if explicit.
-
-## Other syntax
-
-### Heading
-
-**Bold** -> 𝗕𝗼𝗹𝗱
-
-*Italic* -> 𝘐𝘵𝘢𝘭𝘪𝘤
-
-__underline__ -> u̲n̲d̲e̲r̲l̲i̲n̲e̲
-
---strike-through-- -> s̶t̶r̶i̶k̶e̶-t̶h̶r̶o̶u̶g̶h̶
-
-||spoiler|| ███████ -> spoiler (on click)
-
-+ various combinations
-
-`code/monospace` -> 𝚌𝚘𝚍𝚎/𝚖𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎
-
-```optional-language optional-path-filename
-
-𝚌𝚘𝚍𝚎/𝚖𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎
-+++ addition
---- removal
-
-```
-
-color codes render inline
-#FFFFFFFF & #FFF ■
-rgb(), rgba(), hsl(), oklab() ■ ... 
-
-subscript   H_2_O & H_2O -> H₂O 
-superscript x^2^  & x^2  -> x²
-
-{{ -> literal `{`
-}} -> literal `}`
-
-escaping: 
-\*\*literal\*\* `**literal**`
-
-$$ escape special symbols on line
-
-$$$
-escape special symbols in block
-$$$
-
--  unordered list
-- - second level of the list
--. numbered list 1. 2. ... 
--) letter list a) b) c) ...
-
-- [x] checked checkbox 
-- [ ] unchecked checkbox 
-
-// line comment
-
-// nested // line // comment
-
-/* block comment */ 
-
-/* nested
- *
- *  /* block  
- *       
- *      /* comment */
- *    
- *   */
- */
-
-[link](title)   & [link]
-![file](title)  & ![file]
-
-file may be:
-- audio
-- video
-- image
-
