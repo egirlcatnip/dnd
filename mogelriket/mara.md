@@ -198,10 +198,39 @@
 - **Saving Throws:** `DEX`, `CHA`
 - **Languages:** `Common`, `Halfling`
 
-## 
+## Appearance
 
-<details>
-<summary>Traits</summary>
+- **Build:** Slight, somewhat undernourished
+- **Skin:** Olive-tinted
+- **Hair:** Deep dark brown
+- **Eyes:** Small, brown
+- **Manner:** Scaredy-cat, nervous
+- **Distinctive Features:** Smells of incense and smoke
+- **Attire:** Well-worn Moravian kroj
+
+### Backstory
+
+```txt
+Mara once belonged deeply to the Church, but her whole world collapsed when it
+was faith itself that betrayed her. Shortly after marrying her husband Uyrik, he
+was wrongfully hunted down and condemned to death for heresy. It was an
+unbearably traumatic chapter of her past life. Her friends abandoned her, the
+Church cast her out, and everything she knew fell apart. Left alone, shunned by
+those she once saw as companions, she turned to the only thing that, sadly,
+helped her forget — the azure vapors now soaked not only into her
+once-respectable attire, but into her dark olive skin and tangled hair. Her
+steps are no longer proud as they once were, yet in her heart still burns a
+flame for Uyrik and a quiet conviction that the Mother has never truly left her
+side.
+```
+
+## Session Notes
+
+- _none yet_
+
+## Traits
+
+<details><summary></summary>
 
 ### Racial (Human) Features
 
@@ -238,33 +267,3 @@
 |                         |                                                              |
 
 </details>
-
-## Appearance
-
-- **Build:** Slight, somewhat undernourished
-- **Skin:** Olive-tinted
-- **Hair:** Deep dark brown
-- **Eyes:** Small, brown
-- **Manner:** Scaredy-cat, nervous
-- **Distinctive Features:** Smells of incense and smoke
-- **Attire:** Well-worn Moravian kroj
-
-### Backstory
-
-```txt
-Mara once belonged deeply to the Church, but her whole world collapsed when it
-was faith itself that betrayed her. Shortly after marrying her husband Uyrik, he
-was wrongfully hunted down and condemned to death for heresy. It was an
-unbearably traumatic chapter of her past life. Her friends abandoned her, the
-Church cast her out, and everything she knew fell apart. Left alone, shunned by
-those she once saw as companions, she turned to the only thing that, sadly,
-helped her forget — the azure vapors now soaked not only into her
-once-respectable attire, but into her dark olive skin and tangled hair. Her
-steps are no longer proud as they once were, yet in her heart still burns a
-flame for Uyrik and a quiet conviction that the Mother has never truly left her
-side.
-```
-
-## Session Notes
-
-- _none yet_

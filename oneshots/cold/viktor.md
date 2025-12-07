@@ -14,7 +14,9 @@
 <summary>Details</summary>
 
 > `Body: Strength, Health, Endurance and Stamina.`
+
 > `Soul: Focus, Determination, Willpower and Mental Fortitude.`
+
 > `Mind: Courage, Self-perception and Trust.`
 
 </details>
@@ -131,39 +133,6 @@
 - **Adventuring Gear:** `Handwatch`, `Pocketwatch`, `Clockworker's Tools`
 - **Misc:** `Nothing`
 
-## 
-
-<details>
-<summary>Traits</summary>
-
-### Racial (Human) Features
-
-| Feature            | Description |
-| ------------------ | ----------- |
-| **Special powers** | `Contacts`  |
-
-## Class (Spellcaster - Zaříkávač) Features
-
-| Feature | Description                               |
-| ------- | ----------------------------------------- |
-| Spells  | `Bookworm`, `Gift of Creation`, `Cunning` |
-
-## Class (Trickster - Kejklíř) Features
-
-| Feature | Description                           |
-| ------- | ------------------------------------- |
-| Spells  | `Hidden Pocket`, `Talent`, `Comedian` |
-|         |                                       |
-
-## Class (Mage - Mág) Features
-
-| Feature | Description      |
-| ------- | ---------------- |
-| Spells  | `Army of Ghosts` |
-|         |                  |
-
-</details>
-
 ## Appearance
 
 - **Build:** Slim, tall
@@ -177,9 +146,43 @@
 ### Backstory
 
 ```txt
-Viktor is a direct clockworker from a town close to Brno. He was an apprentice to a his clockmaster and picked up where his left off after his passing. Viktor is skilled with small mechanical devices and has a keen eye for detail.
+Viktor is a direct clockworker from a town close to Brno.
+He was an apprentice to a his clockmaster and picked up where his left off after his passing.
+Viktor is skilled with small mechanical devices and has a keen eye for detail.
 ```
 
 ## Session Notes
 
 - _none yet_
+
+## Traits
+
+<details><summary></summary>
+
+### Racial (Human) Features
+
+| Feature            | Description |
+| ------------------ | ----------- |
+| **Special powers** | `Contacts`  |
+
+### Class (Spellcaster - Zaříkávač) Features
+
+| Feature | Description                               |
+| ------- | ----------------------------------------- |
+| Spells  | `Bookworm`, `Gift of Creation`, `Cunning` |
+
+### Class (Trickster - Kejklíř) Features
+
+| Feature | Description                           |
+| ------- | ------------------------------------- |
+| Spells  | `Hidden Pocket`, `Talent`, `Comedian` |
+|         |                                       |
+
+### Class (Mage - Mág) Features
+
+| Feature | Description      |
+| ------- | ---------------- |
+| Spells  | `Army of Ghosts` |
+|         |                  |
+
+</details>
