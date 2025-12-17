@@ -2,7 +2,7 @@
 
 |           |       |                                |    |
 | --------- | ----- | ------------------------------ | -- |
-| `Level 7` | Human | **Mage**, Sorcerer & Trickster | 4g |
+| `lvl 8` | Human | **Mage**, Sorcerer & Trickster | 4g |
 
 |     Ability     | Score |
 | :-------------: | :---: |
@@ -58,7 +58,7 @@
 | Witcher - Zvědák         |       |
 | Alchemist - Alchymista   |       |
 | Wizard - Čaroděj         |       |
-| **Mage - Mág**           |  `1`  |
+| **Mage - Mág**           |  `2`  |
 
 <details>
 <summary>Details</summary>
