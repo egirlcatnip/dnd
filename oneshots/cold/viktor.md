@@ -186,3 +186,5 @@ Viktor is skilled with small mechanical devices and has a keen eye for detail.
 |         |                  |
 
 </details>
+
+# Session notes
