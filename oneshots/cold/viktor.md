@@ -4,11 +4,11 @@
 | ------- | ----- | -- |
 | `lvl 9` | Human | 4g |
 
-|     Ability     | Score |
-| :-------------: | :---: |
-| **Body - Tělo** |   3   |
-| **Soul - Dušě** |   7   |
-| **Mind - Vliv** |   5   |
+|     Ability     | Score | Current | History |
+| :-------------: | :---: | ------- | ------- |
+| **Body - Tělo** |   3   |         |         |
+| **Soul - Dušě** |   7   |         |         |
+| **Mind - Vliv** |   5   |         | `-1`    |
 
 <details>
 <summary>Details</summary>
