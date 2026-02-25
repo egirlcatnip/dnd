@@ -1,8 +1,8 @@
 # Viktok Ág
 
-|           |        |    |
-| --------- | -----  | -- |
-| `lvl 8`   | Human  | 4g |
+|         |       |    |
+| ------- | ----- | -- |
+| `lvl 9` | Human | 4g |
 
 |     Ability     | Score |
 | :-------------: | :---: |
@@ -47,7 +47,7 @@
 | Fighter - Bojovník       |       |
 | Hunter - Lovec           |       |
 | **Sorcerer - Zaříkávač** |  `3`  |
-| **Trickster - Kejklíř**  |  `3`  |
+| **Trickster - Kejklíř**  |  `4`  |
 | Apothecary - Mastičkář   |       |
 | Warrior - Válečník       |       |
 | Ranger - Hraničář        |       |
