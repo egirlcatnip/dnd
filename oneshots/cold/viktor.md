@@ -1,14 +1,14 @@
 # Viktok Ág
 
-|         |       |    |
-| ------- | ----- | -- |
-| `lvl 9` | Human | 4g |
+|          |       |      |      |
+| -------- | ----- | ---- | ---- |
+| `lvl 12` | Human |  4g  |  0r  |
 
 |     Ability     | Score | Current | History |
 | :-------------: | :---: | ------- | ------- |
 | **Body - Tělo** |   3   |         |         |
-| **Soul - Dušě** |   7   |         |         |
-| **Mind - Vliv** |   5   |         | `-1`    |
+| **Soul - Dušě** |   7   |    5    |  `-2`   |
+| **Mind - Vliv** |   5   |         |  `-1`   |
 
 <details>
 <summary>Details</summary>
@@ -40,15 +40,18 @@
 | ------ | ------- |
 | None   |         |
 
-## Spells
+## Classes
 
-| Class                    | Level |
+| Base Classes             | Level |
 | ------------------------ | :---: |
-| Fighter - Bojovník       |       |
-| Hunter - Lovec           |       |
-| **Sorcerer - Zaříkávač** |  `3`  |
-| **Trickster - Kejklíř**  |  `4`  |
-| Apothecary - Mastičkář   |       |
+| Fighter - Bojovník *     |       |
+| Hunter - Lovec     *     |       |
+| Sorcerer - Zaříkávač   * |  `5`  |
+|   Trickster - Kejklíř *|  `4`  |
+| Apothecary - Mastičkář *  |  `1`  |
+
+| Advanced classes         | Level |
+| ------------------------ | :---: |
 | Warrior - Válečník       |       |
 | Ranger - Hraničář        |       |
 | Shaman - Šaman           |       |
@@ -56,9 +59,9 @@
 | Thief - Zloděj           |       |
 | Scout - Zvěd             |       |
 | Witcher - Zvědák         |       |
-| Alchemist - Alchymista   |       |
+| Alchemist - Alchymista   |  `1`  |
 | Wizard - Čaroděj         |       |
-| **Mage - Mág**           |  `2`  |
+| Mage - Mág               |  `1`  |
 
 <details>
 <summary>Details</summary>
@@ -153,7 +156,7 @@ Viktor is skilled with small mechanical devices and has a keen eye for detail.
 
 ## Session Notes
 
-- _none yet_
+- has pocket clock-based exploding devices
 
 ## Traits
 
@@ -186,5 +189,3 @@ Viktor is skilled with small mechanical devices and has a keen eye for detail.
 |         |                  |
 
 </details>
-
-# Session notes
