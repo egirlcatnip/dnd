@@ -17,7 +17,7 @@
 <summary>Calculations</summary>
 
 > `Modifier = (Score - 10) / 2`
-
+>
 > `Bonus = Modifier + Proficiency`
 
 </details>
@@ -32,15 +32,15 @@
 <summary>Calculations</summary>
 
 > `HP = HD  + 2 (CON)`
-
+>
 > `HD = 1d8 + 1d8 (level)`
-
+>
 > `AC = 10  +  3 (DEX) + 0 (armor)`
-
+>
 > `Init = 1d20 + 3 (DEX)`
-
+>
 > `Speed = Base + 0`
-
+>
 > `Perception = 10 + 2 (WIS)`
 
 </details>
@@ -83,7 +83,7 @@
 <summary>Calculations</summary>
 
 > Attack = 1d20 + Proficiency + Ability Modifier
-
+>
 > Damage = Weapon Damage Dice + Ability Modifier
 
 </details>

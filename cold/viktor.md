@@ -14,9 +14,9 @@
 <summary>Details</summary>
 
 > `Body: Strength, Health, Endurance and Stamina.`
-
+>
 > `Soul: Focus, Determination, Willpower and Mental Fortitude.`
-
+>
 > `Mind: Courage, Self-perception and Trust.`
 
 </details>
@@ -47,8 +47,8 @@
 | Fighter - Bojovník *     |       |
 | Hunter - Lovec     *     |       |
 | Sorcerer - Zaříkávač   * |  `5`  |
-|   Trickster - Kejklíř *|  `4`  |
-| Apothecary - Mastičkář *  |  `1`  |
+| Trickster - Kejklíř *    |  `4`  |
+| Apothecary - Mastičkář * |  `1`  |
 
 | Advanced classes         | Level |
 | ------------------------ | :---: |

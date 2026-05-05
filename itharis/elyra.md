@@ -217,6 +217,6 @@ dagger, and a hooded cloak in search of freedom in Itharis.
 - **Flaws:** Struggles with accepting her orc heritage, sometimes leading to
   self-doubt; maintains a playful exterior while hiding vulnerability
 
-# Session Notes
+## Session Notes
 
 - `STN024` (Shadowwalker number in helm)
