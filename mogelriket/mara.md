@@ -82,24 +82,25 @@
 <details>
 <summary>Calculations</summary>
 
-> Attack = 1d20 + Proficiency + Ability Modifier
+> `Attack = 1d20 + Proficiency + Ability Modifier`
 >
-> Damage = Weapon Damage Dice + Ability Modifier
+> `Damage = Weapon Damage Dice + Ability Modifier`
 
 </details>
 
 ## Spells
 
-| Attribute              |   Value    |   |  Casting   |  Spell   |  Slots   |
-| ---------------------- | :--------: | - | :--------: | :------: | :------: |
-| **Casting Ability**    | `+4` (CHA) |   | `2/3` lvl1 | `-` lvl2 | `-` lvl3 |
-| **Spell Save**         |    `14`    |   |  `-` lvl4  | `-` lvl5 | `-` lvl6 |
-| **Spell Attack Bonus** |    `+6`    |   |  `-` lvl7  | `-` lvl8 | `-` lvl9 |
+| Attribute              |   Value    |     |   Casting   |   Spell    |   Slots    |
+| ---------------------- | :--------: | --- | :---------: | :--------: | :--------: |
+| **Casting Ability**    | `+4` (CHA) |     | `2/3` lvl1  | `0/0` lvl2 | `0/0` lvl3 |
+| **Spell Save**         |    `14`    |     | `0/0`  lvl4 | `0/0` lvl5 | `0/0` lvl6 |
+| **Spell Attack Bonus** |    `+6`    |     | `0/0`  lvl7 | `0/0` lvl8 | `0/0` lvl9 |
 
 <details>
 <summary>Calculations</summary>
 
 > `Spell Save = 8 + Proficiency + Ability Modifier`
+>
 > `Spell Attack Bonus = Proficiency + Ability Modifier`
 
 </details>
