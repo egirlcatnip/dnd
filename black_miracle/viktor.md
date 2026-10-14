@@ -91,34 +91,34 @@
 | ------------------------------------------ | --------------------------- |
 | Description:                               | Provide care for the `Duše` |
 
-| **Bookworm - Knihomol** | `Mind - Vliv` Passive  |
+| **Bookworm - Knihomol** | `Vliv` Passive         |
 | ----------------------- | ---------------------- |
 | Description:            | Proficient in learning |
 
-| **Cunning - Bystrost** | `Soul - Dušě` Passive                                |
+| **Cunning - Bystrost** | `Dušě` Passive                                       |
 | ---------------------- | ---------------------------------------------------- |
 | Description:           | React to actions targeted at others in the vicinity. |
 
-#### Trickster - Kejklíř
+#### Kejklíř
 
-| **Hidden Pocket - Skrytá kapsa** | `Body - Tělo` 1 per use             |
+| **Hidden Pocket - Skrytá kapsa** | `Tělo` 1 per use                    |
 | -------------------------------- | ----------------------------------- |
 | Description:                     | Hide a small object on your person. |
 |                                  | (not larger than a fist)            |
 
-| **Talent - Talent** | `Mind - Vliv` Passive                                |
+| **Talent - Talent** | `Vliv` Passive                                       |
 | ------------------- | ---------------------------------------------------- |
 | Description:        | Proficient with an item of artistic quality.         |
 |                     | (Musical Instrument - Performance, Mask - Acting...) |
 
-| **Comedian - Komediant** | `Mind - Vliv` Passive              |
+| **Comedian - Komediant** | `Vliv` Passive                     |
 | ------------------------ | ---------------------------------- |
 | Description:             | Proficient in arts and performance |
 |                          |                                    |
 
 #### Mage - Mág
 
-| **Illusion Magic - Magie iluzí** | `Soul - Dušě` 1 per use           |
+| **Illusion Magic - Magie iluzí** | `Dušě` 1 per use                  |
 | -------------------------------- | --------------------------------- |
 | Description:                     | Create and detect minor illusions |
 |                                  | (Visual, Auditory, Tactile)       |
@@ -130,16 +130,6 @@
 - **Clothing:** `Suit for travel`, `Hat`
 - **Adventuring Gear:** `Handwatch`, `Pocketwatch`, `Clockworker's Tools`
 - **Misc:** `Nothing`
-
-## Appearance
-
-- **Build:** Slim, tall
-- **Skin:** Pale
-- **Hair:** Brown, kept well
-- **Eyes:** Brown
-- **Manner:** Articulate and proper
-- **Distinctive Features:** Height, prideful posture
-- **Attire:** Hat and formal travelling suit
 
 ### Backstory
 
@@ -161,24 +151,65 @@ Viktor is a smug watchmaker from a town close to Brno.
 | ------------------ | ----------- |
 | **Special powers** | `Contacts`  |
 
-### Class (Spellcaster - Zaříkávač) Features
+### Class (Zaříkávač) Features
 
-| Feature | Description                               |
-| ------- | ----------------------------------------- |
-| Spells  | `Bookworm`, `Gift of Creation`, `Cunning` |
+| Feature | Description                                    |
+| ------- | ---------------------------------------------- |
+| Skill   | `Učenost (Duše)`                               |
+| Spells  | `Znalost nadpřirozena (Duše)`                  |
+| Spells  | `Ošetřování lidské duše (Duše)`                |
+| Spells  | `Vůle (Duše)`                                  |
+| Spells  | `Zaříkání (Vliv)`                              |
+| Spells  | `Vyjednávání s nadpřirozenem (Vliv)`           |
+| ------- | -------------------------------------          |
+| Ability | `Sila osobnosti (Duše)`                        |
+| Ability | `Divoký talent (Vliv, rychlá volba: Úroveň 1)` |
+| Ability | `Povolávač (Vliv, rychlá volba: úroveň 2)`     |
+| ------- | -------------------------------------          |
+| Ability |                                                |
 
-### Class (Trickster - Kejklíř) Features
+### Class (Kejklíř) Features
 
-| Feature | Description                           |
-| ------- | ------------------------------------- |
-| Spells  | `Hidden Pocket`, `Talent`, `Comedian` |
-|         |                                       |
+| Feature | Description                                  |
+| ------- | -------------------------------------------- |
+| Skill   | `Běžný vrh (Telo)`                           |
+| Skill   | `Pohyblivost (Telo)`                         |
+| Skill   | `Triky a kejkle (Duše)`                      |
+| Skill   | `Orientace ve městě (Duše)`                  |
+| Skill   | `Charisma (Vliv)`                            |
+| Skill   | `Převleky a předstírání (Duše)`              |
+| Skill   | `Umění (Vliv)`                               |
+| ------- | -------------------------------              |
+| Ability | `Psí oči (Vliv)`                             |
+| Ability | `Komediant (Vliv)`                           |
+| Ability | `Změna tváře (Vliv, rychlá volba: Úroveň 5)` |
 
-### Class (Mage - Mág) Features
+### Class (Mastičkář) Features
 
-| Feature | Description      |
-| ------- | ---------------- |
-| Spells  | `Army of Ghosts` |
-|         |                  |
+| Feature | Description                       |
+| ------- | --------------------------------- |
+| Skill   | `Odolnost a výdrž  (Tělo)`        |
+| Skill   | `Ošetřování lidského těla (Duše)` |
+| Skill   | `Masti a běžné jedy (Duše)`       |
+| Skill   | `Masti a běžné jedy (Duše)`       |
+| Skill   | `Znalost lidí (Duše)`             |
+| Skill   | `Vyjednávání s lidmi (Vliv)`      |
+| ------- | --------------------------------- |
+| Ability | `Ranhojič (Duše)`                 |
+| ------- | --------------------------------- |
+| Ability |                                   |
+
+## Class (Mág) Features
+
+| Feature | Description                          |
+| ------- | ------------------------------------ |
+| Skill   | `Učenost (Duše)`                     |
+| Skill   | `Znalost nadpřirozena (Duše)`        |
+| Skill   | `Ošetřování lidské duše (Duše)`      |
+| Skill   | `Vůle (Duše)`                        |
+| Skill   | `Zaříkání (Vliv)`                    |
+| Skill   | `Vyjednávání s nadpřirozenem (Vliv)` |
+| ------- | ------------------------------------ |
+| Ability | `Síla osobnosti (Duše)`              |
 
 </details>
